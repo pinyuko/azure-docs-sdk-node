@@ -166,7 +166,7 @@
       "name": "@azure/arm-cosmosdb@"
     },
     {
-      "name": "@azure/arm-customerinsights"
+      "name": "@azure/arm-customerinsights@"
     },
     {
       "name": "@azure/arm-databox"
@@ -666,6 +666,9 @@
     },
     {
       "name": "@azure/arm-imagebuilder@1.0.1"
+    },
+    {
+      "name": "@azure/arm-communication@3.0.0"
     }
   ],
   "source_repos": []
