@@ -10,7 +10,7 @@ ms.technology: azure
 ms.devlang: javascript
 ms.service: core
 ---
-# Azure Core Crypto client library for JavaScript - Version 1.0.0-alpha.20220128.1 
+# Azure Core Crypto client library for JavaScript - Version 1.0.0-alpha.20220128.3 
  (Experimental)
 
 This library is primarily intended to contain cryptographic helper functions for use by the Azure SDK for JavaScript.

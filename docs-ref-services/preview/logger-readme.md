@@ -1,8 +1,8 @@
 ---
 title: Azure Logger client library for JavaScript
 keywords: Azure, javascript, SDK, API, @azure/logger, core
-author: ramya-rao-a
-ms.author: ramyar
+author: xirzec
+ms.author: xirzec
 ms.date: 01/28/2022
 ms.topic: reference
 ms.prod: azure
@@ -10,7 +10,7 @@ ms.technology: azure
 ms.devlang: javascript
 ms.service: core
 ---
-# Azure Logger client library for JavaScript - Version 1.0.4-alpha.20220128.1 
+# Azure Logger client library for JavaScript - Version 1.0.4-alpha.20220128.3 
 
 
 The `@azure/logger` package can be used to enable logging in the Azure SDKs for JavaScript.

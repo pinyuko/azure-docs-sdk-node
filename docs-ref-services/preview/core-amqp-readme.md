@@ -10,7 +10,7 @@ ms.technology: azure
 ms.devlang: javascript
 ms.service: core
 ---
-# Azure Core AMQP client library for JavaScript - Version 3.1.0-alpha.20220128.1 
+# Azure Core AMQP client library for JavaScript - Version 3.1.0-alpha.20220128.3 
 
 
 The `@azure/core-amqp` package provides common functionality for **Azure** JavaScript
