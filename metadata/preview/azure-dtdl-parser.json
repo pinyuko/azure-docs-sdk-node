@@ -1,0 +1,14 @@
+{
+  "Name": "@azure/dtdl-parser",
+  "Version": "1.0.0-beta.1",
+  "DevVersion": "1.0.0-beta.1",
+  "DirectoryPath": "sdk/digitaltwins/dtdl-parser",
+  "ServiceDirectory": "digitaltwins",
+  "ReadMePath": "sdk/digitaltwins/dtdl-parser/README.md",
+  "ChangeLogPath": "sdk/digitaltwins/dtdl-parser/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-dtdl-parser",
+  "ReleaseStatus": "2020-02-01"
+}
