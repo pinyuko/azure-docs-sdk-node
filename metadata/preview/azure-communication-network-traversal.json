@@ -1,7 +1,7 @@
 {
   "Name": "@azure/communication-network-traversal",
-  "Version": "1.0.0-alpha.20220207.1",
-  "DevVersion": "1.0.0-alpha.20220207.1",
+  "Version": "1.0.0-alpha.20220204.2",
+  "DevVersion": "1.0.0-alpha.20220204.2",
   "DirectoryPath": "sdk/communication/communication-network-traversal",
   "ServiceDirectory": "communication",
   "ReadMePath": "sdk/communication/communication-network-traversal/README.md",
@@ -10,5 +10,5 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "azure-communication-network-traversal",
-  "ReleaseStatus": "2022-02-04"
+  "ReleaseStatus": "2022-02-03"
 }

@@ -1,7 +1,7 @@
 {
   "Name": "@azure/arm-communication",
-  "Version": "3.0.1-alpha.20220207.1",
-  "DevVersion": "3.0.1-alpha.20220207.1",
+  "Version": "3.0.1-alpha.20220204.2",
+  "DevVersion": "3.0.1-alpha.20220204.2",
   "DirectoryPath": "sdk/communication/arm-communication",
   "ServiceDirectory": "communication",
   "ReadMePath": "sdk/communication/arm-communication/README.md",

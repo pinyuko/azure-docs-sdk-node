@@ -10,7 +10,7 @@ ms.technology: azure
 ms.devlang: javascript
 ms.service: communication
 ---
-# Azure Communication SMS client library for JavaScript - Version 1.1.0-alpha.20220207.1 
+# Azure Communication SMS client library for JavaScript - Version 1.1.0-alpha.20220204.2 
 
 
 Azure Communication SMS services gives developers the ability to send SMS messages from a phone number that can be purchased through Communication Services.

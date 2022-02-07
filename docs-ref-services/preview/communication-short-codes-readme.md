@@ -10,7 +10,7 @@ ms.technology: azure
 ms.devlang: javascript
 ms.service: communication
 ---
-# Azure Communication Short Codes client library for JavaScript - Version 1.0.0-alpha.20220207.1 
+# Azure Communication Short Codes client library for JavaScript - Version 1.0.0-alpha.20220204.2 
 
 
 The phone numbers library provides capabilities for short codes administration.
