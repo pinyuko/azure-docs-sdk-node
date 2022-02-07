@@ -1,7 +1,7 @@
 {
   "Name": "@azure/arm-redisenterprisecache",
   "Version": "2.0.0",
-  "DevVersion": null,
+  "DevVersion": "2.0.0",
   "DirectoryPath": "sdk/redisenterprise/arm-redisenterprisecache",
   "ServiceDirectory": "redisenterprise",
   "ReadMePath": "sdk/redisenterprise/arm-redisenterprisecache/README.md",
