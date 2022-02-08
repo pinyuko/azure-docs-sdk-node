@@ -2,15 +2,15 @@
 title: Azure Model Parser client library for JavaScript
 keywords: Azure, javascript, SDK, API, @azure/dtdl-parser, digitaltwins
 author: johngallardo
-ms.author: johngallardo
-ms.date: 02/02/2022
+ms.author: jgalla
+ms.date: 02/08/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: javascript
 ms.service: digitaltwins
 ---
-# Azure Model Parser client library for JavaScript - Version 1.0.0-beta.1 
+# Azure Model Parser client library for JavaScript - Version 1.0.0-alpha.20220208.1 
 
 
 Use this library to parse your DTDL models and validate their structure conforms to the DTDL specification. 
@@ -26,7 +26,7 @@ Learn more about DTDL [here](https://docs.microsoft.com/azure/digital-twins/conc
 - [LTS versions of Node.js](https://nodejs.org/about/releases/)
 - Latest versions of Safari, Chrome, Edge, and Firefox.
 
-See our [support policy](https://github.com/Azure/azure-sdk-for-js/blob/@azure/dtdl-parser_1.0.0-beta.1/SUPPORT.md) for more details.
+See our [support policy](https://github.com/Azure/azure-sdk-for-js/blob/main/SUPPORT.md) for more details.
 
 ### Prerequisites
 
@@ -107,15 +107,15 @@ import { setLogLevel } from "@azure/logger";
 setLogLevel("info");
 ```
 
-For more detailed instructions on how to enable logs, you can look at the [@azure/logger package docs](https://github.com/Azure/azure-sdk-for-js/tree/@azure/dtdl-parser_1.0.0-beta.1/sdk/core/logger).
+For more detailed instructions on how to enable logs, you can look at the [@azure/logger package docs](https://github.com/Azure/azure-sdk-for-js/tree/master/sdk/core/logger).
 
 ## Next steps
 
-Please take a look at the [samples](https://github.com/Azure/azure-sdk-for-js/tree/@azure/dtdl-parser_1.0.0-beta.1/sdk/digitaltwins/dtdl-parser/samples) directory for detailed examples that demonstrate how to use the client libraries.
+Please take a look at the [samples](https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/digitaltwins/dtdl-parser/samples) directory for detailed examples that demonstrate how to use the client libraries.
 
 ## Contributing
 
-If you'd like to contribute to this library, please read the [contributing guide](https://github.com/Azure/azure-sdk-for-js/blob/@azure/dtdl-parser_1.0.0-beta.1/CONTRIBUTING.md) to learn more about how to build and test the code.
+If you'd like to contribute to this library, please read the [contributing guide](https://github.com/Azure/azure-sdk-for-js/blob/master/CONTRIBUTING.md) to learn more about how to build and test the code.
 
 ## Related projects
 
