@@ -3,16 +3,6 @@
   landingPageType: Root
   expanded: false
   items:
-  - name: Analysis Services
-    uid: azure.nodejs.sdk.landingpage.services.analysisservices.pre
-    href: ~/docs-ref-services/preview/analysis-services.md
-    items:
-    - name: Management
-      uid: azure.nodejs.sdk.landingPage.services.AnalysisServices.Management.pre
-      landingPageType: Service
-      children:
-      - azure-arm-analysisservices
-      - '@azure/arm-analysisservices*'
   - name: API Management
     uid: azure.nodejs.sdk.landingpage.services.apimanagement.pre
     landingPageType: Service
@@ -24,16 +14,6 @@
       children:
       - azure-arm-apimanagement
       - '@azure/arm-apimanagement*'
-  - name: Application Insights
-    uid: azure.nodejs.sdk.landingpage.services.appinsights.pre
-    landingPageType: Service
-    items:
-    - name: Management
-      uid: azure.nodejs.sdk.landingPage.services.appinsights.Management.pre
-      landingPageType: Service
-      children:
-      - azure-arm-appinsights
-      - '@azure/arm-appinsights*'
   - name: App Configuration
     uid: azure.nodejs.sdk.landingpage.services.appconfiguration.pre
     landingPageType: Service
@@ -43,18 +23,6 @@
       landingPageType: Service
       children:
       - '@azure/arm-appconfiguration'
-  - name: App Service
-    uid: azure.nodejs.sdk.landingpage.services.appservice.pre
-    href: ~/docs-ref-services/preview/appservice.md
-    items:
-    - name: Management
-      uid: azure.nodejs.sdk.landingPage.services.appservice.Management.pre
-      href: ~/docs-ref-services/preview/arm-appservice-readme.md
-      landingPageType: Service
-      children:
-      - '@azure/arm-appservice'
-      - azure-arm-website
-      - azure-asm-website
   - name: Anomaly Detector
     uid: azure.nodejs.sdk.landingPage.services.AnomalyDetector.pre
     href: ~/docs-ref-services/preview/ai-anomaly-detector-readme.md
@@ -66,17 +34,6 @@
     href: ~/docs-ref-services/preview/arm-appplatform-readme.md
     children:
     - '@azure/arm-appplatform'
-  - name: Authorization
-    uid: azure.nodejs.sdk.landingpage.services.authorization.pre
-    href: ~/docs-ref-services/preview/authorization.md
-    items:
-    - name: Management
-      uid: azure.nodejs.sdk.landingPage.services.authorization.Management.pre
-      href: ~/docs-ref-services/preview/arm-authorization-readme.md
-      landingPageType: Service
-      children:
-      - azure-arm-authorization
-      - '@azure/arm-authorization*'
   - name: Azure Stack
     uid: azure.nodejs.sdk.landingPage.services.AzureStack.pre
     landingPageType: Service
@@ -97,47 +54,6 @@
       children:
       - azure-arm-batch
       - '@azure/arm-batch*'
-  - name: Bot Service
-    uid: azure.nodejs.sdk.landingpage.services.botservice.pre
-    items:
-    - name: Management
-      uid: azure.nodejs.sdk.landingpage.services.botservice.Management.pre
-      href: ~/docs-ref-services/preview/arm-botservice-readme.md
-      landingPageType: Service
-      children:
-      - '@azure/arm-botservice'
-  - name: CDN
-    uid: azure.nodejs.sdk.landingpage.services.cdn.pre
-    href: ~/docs-ref-services/preview/cdn.md
-    items:
-    - name: Management
-      uid: azure.nodejs.sdk.landingPage.services.CDN.Management.pre
-      href: ~/docs-ref-services/preview/arm-cdn-readme.md
-      landingPageType: Service
-      children:
-      - azure-arm-cdn
-      - '@azure/arm-cdn*'
-  - name: Consumption
-    uid: azure.nodejs.sdk.landingpage.services.consumption.pre
-    landingPageType: Service
-    items:
-    - name: Management
-      uid: azure.nodejs.sdk.landingPage.services.Consumption.Management.pre
-      href: ~/docs-ref-services/preview/arm-consumption-readme.md
-      landingPageType: Service
-      children:
-      - azure-arm-consumption
-      - '@azure/arm-consumption*'
-  - name: Commerce
-    uid: azure.nodejs.sdk.landingpage.services.commerce.pre
-    href: ~/docs-ref-services/preview/commerce.md
-    items:
-    - name: Management
-      uid: azure.nodejs.sdk.landingPage.services.commerce.Management.pre
-      landingPageType: Service
-      children:
-      - azure-arm-commerce
-      - '@azure/arm-commerce*'
   - name: Commitment Plans
     uid: azure.nodejs.sdk.landingpage.services.commitmentplans.pre
     landingPageType: Service
@@ -147,28 +63,6 @@
       landingPageType: Service
       children:
       - '@azure/arm-commitmentplans'
-  - name: Communication
-    uid: azure.nodejs.sdk.landingpage.services.communication.pre
-    landingPageType: Service
-    items:
-    - name: Identity
-      uid: azure.nodejs.sdk.landingpage.services.communication.Identity.pre
-      href: ~/docs-ref-services/preview/communication-identity-readme.md
-      landingPageType: Service
-      children:
-      - '@azure/communication-identity'
-    - name: Chat
-      uid: azure.nodejs.sdk.landingpage.services.communication.Chat.pre
-      href: ~/docs-ref-services/preview/communication-chat-readme.md
-      landingPageType: Service
-      children:
-      - '@azure/communication-chat'
-    - name: Phone Numbers
-      uid: azure.nodejs.sdk.landingpage.services.communication.PhoneNumbers.pre
-      href: ~/docs-ref-services/preview/communication-phone-numbers-readme.md
-      landingPageType: Service
-      children:
-      - '@azure/communication-phone-numbers'
   - name: Container Registry
     uid: azure.nodejs.sdk.landingpage.services.containerregistry.pre
     href: ~/docs-ref-services/preview/container-registry.md
@@ -196,40 +90,12 @@
       children:
       - azure-arm-containerservice
       - '@azure/arm-containerservice*'
-  - name: Cosmos DB
-    uid: azure.nodejs.sdk.landingpage.services.cosmosdb.pre
-    href: ~/docs-ref-services/preview/cosmos-db.md
-    items:
-    - name: Management
-      uid: azure.nodejs.sdk.landingPage.services.cosmosdb.Management.pre
-      href: ~/docs-ref-services/preview/arm-cosmosdb-readme.md
-      landingPageType: Service
-      children:
-      - azure-arm-documentdb
-      - azure-arm-cosmosdb
-      - '@azure/arm-cosmosdb*'
-  - name: Data Box
-    uid: azure.nodejs.sdk.landingPage.services.DataBox.pre
-    landingPageType: Service
-    children:
-    - '@azure/arm-databox'
   - name: Data Bricks
     uid: azure.nodejs.sdk.landingPage.services.DataBricks.pre
     href: ~/docs-ref-services/preview/arm-databricks-readme.md
     landingPageType: Service
     children:
     - '@azure/arm-databricks'
-  - name: Data Factory
-    uid: azure.nodejs.sdk.landingpage.services.datafactory.pre
-    landingPageType: Service
-    items:
-    - name: Management
-      uid: azure.nodejs.sdk.landingPage.services.datafactory.Management.pre
-      href: ~/docs-ref-services/preview/arm-datafactory-readme.md
-      landingPageType: Service
-      children:
-      - azure-arm-datafactory
-      - '@azure/arm-datafactory'
   - name: Data Lake Analytics
     uid: azure.nodejs.sdk.landingpage.services.datalakeanalytics.pre
     href: ~/docs-ref-services/preview/data-lake-analytics.md
@@ -250,16 +116,6 @@
       href: ~/docs-ref-services/preview/arm-deploymentmanager-readme.md
       children:
       - '@azure/arm-deploymentmanager'
-  - name: Desktop Virtualization
-    uid: azure.nodejs.sdk.landingpage.services.DesktopVirtualization.pre
-    landingPageType: Service
-    items:
-    - name: Management
-      uid: azure.nodejs.sdk.landingPage.services.DesktopVirtualization.Management.pre
-      href: ~/docs-ref-services/preview/arm-desktopvirtualization-readme.md
-      landingPageType: Service
-      children:
-      - '@azure/arm-desktopvirtualization'
   - name: DevTest Labs
     uid: azure.nodejs.sdk.landingpage.services.devtestlabs.pre
     href: ~/docs-ref-services/preview/devtest-labs.md
@@ -308,11 +164,6 @@
       - azure-eventgrid
       - '@azure/arm-eventgrid'
       - '@azure/eventgrid'
-  - name: Extended Location
-    uid: azure.nodejs.sdk.landingpage.services.ExtendedLocation.pre
-    landingPageType: Service
-    children:
-    - '@azure/arm-extendedlocation'
   - name: Features
     uid: azure.nodejs.sdk.landingPage.services.Features.pre
     href: ~/docs-ref-services/preview/arm-features-readme.md
@@ -410,17 +261,6 @@
     landingPageType: Service
     children:
     - '@azure/arm-locks'
-  - name: Logic Apps
-    uid: azure.nodejs.sdk.landingpage.services.logicapps.pre
-    href: ~/docs-ref-services/preview/logic-apps.md
-    items:
-    - name: Management
-      uid: azure.nodejs.sdk.landingPage.services.logicapps.Management.pre
-      href: ~/docs-ref-services/preview/arm-logic-readme.md
-      landingPageType: Service
-      children:
-      - '@azure/arm-logic'
-      - azure-arm-logic
   - name: Machine Learning
     uid: azure.nodejs.sdk.landingpage.services.machinelearning.pre
     landingPageType: Service
@@ -456,31 +296,6 @@
       children:
       - azure-arm-mediaservices
       - '@azure/arm-mediaservices'
-  - name: Monitor
-    uid: azure.nodejs.sdk.landingpage.services.monitor.pre
-    href: ~/docs-ref-services/preview/monitor.md
-    items:
-    - name: OpenTelemetry Exporter
-      uid: azure.nodejs.sdk.landingPage.services.monitor.opentelemetryexporter.pre
-      href: ~/docs-ref-services/preview/opentelemetry-exporter-azure-monitor-readme.md
-      children:
-      - '@azure/monitor-opentelemetry-exporter'
-    - name: Query
-      uid: azure.nodejs.sdk.landingPage.services.monitor.monitorquery.pre
-      href: ~/docs-ref-services/preview/monitor-query-readme.md
-      children:
-      - '@azure/monitor-query'
-  - name: MySQL
-    uid: azure.nodejs.sdk.landingpage.services.mysql.pre
-    href: ~/docs-ref-services/preview/mysql.md
-    items:
-    - name: Management
-      uid: azure.nodejs.sdk.landingPage.services.mysql.Management.pre
-      href: ~/docs-ref-services/preview/arm-mysql-readme.md
-      landingPageType: Service
-      children:
-      - azure-arm-mysql
-      - '@azure/arm-mysql'
   - name: Network
     uid: azure.nodejs.sdk.landingpage.services.network.pre
     items:
@@ -522,17 +337,6 @@
       landingPageType: Service
       children:
       - '@azure/arm-policy'
-  - name: PostgreSQL
-    uid: azure.nodejs.sdk.landingpage.services.postgresql.pre
-    href: ~/docs-ref-services/preview/postgresql.md
-    items:
-    - name: Management
-      uid: azure.nodejs.sdk.landingPage.services.postgresql.Management.pre
-      href: ~/docs-ref-services/preview/arm-postgresql-readme.md
-      landingPageType: Service
-      children:
-      - azure-arm-postgresql
-      - '@azure/arm-postgresql'
   - name: Purview
     uid: azure.nodejs.sdk.landingpage.services.purview.pre
     landingPageType: Service
@@ -562,40 +366,6 @@
       href: ~/docs-ref-services/preview/arm-purview-readme.md
       children:
       - '@azure/arm-purview'
-  - name: Quota
-    uid: azure.nodejs.sdk.landingpage.services.quota.pre
-    landingPageType: Service
-    items:
-    - name: Management
-      uid: azure.nodejs.sdk.landingPage.services.quota.Management.pre
-      href: ~/docs-ref-services/preview/arm-quota-readme.md
-      children:
-      - '@azure/arm-quota'
-  - name: Recovery Services
-    uid: azure.nodejs.sdk.landingpage.services.rescoveryservices.pre
-    landingPageType: Service
-    items:
-    - name: Management
-      uid: azure.nodejs.sdk.landingPage.services.rescoveryservices.Management.pre
-      href: ~/docs-ref-services/preview/arm-recoveryservices-readme.md
-      landingPageType: Service
-      children:
-      - azure-arm-recoveryservices
-      - '@azure/arm-recoveryservices'
-      - '@azure/arm-recoveryservices-siterecovery'
-      - '@azure/arm-recoveryservicesbackup'
-  - name: Redis Cache
-    uid: azure.nodejs.sdk.landingpage.services.rediscache.pre
-    href: ~/docs-ref-services/preview/redis-cache.md
-    items:
-    - name: Management
-      uid: azure.nodejs.sdk.landingPage.services.rediscache.Management.pre
-      href: ~/docs-ref-services/preview/arm-rediscache-readme.md
-      landingPageType: Service
-      children:
-      - azure-arm-rediscache
-      - '@azure/arm-rediscache'
-      - '@azure/arm-redisenterprisecache'
   - name: Resources
     uid: azure.nodejs.sdk.landingpage.services.resources.pre
     href: ~/docs-ref-services/preview/resources.md
@@ -608,51 +378,12 @@
       - azure-arm-resource
       - '@azure/arm-resource'
       - '@azure/arm-resources'
-  - name: Resources Graph
-    uid: azure.nodejs.sdk.landingpage.services.resourcegraph.pre
-    landingPageType: Service
-    children:
-    - '@azure/arm-resourcegraph'
-  - name: Resource Health
-    uid: azure.nodejs.sdk.landingpage.services.resourcehealth.pre
-    landingPageType: Service
-    items:
-    - name: Management
-      uid: azure.nodejs.sdk.landingPage.services.resourcehealth.Management.pre
-      landingPageType: Service
-      children:
-      - azure-arm-resourcehealth
-      - '@azure/arm-resourcehealth'
-  - name: Resources Subscriptions
-    uid: azure.nodejs.sdk.landingpage.services.resourcessubscriptions.pre
-    landingPageType: service
-    items:
-    - name: Management
-      uid: azure.nodejs.sdk.landingPage.services.resourcessubscriptions.Management.pre
-      href: ~/docs-ref-services/preview/arm-resources-subscriptions-readme.md
-      children:
-      - azure-arm-resources-subscriptions
-      - '@azure/arm-resources-subscriptions'
   - name: Security
     uid: azure.nodejs.sdk.landingpage.services.security.pre
     href: ~/docs-ref-services/preview/arm-security-readme.md
     landingPageType: Service
     children:
     - '@azure/arm-security'
-  - name: Schema Registry
-    uid: azure.nodejs.sdk.landingpage.services.schemaregistry.pre
-    landingPageType: Service
-    items:
-    - name: Client
-      uid: azure.nodejs.sdk.landingPage.services.schemaregistry.Client.pre
-      href: ~/docs-ref-services/preview/schema-registry-readme.md
-      children:
-      - '@azure/schema-registry'
-    - name: Avro
-      uid: azure.nodejs.sdk.landingPage.services.schemaregistry.avro.pre
-      href: ~/docs-ref-services/preview/schema-registry-avro-readme.md
-      children:
-      - '@azure/schema-registry-avro'
   - name: Search
     uid: azure.nodejs.sdk.landingpage.services.search.pre
     href: ~/docs-ref-services/preview/search.md
@@ -691,39 +422,11 @@
     uid: azure.nodejs.sdk.landingpage.services.servicefabric.pre
     href: ~/docs-ref-services/preview/service-fabric.md
     items:
-    - name: Service Fabric Management
-      uid: azure.nodejs.sdk.landingPage.services.servicefabric.servicefabricmanagement.pre
-      href: ~/docs-ref-services/preview/arm-servicefabric-readme.md
-      children:
-      - azure-arm-servicefabric
-      - '@azure/arm-servicefabric'
     - name: Mesh Management
       uid: azure.nodejs.sdk.landingPage.services.servicefabric.meshmanagement.pre
       landingPageType: Service
       children:
       - '@azure/arm-servicefabricmesh'
-  - name: Service Map
-    uid: azure.nodejs.sdk.landingpage.services.servicemap.pre
-    href: ~/docs-ref-services/preview/service-map.md
-    items:
-    - name: Management
-      uid: azure.nodejs.sdk.landingPage.services.servicemap.Management.pre
-      landingPageType: Service
-      children:
-      - azure-arm-servicemap
-      - '@azure/arm-servicemap'
-  - name: SQL
-    uid: azure.nodejs.sdk.landingpage.services.sql.pre
-    href: ~/docs-ref-services/preview/sql.md
-    items:
-    - name: Management
-      uid: azure.nodejs.sdk.landingPage.services.sql.Management.pre
-      href: ~/docs-ref-services/preview/arm-sql-readme.md
-      landingPageType: Service
-      children:
-      - azure-arm-sql
-      - azure-asm-sql
-      - '@azure/arm-sql'
   - name: SQL Virtual Machine
     uid: azure.nodejs.sdk.landingpage.services.sqlvirtualmachine.pre
     landingPageType: Service
@@ -781,19 +484,6 @@
       children:
       - azure-arm-streamanalytics
       - '@azure/arm-streamanalytics'
-  - name: Template Specs
-    uid: azure.nodejs.sdk.landingpage.services.templatespecs.pre
-    items:
-    - name: Management
-      uid: azure.nodejs.sdk.landingpage.services.templatespecs.management.pre
-      landingPageType: Service
-      children:
-      - '@azure/arm-templatespecs'
-  - name: Text Analytics
-    uid: azure.nodejs.sdk.landingpage.services.textanalytics.pre
-    href: ~/docs-ref-services/preview/ai-text-analytics-readme.md
-    children:
-    - '@azure/ai-text-analytics'
   - name: Virtual Machines
     uid: azure.nodejs.sdk.landingpage.services.vms.pre
     href: ~/docs-ref-services/preview/virtualmachines.md
@@ -806,16 +496,6 @@
       - azure-arm-compute
       - azure-asm-compute
       - '@azure/arm-compute*'
-  - name: Visual Studio Team Services
-    uid: azure.nodejs.sdk.landingpage.services.vsts.pre
-    landingPageType: Service
-    items:
-    - name: Management
-      uid: azure.nodejs.sdk.landingPage.services.vsts.Management.pre
-      landingPageType: Service
-      children:
-      - azure-arm-visualstudio
-      - '@azure/arm-visualstudio'
   - name: Video Analyzer
     uid: azure.nodejs.sdk.landingpage.services.videoanalyzer.pre
     landingPageType: Service
