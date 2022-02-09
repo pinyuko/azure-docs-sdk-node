@@ -1,42 +1,42 @@
 ---
 title: Azure Form Recognizer client library for JavaScript
 keywords: Azure, javascript, SDK, API, @azure/ai-form-recognizer, formrecognizer
-author: maggiepint
-ms.author: magpint
-ms.date: 11/10/2021
+author: witemple-msft
+ms.author: witemple
+ms.date: 02/09/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: javascript
 ms.service: formrecognizer
 ---
-
-# Azure Form Recognizer client library for JavaScript - Version 4.0.0-beta.2 
+# Azure Form Recognizer client library for JavaScript - Version 4.0.0-alpha.20220208.4 
 
 
 Azure Cognitive Services [Form Recognizer](https://azure.microsoft.com/services/cognitive-services/form-recognizer/) is a cloud service that uses machine learning to analyze text and structured data from your documents. It includes the following main features:
 
 - Layout - Extract text, table structures, and selection marks, along with their bounding region coordinates, from documents.
 - Document - Analyze entities, key-value pairs, tables, and selection marks from documents using the general prebuilt document model.
+- Read - Read information about textual elements, such as page words and lines in addition to text language information.
 - Prebuilt - Analyze data from certain types of common documents (such as receipts, invoices, business cards, or identity documents) using prebuilt models.
 - Custom - Build custom models to extract text, field values, selection marks, and table data from documents. Custom models are built with your own data, so they're tailored to your documents.
 
-[Source code](https://github.com/Azure/azure-sdk-for-js/blob/@azure/ai-form-recognizer_4.0.0-beta.2/sdk/formrecognizer/ai-form-recognizer/) |
+[Source code](https://github.com/Azure/azure-sdk-for-js/blob/main/sdk/formrecognizer/ai-form-recognizer/) |
 [Package (NPM)](https://www.npmjs.com/package/@azure/ai-form-recognizer) |
 [API reference documentation](https://docs.microsoft.com/javascript/api/@azure/ai-form-recognizer) |
 [Product documentation](https://docs.microsoft.com/azure/cognitive-services/form-recognizer/) |
-[Samples](https://github.com/Azure/azure-sdk-for-js/tree/@azure/ai-form-recognizer_4.0.0-beta.2/sdk/formrecognizer/ai-form-recognizer/samples)
+[Samples](https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/formrecognizer/ai-form-recognizer/samples)
 
 #### **_Breaking Change Advisory_ ⚠️**
 
-In version 4 (currently beta), this package introduces a full redesign of the Azure Form Recognizer client library. To leverage features of the newest Form Recognizer service API (version "2021-09-30-preview" and newer), the new SDK is required, and application code must be changed to use the new clients. Please see the [Migration Guide](https://github.com/azure/azure-sdk-for-js/blob/@azure/ai-form-recognizer_4.0.0-beta.2/sdk/formrecognizer/ai-form-recognizer/MIGRATION-v3_v4.md) for detailed instructions on how to update application code from version 3.x of the Form Recognizer SDK to the new version (4.x). Additionally, the [CHANGELOG](https://github.com/azure/azure-sdk-for-js/blob/@azure/ai-form-recognizer_4.0.0-beta.2/sdk/formrecognizer/ai-form-recognizer/CHANGELOG.md) contains an outline of the changes. This package targets Azure Form Recognizer service API version `2021-09-30-preview` and newer. To continue to use Form Recognizer API version 2.1, please use major version 3 of the client package (`@azure/ai-form-recognizer@^3.2.0`).
+In version 4 (currently beta), this package introduces a full redesign of the Azure Form Recognizer client library. To leverage features of the newest Form Recognizer service API (version "2022-01-30-preview" and newer), the new SDK is required, and application code must be changed to use the new clients. Please see the [Migration Guide](https://github.com/azure/azure-sdk-for-js/blob/main/sdk/formrecognizer/ai-form-recognizer/MIGRATION-v3_v4.md) for detailed instructions on how to update application code from version 3.x of the Form Recognizer SDK to the new version (4.x). Additionally, the [CHANGELOG](https://github.com/azure/azure-sdk-for-js/blob/main/sdk/formrecognizer/ai-form-recognizer/CHANGELOG.md) contains an outline of the changes. This package targets Azure Form Recognizer service API version `2022-01-30-preview` and newer. To continue to use Form Recognizer API version 2.1, please use major version 3 of the client package (`@azure/ai-form-recognizer@^3.2.0`).
 
 ### Install the `@azure/ai-form-recognizer` Package
 
 Install the Azure Form Recognizer client library for JavaScript with `npm`:
 
 ```bash
-npm install @azure/ai-form-recognizer@4.0.0-beta.2
+npm install @azure/ai-form-recognizer@4.0.0-beta.3
 ```
 
 ## Getting Started
@@ -65,7 +65,7 @@ const { pages, tables, styles, keyValuePairs, entities, documents } = await poll
 - [LTS versions of Node.js](https://nodejs.org/about/releases/)
 - Latest versions of Safari, Chrome, Edge, and Firefox.
 
-See our [support policy](https://github.com/Azure/azure-sdk-for-js/blob/@azure/ai-form-recognizer_4.0.0-beta.2/SUPPORT.md) for more details.
+See our [support policy](https://github.com/Azure/azure-sdk-for-js/blob/main/SUPPORT.md) for more details.
 
 ### Prerequisites
 
@@ -336,6 +336,68 @@ main().catch((err) => {
 
 _Note_: you may also use the `beginAnalyzeDocuments` method to extract generic document information using the prebuilt document model by providing the model ID `"prebuilt-document"`. This method provides a weaker TypeScript type for the layout analysis result, but will produce the same information. The `beginExtractGenericDocument` method is available for your convenience.
 
+### Read Document
+
+```javascript
+const { DocumentAnalysisClient, AzureKeyCredential } = require("@azure/ai-form-recognizer");
+
+async function main() {
+  const endpoint = "<cognitive services endpoint>";
+  const apiKey = "<api key>";
+  const path = "<path to a document>"; // pdf/jpeg/png/tiff formats
+
+  const readStream = fs.createReadStream(path);
+
+  const client = new DocumentAnalysisClient(endpoint, new AzureKeyCredential(apiKey));
+  const poller = await client.beginReadDocument(readStream);
+
+  // The "prebuilt-read" model (`beginReadDocument` method) only extracts information about the textual content of the
+  // document, such as page text elements, text styles, and information about the language of the text.
+  const { content, pages, languages, styles } = await poller.pollUntilDone();
+
+  if (pages.length <= 0) {
+    console.log("No pages were extracted from the document.");
+  } else {
+    console.log("Pages:");
+    for (const page of pages) {
+      console.log("- Page", page.pageNumber, `(unit: ${page.unit})`);
+      console.log(`  ${page.width}x${page.height}, angle: ${page.angle}`);
+      console.log(`  ${page.lines.length} lines, ${page.words.length} words`);
+
+      if (page.lines.length > 0) {
+        console.log("  Lines:");
+
+        for (const line of page.lines) {
+          console.log(`  - "${line.content}"`);
+        }
+      }
+    }
+  }
+
+  if (languages.length <= 0) {
+    console.log("No language spans were extracted from the document.");
+  } else {
+    console.log("Languages:");
+    for (const languageEntry of languages) {
+      console.log(
+        `- Found language: ${languageEntry.languageCode} (confidence: ${languageEntry.confidence})`
+      );
+      for (const text of getTextOfSpans(content, languageEntry.spans)) {
+        const escapedText = text.replace(/\r?\n/g, "\\n").replace(/"/g, '\\"');
+        console.log(`  - "${escapedText}"`);
+      }
+    }
+  }
+}
+
+main().catch((error) => {
+  console.error("An error occurred:", error);
+  process.exit(1);
+});
+```
+
+_Note_: you may also use the `beginAnalyzeDocuments` method to read document information using the "read" model by providing the model ID `"prebuilt-read"`. This method provides a weaker TypeScript type for the read result, but will produce the same information. The `beginReadDocument` method is available for your convenience.
+
 ### Using Prebuilt Models
 
 The `beginAnalyzeDocuments` method also supports extracting fields from certain types of common documents such as receipts, invoices, business cards, and identity documents using prebuilt models provided by the Form Recognizer service. The prebuilt models may be provided either as model ID strings (the same as custom document models) or using a `DocumentModel` object. When using a `DocumentModel`, the Form Recognizer SDK for JavaScript provides a much stronger TypeScript type for the resulting extracted documents based on the model's schema, and it will be converted to use JavaScript naming conventions.
@@ -405,6 +467,7 @@ You are not limited to receipts! There are a few prebuilt models to choose from,
 - Business cards, using `PrebuiltModels.BusinessCard` or its model ID `"prebuilt-businessCard"` (see [the supported fields of the business card model](https://aka.ms/azsdk/formrecognizer/businesscardfieldschema)).
 - Invoices, using `PrebuiltModels.Invoice` or its model ID `"prebuilt-invoice"` (see [the supported fields of the invoice model](https://aka.ms/azsdk/formrecognizer/invoicefieldschema)).
 - Identity Documents (such as driver licenses and passports), using `PrebuiltModels.IdentityDocument` or its model ID `"prebuilt-idDocument"` (see [the supported fields of the identity document model](https://aka.ms/azsdk/formrecognizer/iddocumentfieldschema)).
+- W2 Tax Forms (United States), using `PrebuiltModels.TaxUsW2` or its model ID `"prebuilt-tax.us.w2"` (see [the supported fields of the W2 model](https://aka.ms/azsdk/formrecognizer/taxusw2fieldschema)).
 
 The fields of all prebuilt document models may also be accessed programmatically using the `getModel` method (by their model IDs) of `DocumentModelAdministrationClient` and inspecting the `docTypes` field in the result.
 
@@ -530,15 +593,15 @@ import { setLogLevel } from "@azure/logger";
 setLogLevel("info");
 ```
 
-For more detailed instructions on how to enable logs, you can look at the [@azure/logger package docs](https://github.com/Azure/azure-sdk-for-js/tree/@azure/ai-form-recognizer_4.0.0-beta.2/sdk/core/logger).
+For more detailed instructions on how to enable logs, you can look at the [@azure/logger package docs](https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/core/logger).
 
 ## Next steps
 
-Please take a look at the [samples](https://github.com/Azure/azure-sdk-for-js/tree/@azure/ai-form-recognizer_4.0.0-beta.2/sdk/formrecognizer/ai-form-recognizer/samples) directory for detailed code samples that show how to use this library including several features and methods that are not shown in the "Examples" section above, such as copying and composing models, listing model management operations, and deleting models.
+Please take a look at the [samples](https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/formrecognizer/ai-form-recognizer/samples) directory for detailed code samples that show how to use this library including several features and methods that are not shown in the "Examples" section above, such as copying and composing models, listing model management operations, and deleting models.
 
 ## Contributing
 
-If you'd like to contribute to this library, please read the [contributing guide](https://github.com/Azure/azure-sdk-for-js/blob/@azure/ai-form-recognizer_4.0.0-beta.2/CONTRIBUTING.md) to learn more about how to build and test the code.
+If you'd like to contribute to this library, please read the [contributing guide](https://github.com/Azure/azure-sdk-for-js/blob/main/CONTRIBUTING.md) to learn more about how to build and test the code.
 
 ![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-js%2Fsdk%2Fformrecognizer%2Fai-form-recognizer%2FREADME.png)
 
@@ -546,11 +609,11 @@ If you'd like to contribute to this library, please read the [contributing guide
 [azure_sub]: https://azure.microsoft.com/free/
 [fr_or_cs_resource]: https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account?tabs=multiservice%2Cwindows
 [azure_portal]: https://portal.azure.com
-[azure_identity]: https://github.com/Azure/azure-sdk-for-js/tree/@azure/ai-form-recognizer_4.0.0-beta.2/sdk/identity/identity
+[azure_identity]: https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/identity/identity
 [register_aad_app]: https://docs.microsoft.com/azure/cognitive-services/authentication#assign-a-role-to-a-service-principal
-[defaultazurecredential]: https://github.com/Azure/azure-sdk-for-js/tree/@azure/ai-form-recognizer_4.0.0-beta.2/sdk/identity/identity#defaultazurecredential
+[defaultazurecredential]: https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/identity/identity#defaultazurecredential
 [fr-build-model]: https://aka.ms/azsdk/formrecognizer/buildmodel
-[build_sample]: https://github.com/Azure/azure-sdk-for-js/blob/@azure/ai-form-recognizer_4.0.0-beta.2/sdk/formrecognizer/ai-form-recognizer/samples/v4-beta/typescript/src/buildModel.ts
+[build_sample]: https://github.com/Azure/azure-sdk-for-js/blob/main/sdk/formrecognizer/ai-form-recognizer/samples/v4-beta/typescript/src/buildModel.ts
 [multi_and_single_service]: https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account?tabs=multiservice%2Cwindows
 [azure_portal_create_fr_resource]: https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesFormRecognizer
 [azure_cli_create_fr_resource]: https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account-cli?tabs=windows
