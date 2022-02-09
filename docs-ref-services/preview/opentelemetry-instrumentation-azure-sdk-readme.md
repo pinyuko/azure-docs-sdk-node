@@ -1,14 +1,14 @@
 ---
 title: 
-keywords: Azure, javascript, SDK, API, @azure/opentelemetry-instrumentation-azure-sdk, instrumentation
+keywords: Azure, javascript, SDK, API, @azure/opentelemetry-instrumentation-azure-sdk, other
 author: maorleger
 ms.author: malege
-ms.date: 02/08/2022
+ms.date: 02/09/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: javascript
-ms.service: instrumentation
+ms.service: other
 ---
 # Azure OpenTelemetry Instrumentation library for JavaScript
 
@@ -19,7 +19,7 @@ ms.service: instrumentation
 - [LTS versions of Node.js](https://nodejs.org/about/releases/)
 - Latest versions of Safari, Chrome, Edge, and Firefox.
 
-See our [support policy](https://github.com/Azure/azure-sdk-for-js/blob/@azure/opentelemetry-instrumentation-azure-sdk_1.0.0-beta.1/SUPPORT.md) for more details.
+See our [support policy](https://github.com/Azure/azure-sdk-for-js/blob/main/SUPPORT.md) for more details.
 
 ### Prerequisites
 
@@ -80,11 +80,11 @@ import { setLogLevel } from "@azure/logger";
 setLogLevel("info");
 ```
 
-For more detailed instructions on how to enable logs, you can look at the [@azure/logger package docs](https://github.com/Azure/azure-sdk-for-js/tree/@azure/opentelemetry-instrumentation-azure-sdk_1.0.0-beta.1/sdk/core/logger).
+For more detailed instructions on how to enable logs, you can look at the [@azure/logger package docs](https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/core/logger).
 
 ## Contributing
 
-If you'd like to contribute to this library, please read the [contributing guide](https://github.com/Azure/azure-sdk-for-js/blob/@azure/opentelemetry-instrumentation-azure-sdk_1.0.0-beta.1/CONTRIBUTING.md) to learn more about how to build and test the code.
+If you'd like to contribute to this library, please read the [contributing guide](https://github.com/Azure/azure-sdk-for-js/blob/main/CONTRIBUTING.md) to learn more about how to build and test the code.
 
 ## Related projects
 
