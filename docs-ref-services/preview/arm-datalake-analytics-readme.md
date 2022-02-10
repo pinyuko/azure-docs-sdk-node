@@ -10,7 +10,7 @@ ms.technology: azure
 ms.devlang: javascript
 ms.service: datalake-analytics
 ---
-# Azure DataLakeAnalyticsAccountManagement client library for JavaScript - Version 2.0.0-alpha.20220209.1 
+# Azure DataLakeAnalyticsAccountManagement client library for JavaScript - Version 2.0.0-alpha.20220210.1 
 
 
 This package contains an isomorphic SDK (runs both in Node.js and in browsers) for Azure DataLakeAnalyticsAccountManagement client.
