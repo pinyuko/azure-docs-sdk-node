@@ -10,7 +10,7 @@ ms.technology: azure
 ms.devlang: javascript
 ms.service: keyvault
 ---
-# Azure KeyVaultManagement client library for JavaScript - Version 2.0.1-alpha.20220209.1 
+# Azure KeyVaultManagement client library for JavaScript - Version 2.0.1-alpha.20220209.2 
 
 
 This package contains an isomorphic SDK (runs both in Node.js and in browsers) for Azure KeyVaultManagement client.
