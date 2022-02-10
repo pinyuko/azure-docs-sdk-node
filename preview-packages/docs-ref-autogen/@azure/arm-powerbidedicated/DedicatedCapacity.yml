@@ -1,0 +1,14 @@
+### YamlMime:TSTypeAlias
+name: DedicatedCapacity
+uid: '@azure/arm-powerbidedicated.DedicatedCapacity'
+package: '@azure/arm-powerbidedicated'
+summary: Represents an instance of a Dedicated Capacity resource.
+fullName: DedicatedCapacity
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type DedicatedCapacity = Resource & { administration?:
+  DedicatedCapacityAdministrators, friendlyName?: undefined | string, mode?:
+  Mode, provisioningState?: CapacityProvisioningState, sku: CapacitySku, state?:
+  State, tenantId?: undefined | string }

@@ -268,4 +268,4 @@ methods:
         type: >-
           Promise&lt;<xref
           uid="@azure/arm-managementgroups.TenantBackfillStatusResponse" />&gt;
-extends: <xref uid="@azure/arm-managementgroups.ManagementGroupsAPIContext" />
+extends: ServiceClient

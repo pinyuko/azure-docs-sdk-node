@@ -54,16 +54,8 @@ fields:
     uid: '@azure/arm-keyvault.KnownKeyPermissions.Recover'
     package: '@azure/arm-keyvault'
     summary: ''
-  - name: Release
-    uid: '@azure/arm-keyvault.KnownKeyPermissions.Release'
-    package: '@azure/arm-keyvault'
-    summary: ''
   - name: Restore
     uid: '@azure/arm-keyvault.KnownKeyPermissions.Restore'
-    package: '@azure/arm-keyvault'
-    summary: ''
-  - name: Rotate
-    uid: '@azure/arm-keyvault.KnownKeyPermissions.Rotate'
     package: '@azure/arm-keyvault'
     summary: ''
   - name: Sign

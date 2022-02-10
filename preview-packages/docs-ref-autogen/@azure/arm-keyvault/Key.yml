@@ -11,4 +11,4 @@ syntax: >-
   type Key = Resource & { attributes?: KeyAttributes, curveName?:
   JsonWebKeyCurveName, keyOps?: JsonWebKeyOperation[], keySize?: undefined |
   number, keyUri?: undefined | string, keyUriWithVersion?: undefined | string,
-  kty?: JsonWebKeyType, rotationPolicy?: RotationPolicy }
+  kty?: JsonWebKeyType }

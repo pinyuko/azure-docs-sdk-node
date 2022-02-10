@@ -11,7 +11,6 @@ enums:
   - '@azure/arm-managementgroups.KnownPermissions'
 classes:
   - '@azure/arm-managementgroups.ManagementGroupsAPI'
-  - '@azure/arm-managementgroups.ManagementGroupsAPIContext'
 interfaces:
   - '@azure/arm-managementgroups.AzureAsyncOperationResults'
   - '@azure/arm-managementgroups.CheckNameAvailabilityOptionalParams'

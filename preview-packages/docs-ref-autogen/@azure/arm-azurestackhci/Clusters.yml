@@ -1,0 +1,178 @@
+### YamlMime:TSType
+name: Clusters
+uid: '@azure/arm-azurestackhci.Clusters'
+package: '@azure/arm-azurestackhci'
+summary: Interface representing a Clusters.
+fullName: Clusters
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+methods:
+  - name: 'create(string, string, Cluster, ClustersCreateOptionalParams)'
+    uid: '@azure/arm-azurestackhci.Clusters.create'
+    package: '@azure/arm-azurestackhci'
+    summary: Create an HCI cluster.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function create(resourceGroupName: string, clusterName: string, cluster:
+        Cluster, options?: ClustersCreateOptionalParams):
+        Promise<ClustersCreateResponse>
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: The name of the resource group. The name is case insensitive.
+        - id: clusterName
+          type: string
+          description: The name of the cluster.
+        - id: cluster
+          type: <xref uid="@azure/arm-azurestackhci.Cluster" />
+          description: Details of the HCI cluster.
+        - id: options
+          type: <xref uid="@azure/arm-azurestackhci.ClustersCreateOptionalParams" />
+          description: |
+            The options parameters.
+      return:
+        description: ''
+        type: >-
+          Promise&lt;<xref uid="@azure/arm-azurestackhci.ClustersCreateResponse"
+          />&gt;
+  - name: 'delete(string, string, ClustersDeleteOptionalParams)'
+    uid: '@azure/arm-azurestackhci.Clusters.delete'
+    package: '@azure/arm-azurestackhci'
+    summary: Delete an HCI cluster.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function delete(resourceGroupName: string, clusterName: string,
+        options?: ClustersDeleteOptionalParams): Promise<void>
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: The name of the resource group. The name is case insensitive.
+        - id: clusterName
+          type: string
+          description: The name of the cluster.
+        - id: options
+          type: <xref uid="@azure/arm-azurestackhci.ClustersDeleteOptionalParams" />
+          description: |
+            The options parameters.
+      return:
+        description: ''
+        type: Promise&lt;void&gt;
+  - name: 'get(string, string, ClustersGetOptionalParams)'
+    uid: '@azure/arm-azurestackhci.Clusters.get'
+    package: '@azure/arm-azurestackhci'
+    summary: Get HCI cluster.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function get(resourceGroupName: string, clusterName: string, options?:
+        ClustersGetOptionalParams): Promise<ClustersGetResponse>
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: The name of the resource group. The name is case insensitive.
+        - id: clusterName
+          type: string
+          description: The name of the cluster.
+        - id: options
+          type: <xref uid="@azure/arm-azurestackhci.ClustersGetOptionalParams" />
+          description: |
+            The options parameters.
+      return:
+        description: ''
+        type: >-
+          Promise&lt;<xref uid="@azure/arm-azurestackhci.ClustersGetResponse"
+          />&gt;
+  - name: 'listByResourceGroup(string, ClustersListByResourceGroupOptionalParams)'
+    uid: '@azure/arm-azurestackhci.Clusters.listByResourceGroup'
+    package: '@azure/arm-azurestackhci'
+    summary: List all HCI clusters in a resource group.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function listByResourceGroup(resourceGroupName: string, options?:
+        ClustersListByResourceGroupOptionalParams):
+        PagedAsyncIterableIterator<Cluster>
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: The name of the resource group. The name is case insensitive.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-azurestackhci.ClustersListByResourceGroupOptionalParams"
+            />
+          description: |
+            The options parameters.
+      return:
+        description: ''
+        type: >-
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-azurestackhci.Cluster" />&gt;
+  - name: listBySubscription(ClustersListBySubscriptionOptionalParams)
+    uid: '@azure/arm-azurestackhci.Clusters.listBySubscription'
+    package: '@azure/arm-azurestackhci'
+    summary: List all HCI clusters in a subscription.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function listBySubscription(options?:
+        ClustersListBySubscriptionOptionalParams):
+        PagedAsyncIterableIterator<Cluster>
+      parameters:
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-azurestackhci.ClustersListBySubscriptionOptionalParams"
+            />
+          description: |
+            The options parameters.
+      return:
+        description: ''
+        type: >-
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-azurestackhci.Cluster" />&gt;
+  - name: 'update(string, string, ClusterPatch, ClustersUpdateOptionalParams)'
+    uid: '@azure/arm-azurestackhci.Clusters.update'
+    package: '@azure/arm-azurestackhci'
+    summary: Update an HCI cluster.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function update(resourceGroupName: string, clusterName: string, cluster:
+        ClusterPatch, options?: ClustersUpdateOptionalParams):
+        Promise<ClustersUpdateResponse>
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: The name of the resource group. The name is case insensitive.
+        - id: clusterName
+          type: string
+          description: The name of the cluster.
+        - id: cluster
+          type: <xref uid="@azure/arm-azurestackhci.ClusterPatch" />
+          description: Details of the HCI cluster.
+        - id: options
+          type: <xref uid="@azure/arm-azurestackhci.ClustersUpdateOptionalParams" />
+          description: |
+            The options parameters.
+      return:
+        description: ''
+        type: >-
+          Promise&lt;<xref uid="@azure/arm-azurestackhci.ClustersUpdateResponse"
+          />&gt;
