@@ -1,7 +1,7 @@
 {
   "Name": "@azure/arm-commitmentplans",
-  "Version": "2.0.0-beta.1",
-  "DevVersion": null,
+  "Version": "2.0.0-alpha.20220214.1",
+  "DevVersion": "2.0.0-alpha.20220214.1",
   "DirectoryPath": "sdk/machinelearning/arm-commitmentplans",
   "ServiceDirectory": "machinelearning",
   "ReadMePath": "sdk/machinelearning/arm-commitmentplans/README.md",
