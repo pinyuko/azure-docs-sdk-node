@@ -1,7 +1,7 @@
 {
   "Name": "@azure/arm-databricks",
-  "Version": "3.0.0-alpha.20220217.1",
-  "DevVersion": "3.0.0-alpha.20220217.1",
+  "Version": "3.0.0-alpha.20220218.1",
+  "DevVersion": "3.0.0-alpha.20220218.1",
   "DirectoryPath": "sdk/databricks/arm-databricks",
   "ServiceDirectory": "databricks",
   "ReadMePath": "sdk/databricks/arm-databricks/README.md",
