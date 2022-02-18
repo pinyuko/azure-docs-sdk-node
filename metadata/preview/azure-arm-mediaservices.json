@@ -1,7 +1,7 @@
 {
   "Name": "@azure/arm-mediaservices",
-  "Version": "10.0.1-alpha.20220217.1",
-  "DevVersion": "10.0.1-alpha.20220217.1",
+  "Version": "10.0.1-alpha.20220218.1",
+  "DevVersion": "10.0.1-alpha.20220218.1",
   "DirectoryPath": "sdk/mediaservices/arm-mediaservices",
   "ServiceDirectory": "mediaservices",
   "ReadMePath": "sdk/mediaservices/arm-mediaservices/README.md",
