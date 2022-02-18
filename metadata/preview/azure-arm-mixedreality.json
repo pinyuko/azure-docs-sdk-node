@@ -1,7 +1,7 @@
 {
   "Name": "@azure/arm-mixedreality",
-  "Version": "4.0.1-alpha.20220217.1",
-  "DevVersion": "4.0.1-alpha.20220217.1",
+  "Version": "4.0.1-alpha.20220218.1",
+  "DevVersion": "4.0.1-alpha.20220218.1",
   "DirectoryPath": "sdk/mixedreality/arm-mixedreality",
   "ServiceDirectory": "mixedreality",
   "ReadMePath": "sdk/mixedreality/arm-mixedreality/README.md",
