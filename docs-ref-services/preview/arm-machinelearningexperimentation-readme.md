@@ -10,7 +10,7 @@ ms.technology: azure
 ms.devlang: javascript
 ms.service: machinelearning
 ---
-# Azure ML Team Account Management client library for JavaScript - Version 2.0.0-alpha.20220217.1 
+# Azure ML Team Account Management client library for JavaScript - Version 2.0.0-alpha.20220218.1 
 
 
 This package contains an isomorphic SDK (runs both in Node.js and in browsers) for Azure ML Team Account Management client.

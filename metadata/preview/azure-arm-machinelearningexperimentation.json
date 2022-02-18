@@ -1,7 +1,7 @@
 {
   "Name": "@azure/arm-machinelearningexperimentation",
-  "Version": "2.0.0-alpha.20220217.1",
-  "DevVersion": "2.0.0-alpha.20220217.1",
+  "Version": "2.0.0-alpha.20220218.1",
+  "DevVersion": "2.0.0-alpha.20220218.1",
   "DirectoryPath": "sdk/machinelearningexperimentation/arm-machinelearningexperimentation",
   "ServiceDirectory": "machinelearningexperimentation",
   "ReadMePath": "sdk/machinelearningexperimentation/arm-machinelearningexperimentation/README.md",
