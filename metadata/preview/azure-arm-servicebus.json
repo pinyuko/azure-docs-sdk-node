@@ -1,7 +1,7 @@
 {
   "Name": "@azure/arm-servicebus",
-  "Version": "5.0.1-alpha.20220217.2",
-  "DevVersion": "5.0.1-alpha.20220217.2",
+  "Version": "5.0.1-alpha.20220218.1",
+  "DevVersion": "5.0.1-alpha.20220218.1",
   "DirectoryPath": "sdk/servicebus/arm-servicebus",
   "ServiceDirectory": "servicebus",
   "ReadMePath": "sdk/servicebus/arm-servicebus/README.md",
