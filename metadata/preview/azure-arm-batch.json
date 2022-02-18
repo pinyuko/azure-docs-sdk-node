@@ -1,7 +1,7 @@
 {
   "Name": "@azure/arm-batch",
-  "Version": "7.0.1-alpha.20220217.1",
-  "DevVersion": "7.0.1-alpha.20220217.1",
+  "Version": "7.0.1-alpha.20220218.1",
+  "DevVersion": "7.0.1-alpha.20220218.1",
   "DirectoryPath": "sdk/batch/arm-batch",
   "ServiceDirectory": "batch",
   "ReadMePath": "sdk/batch/arm-batch/README.md",
