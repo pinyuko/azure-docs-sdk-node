@@ -10,7 +10,7 @@ ms.technology: azure
 ms.devlang: javascript
 ms.service: subscriptions
 ---
-# Azure Subscription client library for JavaScript - Version 5.0.1-alpha.20220217.1 
+# Azure Subscription client library for JavaScript - Version 5.0.1-alpha.20220218.1 
 
 
 This package contains an isomorphic SDK (runs both in Node.js and in browsers) for Azure Subscription client.
