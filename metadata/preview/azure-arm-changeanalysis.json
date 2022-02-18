@@ -1,7 +1,7 @@
 {
   "Name": "@azure/arm-changeanalysis",
-  "Version": "2.0.1-alpha.20220217.1",
-  "DevVersion": "2.0.1-alpha.20220217.1",
+  "Version": "2.0.1-alpha.20220218.1",
+  "DevVersion": "2.0.1-alpha.20220218.1",
   "DirectoryPath": "sdk/changeanalysis/arm-changeanalysis",
   "ServiceDirectory": "changeanalysis",
   "ReadMePath": "sdk/changeanalysis/arm-changeanalysis/README.md",
