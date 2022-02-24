@@ -144,9 +144,6 @@
       "name": "@azure/arm-servicebus@5.0.0-beta.1"
     },
     {
-      "name": "@azure/arm-purview@1.0.0-beta.1"
-    },
-    {
       "name": "@azure/mixed-reality-remote-rendering@1.0.0-beta.1"
     },
     {
