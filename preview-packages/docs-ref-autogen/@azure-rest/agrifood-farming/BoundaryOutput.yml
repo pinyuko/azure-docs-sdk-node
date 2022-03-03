@@ -1,0 +1,203 @@
+### YamlMime:TSType
+name: BoundaryOutput
+uid: '@azure-rest/agrifood-farming.BoundaryOutput'
+package: '@azure-rest/agrifood-farming'
+summary: ''
+fullName: BoundaryOutput
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: acreage
+    uid: '@azure-rest/agrifood-farming.BoundaryOutput.acreage'
+    package: '@azure-rest/agrifood-farming'
+    summary: Boundary area in acres.
+    fullName: acreage
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'acreage?: number'
+      return:
+        description: ''
+        type: number
+  - name: createdDateTime
+    uid: '@azure-rest/agrifood-farming.BoundaryOutput.createdDateTime'
+    package: '@azure-rest/agrifood-farming'
+    summary: 'Date-time when resource was created, sample format: yyyy-MM-ddTHH:mm:ssZ.'
+    fullName: createdDateTime
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'createdDateTime?: string'
+      return:
+        description: ''
+        type: string
+  - name: description
+    uid: '@azure-rest/agrifood-farming.BoundaryOutput.description'
+    package: '@azure-rest/agrifood-farming'
+    summary: Textual description of the resource.
+    fullName: description
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'description?: string'
+      return:
+        description: ''
+        type: string
+  - name: eTag
+    uid: '@azure-rest/agrifood-farming.BoundaryOutput.eTag'
+    package: '@azure-rest/agrifood-farming'
+    summary: The ETag value to implement optimistic concurrency.
+    fullName: eTag
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'eTag?: string'
+      return:
+        description: ''
+        type: string
+  - name: farmerId
+    uid: '@azure-rest/agrifood-farming.BoundaryOutput.farmerId'
+    package: '@azure-rest/agrifood-farming'
+    summary: Farmer ID.
+    fullName: farmerId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'farmerId?: string'
+      return:
+        description: ''
+        type: string
+  - name: geometry
+    uid: '@azure-rest/agrifood-farming.BoundaryOutput.geometry'
+    package: '@azure-rest/agrifood-farming'
+    summary: GeoJSON abstract class.
+    fullName: geometry
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'geometry?: GeoJsonObjectOutput'
+      return:
+        description: ''
+        type: <xref uid="@azure-rest/agrifood-farming.GeoJsonObjectOutput" />
+  - name: id
+    uid: '@azure-rest/agrifood-farming.BoundaryOutput.id'
+    package: '@azure-rest/agrifood-farming'
+    summary: Unique resource ID.
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id?: string'
+      return:
+        description: ''
+        type: string
+  - name: isPrimary
+    uid: '@azure-rest/agrifood-farming.BoundaryOutput.isPrimary'
+    package: '@azure-rest/agrifood-farming'
+    summary: Is the boundary primary.
+    fullName: isPrimary
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isPrimary?: boolean'
+      return:
+        description: ''
+        type: boolean
+  - name: modifiedDateTime
+    uid: '@azure-rest/agrifood-farming.BoundaryOutput.modifiedDateTime'
+    package: '@azure-rest/agrifood-farming'
+    summary: >-
+      Date-time when resource was last modified, sample format:
+      yyyy-MM-ddTHH:mm:ssZ.
+    fullName: modifiedDateTime
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'modifiedDateTime?: string'
+      return:
+        description: ''
+        type: string
+  - name: name
+    uid: '@azure-rest/agrifood-farming.BoundaryOutput.name'
+    package: '@azure-rest/agrifood-farming'
+    summary: Name to identify resource.
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name?: string'
+      return:
+        description: ''
+        type: string
+  - name: parentId
+    uid: '@azure-rest/agrifood-farming.BoundaryOutput.parentId'
+    package: '@azure-rest/agrifood-farming'
+    summary: ID of the parent(field or seasonalField) it belongs to.
+    fullName: parentId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'parentId?: string'
+      return:
+        description: ''
+        type: string
+  - name: parentType
+    uid: '@azure-rest/agrifood-farming.BoundaryOutput.parentType'
+    package: '@azure-rest/agrifood-farming'
+    summary: Type of the parent it belongs to.
+    fullName: parentType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'parentType?: string'
+      return:
+        description: ''
+        type: string
+  - name: properties
+    uid: '@azure-rest/agrifood-farming.BoundaryOutput.properties'
+    package: '@azure-rest/agrifood-farming'
+    summary: >-
+      A collection of key value pairs that belongs to the resource.
+
+      Each pair must not have a key greater than 50 characters
+
+      and must not have a value greater than 150 characters.
+
+      Note: A maximum of 25 key value pairs can be provided for a resource and
+      only string and numeral values are supported.
+    fullName: properties
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'properties?: Record<string, any>'
+      return:
+        description: ''
+        type: 'Record&lt;string, any&gt;'
+  - name: status
+    uid: '@azure-rest/agrifood-farming.BoundaryOutput.status'
+    package: '@azure-rest/agrifood-farming'
+    summary: Status of the resource.
+    fullName: status
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'status?: string'
+      return:
+        description: ''
+        type: string

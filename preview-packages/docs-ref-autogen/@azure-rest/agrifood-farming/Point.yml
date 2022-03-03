@@ -1,4 +1,4 @@
-### YamlMime:TSTypeAlias
+### YamlMime:TSType
 name: Point
 uid: '@azure-rest/agrifood-farming.Point'
 package: '@azure-rest/agrifood-farming'
@@ -7,4 +7,34 @@ fullName: Point
 remarks: ''
 isPreview: false
 isDeprecated: false
-syntax: 'type Point = PointBase & PointCoordinates & { type: "Point" }'
+type: interface
+properties:
+  - name: coordinates
+    uid: '@azure-rest/agrifood-farming.Point.coordinates'
+    package: '@azure-rest/agrifood-farming'
+    summary: |-
+      Gets or sets the coordinate of this point.
+      It must be an array of 2 or 3 elements for a 2D or 3D system.
+    fullName: coordinates
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'coordinates: Array<number>'
+      return:
+        description: ''
+        type: Array&lt;number&gt;
+  - name: type
+    uid: '@azure-rest/agrifood-farming.Point.type'
+    package: '@azure-rest/agrifood-farming'
+    summary: ''
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type: "Point"'
+      return:
+        description: ''
+        type: '"Point"'
+extends: <xref uid="@azure-rest/agrifood-farming.GeoJsonObjectBase" />

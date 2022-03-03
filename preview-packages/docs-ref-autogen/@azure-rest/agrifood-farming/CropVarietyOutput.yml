@@ -1,0 +1,164 @@
+### YamlMime:TSType
+name: CropVarietyOutput
+uid: '@azure-rest/agrifood-farming.CropVarietyOutput'
+package: '@azure-rest/agrifood-farming'
+summary: ''
+fullName: CropVarietyOutput
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: brand
+    uid: '@azure-rest/agrifood-farming.CropVarietyOutput.brand'
+    package: '@azure-rest/agrifood-farming'
+    summary: CropVariety Brand.
+    fullName: brand
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'brand?: string'
+      return:
+        description: ''
+        type: string
+  - name: createdDateTime
+    uid: '@azure-rest/agrifood-farming.CropVarietyOutput.createdDateTime'
+    package: '@azure-rest/agrifood-farming'
+    summary: 'Date-time when resource was created, sample format: yyyy-MM-ddTHH:mm:ssZ.'
+    fullName: createdDateTime
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'createdDateTime?: string'
+      return:
+        description: ''
+        type: string
+  - name: cropId
+    uid: '@azure-rest/agrifood-farming.CropVarietyOutput.cropId'
+    package: '@azure-rest/agrifood-farming'
+    summary: ID of the crop it belongs to.
+    fullName: cropId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'cropId?: string'
+      return:
+        description: ''
+        type: string
+  - name: description
+    uid: '@azure-rest/agrifood-farming.CropVarietyOutput.description'
+    package: '@azure-rest/agrifood-farming'
+    summary: Textual description of the resource.
+    fullName: description
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'description?: string'
+      return:
+        description: ''
+        type: string
+  - name: eTag
+    uid: '@azure-rest/agrifood-farming.CropVarietyOutput.eTag'
+    package: '@azure-rest/agrifood-farming'
+    summary: The ETag value to implement optimistic concurrency.
+    fullName: eTag
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'eTag?: string'
+      return:
+        description: ''
+        type: string
+  - name: id
+    uid: '@azure-rest/agrifood-farming.CropVarietyOutput.id'
+    package: '@azure-rest/agrifood-farming'
+    summary: Unique resource ID.
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id?: string'
+      return:
+        description: ''
+        type: string
+  - name: modifiedDateTime
+    uid: '@azure-rest/agrifood-farming.CropVarietyOutput.modifiedDateTime'
+    package: '@azure-rest/agrifood-farming'
+    summary: >-
+      Date-time when resource was last modified, sample format:
+      yyyy-MM-ddTHH:mm:ssZ.
+    fullName: modifiedDateTime
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'modifiedDateTime?: string'
+      return:
+        description: ''
+        type: string
+  - name: name
+    uid: '@azure-rest/agrifood-farming.CropVarietyOutput.name'
+    package: '@azure-rest/agrifood-farming'
+    summary: Name to identify resource.
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name?: string'
+      return:
+        description: ''
+        type: string
+  - name: product
+    uid: '@azure-rest/agrifood-farming.CropVarietyOutput.product'
+    package: '@azure-rest/agrifood-farming'
+    summary: CropVariety product.
+    fullName: product
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'product?: string'
+      return:
+        description: ''
+        type: string
+  - name: properties
+    uid: '@azure-rest/agrifood-farming.CropVarietyOutput.properties'
+    package: '@azure-rest/agrifood-farming'
+    summary: >-
+      A collection of key value pairs that belongs to the resource.
+
+      Each pair must not have a key greater than 50 characters
+
+      and must not have a value greater than 150 characters.
+
+      Note: A maximum of 25 key value pairs can be provided for a resource and
+      only string and numeral values are supported.
+    fullName: properties
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'properties?: Record<string, any>'
+      return:
+        description: ''
+        type: 'Record&lt;string, any&gt;'
+  - name: status
+    uid: '@azure-rest/agrifood-farming.CropVarietyOutput.status'
+    package: '@azure-rest/agrifood-farming'
+    summary: Status of the resource.
+    fullName: status
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'status?: string'
+      return:
+        description: ''
+        type: string

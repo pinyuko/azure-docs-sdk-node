@@ -13,7 +13,7 @@ properties:
     uid: >-
       @azure-rest/agrifood-farming.OAuthTokensGetOAuthConnectionLinkBodyParam.body
     package: '@azure-rest/agrifood-farming'
-    summary: ''
+    summary: OAuth Connect Request.
     fullName: body
     remarks: ''
     isPreview: false

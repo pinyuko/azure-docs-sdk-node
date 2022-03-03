@@ -61,10 +61,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'endDateTime?: Date'
+      content: 'endDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: extensionId
     uid: '@azure-rest/agrifood-farming.WeatherListQueryParamProperties.extensionId'
     package: '@azure-rest/agrifood-farming'
@@ -115,10 +115,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'startDateTime?: Date'
+      content: 'startDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: weatherDataType
     uid: >-
       @azure-rest/agrifood-farming.WeatherListQueryParamProperties.weatherDataType

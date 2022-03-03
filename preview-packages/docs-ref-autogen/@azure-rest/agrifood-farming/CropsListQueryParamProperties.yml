@@ -46,10 +46,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'ids?: string[]'
+      content: 'ids?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: maxCreatedDateTime
     uid: >-
       @azure-rest/agrifood-farming.CropsListQueryParamProperties.maxCreatedDateTime
@@ -60,10 +60,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'maxCreatedDateTime?: Date'
+      content: 'maxCreatedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: maxLastModifiedDateTime
     uid: >-
       @azure-rest/agrifood-farming.CropsListQueryParamProperties.maxLastModifiedDateTime
@@ -74,10 +74,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'maxLastModifiedDateTime?: Date'
+      content: 'maxLastModifiedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: minCreatedDateTime
     uid: >-
       @azure-rest/agrifood-farming.CropsListQueryParamProperties.minCreatedDateTime
@@ -88,10 +88,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'minCreatedDateTime?: Date'
+      content: 'minCreatedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: minLastModifiedDateTime
     uid: >-
       @azure-rest/agrifood-farming.CropsListQueryParamProperties.minLastModifiedDateTime
@@ -102,10 +102,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'minLastModifiedDateTime?: Date'
+      content: 'minLastModifiedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: names
     uid: '@azure-rest/agrifood-farming.CropsListQueryParamProperties.names'
     package: '@azure-rest/agrifood-farming'
@@ -115,10 +115,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'names?: string[]'
+      content: 'names?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: phenotypes
     uid: '@azure-rest/agrifood-farming.CropsListQueryParamProperties.phenotypes'
     package: '@azure-rest/agrifood-farming'
@@ -128,25 +128,25 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'phenotypes?: string[]'
+      content: 'phenotypes?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: propertyFilters
     uid: '@azure-rest/agrifood-farming.CropsListQueryParamProperties.propertyFilters'
     package: '@azure-rest/agrifood-farming'
     summary: |-
       Filters on key-value pairs within the Properties object.
-      eg. "\{testKey\} eq \{testValue\}".
+      eg. "{testKey} eq {testValue}".
     fullName: propertyFilters
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'propertyFilters?: string[]'
+      content: 'propertyFilters?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: statuses
     uid: '@azure-rest/agrifood-farming.CropsListQueryParamProperties.statuses'
     package: '@azure-rest/agrifood-farming'
@@ -156,7 +156,7 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'statuses?: string[]'
+      content: 'statuses?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;

@@ -19,10 +19,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'body: SatelliteDataIngestionJob'
+      content: 'body: SatelliteDataIngestionJobOutput'
       return:
         description: ''
-        type: <xref uid="@azure-rest/agrifood-farming.SatelliteDataIngestionJob" />
+        type: >-
+          <xref
+          uid="@azure-rest/agrifood-farming.SatelliteDataIngestionJobOutput" />
   - name: headers
     uid: >-
       @azure-rest/agrifood-farming.ScenesCreateSatelliteDataIngestionJob202Response.headers

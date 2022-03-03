@@ -8,5 +8,6 @@ remarks: ''
 isPreview: false
 isDeprecated: false
 syntax: >-
-  type ScenesCreateSatelliteDataIngestionJobParameters = RequestParameters &
-  ScenesCreateSatelliteDataIngestionJobBodyParam
+  type ScenesCreateSatelliteDataIngestionJobParameters =
+  ScenesCreateSatelliteDataIngestionJobMediaTypesParam &
+  ScenesCreateSatelliteDataIngestionJobBodyParam & RequestParameters

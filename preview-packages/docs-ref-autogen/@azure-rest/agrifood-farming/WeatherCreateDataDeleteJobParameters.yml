@@ -8,5 +8,6 @@ remarks: ''
 isPreview: false
 isDeprecated: false
 syntax: >-
-  type WeatherCreateDataDeleteJobParameters = RequestParameters &
-  WeatherCreateDataDeleteJobBodyParam
+  type WeatherCreateDataDeleteJobParameters =
+  WeatherCreateDataDeleteJobMediaTypesParam &
+  WeatherCreateDataDeleteJobBodyParam & RequestParameters

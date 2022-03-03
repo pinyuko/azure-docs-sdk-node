@@ -18,10 +18,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'body: WeatherDataListResponse'
+      content: 'body: WeatherDataListResponseOutput'
       return:
         description: ''
-        type: <xref uid="@azure-rest/agrifood-farming.WeatherDataListResponse" />
+        type: >-
+          <xref uid="@azure-rest/agrifood-farming.WeatherDataListResponseOutput"
+          />
   - name: headers
     uid: '@azure-rest/agrifood-farming.WeatherList200Response.headers'
     package: '@azure-rest/agrifood-farming'

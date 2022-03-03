@@ -8,5 +8,6 @@ remarks: ''
 isPreview: false
 isDeprecated: false
 syntax: >-
-  type OAuthTokensGetOAuthConnectionLinkParameters = RequestParameters &
-  OAuthTokensGetOAuthConnectionLinkBodyParam
+  type OAuthTokensGetOAuthConnectionLinkParameters =
+  OAuthTokensGetOAuthConnectionLinkMediaTypesParam &
+  OAuthTokensGetOAuthConnectionLinkBodyParam & RequestParameters

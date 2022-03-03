@@ -18,10 +18,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'body: AttachmentListResponse'
+      content: 'body: AttachmentListResponseOutput'
       return:
         description: ''
-        type: <xref uid="@azure-rest/agrifood-farming.AttachmentListResponse" />
+        type: >-
+          <xref uid="@azure-rest/agrifood-farming.AttachmentListResponseOutput"
+          />
   - name: headers
     uid: '@azure-rest/agrifood-farming.AttachmentsListByFarmerId200Response.headers'
     package: '@azure-rest/agrifood-farming'

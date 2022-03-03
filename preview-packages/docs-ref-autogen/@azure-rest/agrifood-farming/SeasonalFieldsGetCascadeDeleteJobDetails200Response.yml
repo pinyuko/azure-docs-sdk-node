@@ -20,10 +20,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'body: CascadeDeleteJob'
+      content: 'body: CascadeDeleteJobOutput'
       return:
         description: ''
-        type: <xref uid="@azure-rest/agrifood-farming.CascadeDeleteJob" />
+        type: <xref uid="@azure-rest/agrifood-farming.CascadeDeleteJobOutput" />
   - name: headers
     uid: >-
       @azure-rest/agrifood-farming.SeasonalFieldsGetCascadeDeleteJobDetails200Response.headers

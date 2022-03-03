@@ -49,10 +49,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'authProviderIds?: string[]'
+      content: 'authProviderIds?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: farmerIds
     uid: '@azure-rest/agrifood-farming.OAuthTokensListQueryParamProperties.farmerIds'
     package: '@azure-rest/agrifood-farming'
@@ -62,10 +62,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'farmerIds?: string[]'
+      content: 'farmerIds?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: isValid
     uid: '@azure-rest/agrifood-farming.OAuthTokensListQueryParamProperties.isValid'
     package: '@azure-rest/agrifood-farming'
@@ -89,10 +89,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'maxCreatedDateTime?: Date'
+      content: 'maxCreatedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: maxLastModifiedDateTime
     uid: >-
       @azure-rest/agrifood-farming.OAuthTokensListQueryParamProperties.maxLastModifiedDateTime
@@ -103,10 +103,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'maxLastModifiedDateTime?: Date'
+      content: 'maxLastModifiedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: minCreatedDateTime
     uid: >-
       @azure-rest/agrifood-farming.OAuthTokensListQueryParamProperties.minCreatedDateTime
@@ -117,10 +117,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'minCreatedDateTime?: Date'
+      content: 'minCreatedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: minLastModifiedDateTime
     uid: >-
       @azure-rest/agrifood-farming.OAuthTokensListQueryParamProperties.minLastModifiedDateTime
@@ -131,7 +131,7 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'minLastModifiedDateTime?: Date'
+      content: 'minLastModifiedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string

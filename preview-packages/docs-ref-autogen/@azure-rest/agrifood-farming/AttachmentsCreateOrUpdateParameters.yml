@@ -8,5 +8,6 @@ remarks: ''
 isPreview: false
 isDeprecated: false
 syntax: >-
-  type AttachmentsCreateOrUpdateParameters = RequestParameters &
-  AttachmentsCreateOrUpdateBodyParam
+  type AttachmentsCreateOrUpdateParameters =
+  AttachmentsCreateOrUpdateMediaTypesParam & AttachmentsCreateOrUpdateBodyParam
+  & RequestParameters

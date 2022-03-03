@@ -18,7 +18,7 @@ methods:
     isDeprecated: false
     syntax:
       content: >-
-        function get(options?: BoundariesGetOverlapParameters):
+        function get(options: BoundariesGetOverlapParameters):
         Promise<BoundariesGetOverlap200Response |
         BoundariesGetOverlapdefaultResponse>
       parameters:

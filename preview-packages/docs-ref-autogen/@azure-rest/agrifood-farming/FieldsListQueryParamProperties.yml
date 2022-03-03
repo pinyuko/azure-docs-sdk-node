@@ -46,10 +46,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'farmIds?: string[]'
+      content: 'farmIds?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: ids
     uid: '@azure-rest/agrifood-farming.FieldsListQueryParamProperties.ids'
     package: '@azure-rest/agrifood-farming'
@@ -59,10 +59,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'ids?: string[]'
+      content: 'ids?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: maxCreatedDateTime
     uid: >-
       @azure-rest/agrifood-farming.FieldsListQueryParamProperties.maxCreatedDateTime
@@ -73,10 +73,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'maxCreatedDateTime?: Date'
+      content: 'maxCreatedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: maxLastModifiedDateTime
     uid: >-
       @azure-rest/agrifood-farming.FieldsListQueryParamProperties.maxLastModifiedDateTime
@@ -87,10 +87,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'maxLastModifiedDateTime?: Date'
+      content: 'maxLastModifiedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: minCreatedDateTime
     uid: >-
       @azure-rest/agrifood-farming.FieldsListQueryParamProperties.minCreatedDateTime
@@ -101,10 +101,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'minCreatedDateTime?: Date'
+      content: 'minCreatedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: minLastModifiedDateTime
     uid: >-
       @azure-rest/agrifood-farming.FieldsListQueryParamProperties.minLastModifiedDateTime
@@ -115,10 +115,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'minLastModifiedDateTime?: Date'
+      content: 'minLastModifiedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: names
     uid: '@azure-rest/agrifood-farming.FieldsListQueryParamProperties.names'
     package: '@azure-rest/agrifood-farming'
@@ -128,26 +128,26 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'names?: string[]'
+      content: 'names?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: propertyFilters
     uid: >-
       @azure-rest/agrifood-farming.FieldsListQueryParamProperties.propertyFilters
     package: '@azure-rest/agrifood-farming'
     summary: |-
       Filters on key-value pairs within the Properties object.
-      eg. "\{testKey\} eq \{testValue\}".
+      eg. "{testKey} eq {testValue}".
     fullName: propertyFilters
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'propertyFilters?: string[]'
+      content: 'propertyFilters?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: statuses
     uid: '@azure-rest/agrifood-farming.FieldsListQueryParamProperties.statuses'
     package: '@azure-rest/agrifood-farming'
@@ -157,7 +157,7 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'statuses?: string[]'
+      content: 'statuses?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;

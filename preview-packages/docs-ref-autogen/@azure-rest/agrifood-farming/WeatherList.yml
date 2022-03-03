@@ -18,7 +18,7 @@ methods:
     isDeprecated: false
     syntax:
       content: >-
-        function get(options?: WeatherListParameters):
+        function get(options: WeatherListParameters):
         Promise<WeatherList200Response | WeatherListdefaultResponse>
       parameters:
         - id: options

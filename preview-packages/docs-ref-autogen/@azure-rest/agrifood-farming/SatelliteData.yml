@@ -18,10 +18,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'imageFormats?: string[]'
+      content: 'imageFormats?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: imageNames
     uid: '@azure-rest/agrifood-farming.SatelliteData.imageNames'
     package: '@azure-rest/agrifood-farming'
@@ -31,10 +31,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'imageNames?: string[]'
+      content: 'imageNames?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: imageResolutions
     uid: '@azure-rest/agrifood-farming.SatelliteData.imageResolutions'
     package: '@azure-rest/agrifood-farming'
@@ -44,7 +44,7 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'imageResolutions?: number[]'
+      content: 'imageResolutions?: Array<number>'
       return:
         description: ''
-        type: 'number[]'
+        type: Array&lt;number&gt;

@@ -18,10 +18,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'applicationProductDetails?: ApplicationProductDetail[]'
+      content: 'applicationProductDetails?: Array<ApplicationProductDetail>'
       return:
         description: ''
-        type: '<xref uid="@azure-rest/agrifood-farming.ApplicationProductDetail" />[]'
+        type: >-
+          Array&lt;<xref
+          uid="@azure-rest/agrifood-farming.ApplicationProductDetail" />&gt;
   - name: area
     uid: '@azure-rest/agrifood-farming.ApplicationData.area'
     package: '@azure-rest/agrifood-farming'
@@ -83,10 +85,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'createdDateTime?: Date'
+      content: 'createdDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: description
     uid: '@azure-rest/agrifood-farming.ApplicationData.description'
     package: '@azure-rest/agrifood-farming'
@@ -150,10 +152,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'modifiedDateTime?: Date'
+      content: 'modifiedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: name
     uid: '@azure-rest/agrifood-farming.ApplicationData.name'
     package: '@azure-rest/agrifood-farming'
@@ -191,10 +193,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'operationEndDateTime?: Date'
+      content: 'operationEndDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: operationModifiedDateTime
     uid: '@azure-rest/agrifood-farming.ApplicationData.operationModifiedDateTime'
     package: '@azure-rest/agrifood-farming'
@@ -208,10 +210,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'operationModifiedDateTime?: Date'
+      content: 'operationModifiedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: operationStartDateTime
     uid: '@azure-rest/agrifood-farming.ApplicationData.operationStartDateTime'
     package: '@azure-rest/agrifood-farming'
@@ -223,10 +225,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'operationStartDateTime?: Date'
+      content: 'operationStartDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: properties
     uid: '@azure-rest/agrifood-farming.ApplicationData.properties'
     package: '@azure-rest/agrifood-farming'
@@ -244,13 +246,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'properties?: ApplicationDataPropertiesDictionary'
+      content: 'properties?: Record<string, any>'
       return:
         description: ''
-        type: >-
-          <xref
-          uid="@azure-rest/agrifood-farming.ApplicationDataPropertiesDictionary"
-          />
+        type: 'Record&lt;string, any&gt;'
   - name: source
     uid: '@azure-rest/agrifood-farming.ApplicationData.source'
     package: '@azure-rest/agrifood-farming'

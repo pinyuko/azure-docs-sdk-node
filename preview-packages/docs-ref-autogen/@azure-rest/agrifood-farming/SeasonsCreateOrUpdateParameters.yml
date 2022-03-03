@@ -8,5 +8,5 @@ remarks: ''
 isPreview: false
 isDeprecated: false
 syntax: >-
-  type SeasonsCreateOrUpdateParameters = RequestParameters &
-  SeasonsCreateOrUpdateBodyParam
+  type SeasonsCreateOrUpdateParameters = SeasonsCreateOrUpdateMediaTypesParam &
+  SeasonsCreateOrUpdateBodyParam & RequestParameters

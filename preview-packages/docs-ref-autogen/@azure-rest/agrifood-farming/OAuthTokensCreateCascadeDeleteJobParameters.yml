@@ -8,5 +8,5 @@ remarks: ''
 isPreview: false
 isDeprecated: false
 syntax: >-
-  type OAuthTokensCreateCascadeDeleteJobParameters = RequestParameters &
-  OAuthTokensCreateCascadeDeleteJobQueryParam
+  type OAuthTokensCreateCascadeDeleteJobParameters =
+  OAuthTokensCreateCascadeDeleteJobQueryParam & RequestParameters

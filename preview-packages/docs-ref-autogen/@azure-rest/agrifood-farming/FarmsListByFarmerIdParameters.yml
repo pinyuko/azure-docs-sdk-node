@@ -8,5 +8,5 @@ remarks: ''
 isPreview: false
 isDeprecated: false
 syntax: >-
-  type FarmsListByFarmerIdParameters = RequestParameters &
-  FarmsListByFarmerIdQueryParam
+  type FarmsListByFarmerIdParameters = FarmsListByFarmerIdQueryParam &
+  RequestParameters

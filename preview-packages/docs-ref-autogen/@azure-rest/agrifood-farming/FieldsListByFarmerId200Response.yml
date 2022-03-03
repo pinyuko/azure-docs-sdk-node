@@ -18,10 +18,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'body: FieldListResponse'
+      content: 'body: FieldListResponseOutput'
       return:
         description: ''
-        type: <xref uid="@azure-rest/agrifood-farming.FieldListResponse" />
+        type: <xref uid="@azure-rest/agrifood-farming.FieldListResponseOutput" />
   - name: headers
     uid: '@azure-rest/agrifood-farming.FieldsListByFarmerId200Response.headers'
     package: '@azure-rest/agrifood-farming'

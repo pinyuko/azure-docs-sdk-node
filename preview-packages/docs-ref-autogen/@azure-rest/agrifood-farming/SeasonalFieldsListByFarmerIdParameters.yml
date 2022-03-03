@@ -8,5 +8,5 @@ remarks: ''
 isPreview: false
 isDeprecated: false
 syntax: >-
-  type SeasonalFieldsListByFarmerIdParameters = RequestParameters &
-  SeasonalFieldsListByFarmerIdQueryParam
+  type SeasonalFieldsListByFarmerIdParameters =
+  SeasonalFieldsListByFarmerIdQueryParam & RequestParameters

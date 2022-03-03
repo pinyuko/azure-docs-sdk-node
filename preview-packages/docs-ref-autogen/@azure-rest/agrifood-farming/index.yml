@@ -8,10 +8,11 @@ interfaces:
   - '@azure-rest/agrifood-farming.ApplicationDataCreateOrUpdate200Response'
   - '@azure-rest/agrifood-farming.ApplicationDataCreateOrUpdate201Response'
   - '@azure-rest/agrifood-farming.ApplicationDataCreateOrUpdateBodyParam'
+  - '@azure-rest/agrifood-farming.ApplicationDataCreateOrUpdateMediaTypesParam'
   - '@azure-rest/agrifood-farming.ApplicationDataCreateOrUpdatedefaultResponse'
-  - '@azure-rest/agrifood-farming.ApplicationDataDelete'
   - '@azure-rest/agrifood-farming.ApplicationDataDelete204Response'
   - '@azure-rest/agrifood-farming.ApplicationDataDeletedefaultResponse'
+  - '@azure-rest/agrifood-farming.ApplicationDataGet'
   - '@azure-rest/agrifood-farming.ApplicationDataGet200Response'
   - '@azure-rest/agrifood-farming.ApplicationDataGetdefaultResponse'
   - '@azure-rest/agrifood-farming.ApplicationDataList'
@@ -24,21 +25,24 @@ interfaces:
   - '@azure-rest/agrifood-farming.ApplicationDataListByFarmerIddefaultResponse'
   - '@azure-rest/agrifood-farming.ApplicationDataListQueryParam'
   - '@azure-rest/agrifood-farming.ApplicationDataListQueryParamProperties'
-  - '@azure-rest/agrifood-farming.ApplicationDataListResponse'
+  - '@azure-rest/agrifood-farming.ApplicationDataListResponseOutput'
   - '@azure-rest/agrifood-farming.ApplicationDataListdefaultResponse'
+  - '@azure-rest/agrifood-farming.ApplicationDataOutput'
   - '@azure-rest/agrifood-farming.ApplicationProductDetail'
-  - '@azure-rest/agrifood-farming.Attachment'
-  - '@azure-rest/agrifood-farming.AttachmentListResponse'
+  - '@azure-rest/agrifood-farming.ApplicationProductDetailOutput'
+  - '@azure-rest/agrifood-farming.AttachmentListResponseOutput'
+  - '@azure-rest/agrifood-farming.AttachmentOutput'
   - '@azure-rest/agrifood-farming.AttachmentsCreateOrUpdate200Response'
   - '@azure-rest/agrifood-farming.AttachmentsCreateOrUpdate201Response'
   - '@azure-rest/agrifood-farming.AttachmentsCreateOrUpdateBodyParam'
+  - '@azure-rest/agrifood-farming.AttachmentsCreateOrUpdateMediaTypesParam'
   - '@azure-rest/agrifood-farming.AttachmentsCreateOrUpdatedefaultResponse'
-  - '@azure-rest/agrifood-farming.AttachmentsDelete'
   - '@azure-rest/agrifood-farming.AttachmentsDelete204Response'
   - '@azure-rest/agrifood-farming.AttachmentsDeletedefaultResponse'
   - '@azure-rest/agrifood-farming.AttachmentsDownload'
   - '@azure-rest/agrifood-farming.AttachmentsDownload200Response'
   - '@azure-rest/agrifood-farming.AttachmentsDownloaddefaultResponse'
+  - '@azure-rest/agrifood-farming.AttachmentsGet'
   - '@azure-rest/agrifood-farming.AttachmentsGet200Response'
   - '@azure-rest/agrifood-farming.AttachmentsGetdefaultResponse'
   - '@azure-rest/agrifood-farming.AttachmentsListByFarmerId'
@@ -46,7 +50,6 @@ interfaces:
   - '@azure-rest/agrifood-farming.AttachmentsListByFarmerIdQueryParam'
   - '@azure-rest/agrifood-farming.AttachmentsListByFarmerIdQueryParamProperties'
   - '@azure-rest/agrifood-farming.AttachmentsListByFarmerIddefaultResponse'
-  - '@azure-rest/agrifood-farming.BoundariesCreateCascadeDeleteJob'
   - '@azure-rest/agrifood-farming.BoundariesCreateCascadeDeleteJob202Response'
   - '@azure-rest/agrifood-farming.BoundariesCreateCascadeDeleteJobQueryParam'
   - >-
@@ -55,11 +58,13 @@ interfaces:
   - '@azure-rest/agrifood-farming.BoundariesCreateOrUpdate200Response'
   - '@azure-rest/agrifood-farming.BoundariesCreateOrUpdate201Response'
   - '@azure-rest/agrifood-farming.BoundariesCreateOrUpdateBodyParam'
+  - '@azure-rest/agrifood-farming.BoundariesCreateOrUpdateMediaTypesParam'
   - '@azure-rest/agrifood-farming.BoundariesCreateOrUpdatedefaultResponse'
-  - '@azure-rest/agrifood-farming.BoundariesDelete'
   - '@azure-rest/agrifood-farming.BoundariesDelete204Response'
   - '@azure-rest/agrifood-farming.BoundariesDeletedefaultResponse'
+  - '@azure-rest/agrifood-farming.BoundariesGet'
   - '@azure-rest/agrifood-farming.BoundariesGet200Response'
+  - '@azure-rest/agrifood-farming.BoundariesGetCascadeDeleteJobDetails'
   - '@azure-rest/agrifood-farming.BoundariesGetCascadeDeleteJobDetails200Response'
   - >-
     @azure-rest/agrifood-farming.BoundariesGetCascadeDeleteJobDetailsdefaultResponse
@@ -69,7 +74,9 @@ interfaces:
   - '@azure-rest/agrifood-farming.BoundariesGetOverlapQueryParamProperties'
   - '@azure-rest/agrifood-farming.BoundariesGetOverlapdefaultResponse'
   - '@azure-rest/agrifood-farming.BoundariesGetdefaultResponse'
+  - '@azure-rest/agrifood-farming.BoundariesList'
   - '@azure-rest/agrifood-farming.BoundariesList200Response'
+  - '@azure-rest/agrifood-farming.BoundariesListByFarmerId'
   - '@azure-rest/agrifood-farming.BoundariesListByFarmerId200Response'
   - '@azure-rest/agrifood-farming.BoundariesListByFarmerIdQueryParam'
   - '@azure-rest/agrifood-farming.BoundariesListByFarmerIdQueryParamProperties'
@@ -77,27 +84,30 @@ interfaces:
   - '@azure-rest/agrifood-farming.BoundariesListQueryParam'
   - '@azure-rest/agrifood-farming.BoundariesListQueryParamProperties'
   - '@azure-rest/agrifood-farming.BoundariesListdefaultResponse'
-  - '@azure-rest/agrifood-farming.BoundariesSearch'
   - '@azure-rest/agrifood-farming.BoundariesSearch200Response'
   - '@azure-rest/agrifood-farming.BoundariesSearchBodyParam'
-  - '@azure-rest/agrifood-farming.BoundariesSearchByFarmerId'
   - '@azure-rest/agrifood-farming.BoundariesSearchByFarmerId200Response'
   - '@azure-rest/agrifood-farming.BoundariesSearchByFarmerIdBodyParam'
+  - '@azure-rest/agrifood-farming.BoundariesSearchByFarmerIdMediaTypesParam'
   - '@azure-rest/agrifood-farming.BoundariesSearchByFarmerIddefaultResponse'
+  - '@azure-rest/agrifood-farming.BoundariesSearchMediaTypesParam'
   - '@azure-rest/agrifood-farming.BoundariesSearchdefaultResponse'
   - '@azure-rest/agrifood-farming.Boundary'
-  - '@azure-rest/agrifood-farming.BoundaryListResponse'
-  - '@azure-rest/agrifood-farming.BoundaryOverlapResponse'
-  - '@azure-rest/agrifood-farming.CascadeDeleteJob'
+  - '@azure-rest/agrifood-farming.BoundaryListResponseOutput'
+  - '@azure-rest/agrifood-farming.BoundaryOutput'
+  - '@azure-rest/agrifood-farming.BoundaryOverlapResponseOutput'
+  - '@azure-rest/agrifood-farming.CascadeDeleteJobOutput'
   - '@azure-rest/agrifood-farming.Crop'
-  - '@azure-rest/agrifood-farming.CropListResponse'
+  - '@azure-rest/agrifood-farming.CropListResponseOutput'
+  - '@azure-rest/agrifood-farming.CropOutput'
   - '@azure-rest/agrifood-farming.CropVarietiesCreateOrUpdate200Response'
   - '@azure-rest/agrifood-farming.CropVarietiesCreateOrUpdate201Response'
   - '@azure-rest/agrifood-farming.CropVarietiesCreateOrUpdateBodyParam'
+  - '@azure-rest/agrifood-farming.CropVarietiesCreateOrUpdateMediaTypesParam'
   - '@azure-rest/agrifood-farming.CropVarietiesCreateOrUpdatedefaultResponse'
-  - '@azure-rest/agrifood-farming.CropVarietiesDelete'
   - '@azure-rest/agrifood-farming.CropVarietiesDelete204Response'
   - '@azure-rest/agrifood-farming.CropVarietiesDeletedefaultResponse'
+  - '@azure-rest/agrifood-farming.CropVarietiesGet'
   - '@azure-rest/agrifood-farming.CropVarietiesGet200Response'
   - '@azure-rest/agrifood-farming.CropVarietiesGetdefaultResponse'
   - '@azure-rest/agrifood-farming.CropVarietiesList'
@@ -111,14 +121,16 @@ interfaces:
   - '@azure-rest/agrifood-farming.CropVarietiesListQueryParamProperties'
   - '@azure-rest/agrifood-farming.CropVarietiesListdefaultResponse'
   - '@azure-rest/agrifood-farming.CropVariety'
-  - '@azure-rest/agrifood-farming.CropVarietyListResponse'
+  - '@azure-rest/agrifood-farming.CropVarietyListResponseOutput'
+  - '@azure-rest/agrifood-farming.CropVarietyOutput'
   - '@azure-rest/agrifood-farming.CropsCreateOrUpdate200Response'
   - '@azure-rest/agrifood-farming.CropsCreateOrUpdate201Response'
   - '@azure-rest/agrifood-farming.CropsCreateOrUpdateBodyParam'
+  - '@azure-rest/agrifood-farming.CropsCreateOrUpdateMediaTypesParam'
   - '@azure-rest/agrifood-farming.CropsCreateOrUpdatedefaultResponse'
-  - '@azure-rest/agrifood-farming.CropsDelete'
   - '@azure-rest/agrifood-farming.CropsDelete204Response'
   - '@azure-rest/agrifood-farming.CropsDeletedefaultResponse'
+  - '@azure-rest/agrifood-farming.CropsGet'
   - '@azure-rest/agrifood-farming.CropsGet200Response'
   - '@azure-rest/agrifood-farming.CropsGetdefaultResponse'
   - '@azure-rest/agrifood-farming.CropsList'
@@ -126,23 +138,27 @@ interfaces:
   - '@azure-rest/agrifood-farming.CropsListQueryParam'
   - '@azure-rest/agrifood-farming.CropsListQueryParamProperties'
   - '@azure-rest/agrifood-farming.CropsListdefaultResponse'
-  - '@azure-rest/agrifood-farming.ErrorResponse'
-  - '@azure-rest/agrifood-farming.Error_2'
+  - '@azure-rest/agrifood-farming.ErrorModelOutput'
+  - '@azure-rest/agrifood-farming.ErrorResponseOutput'
   - '@azure-rest/agrifood-farming.Farm'
-  - '@azure-rest/agrifood-farming.FarmListResponse'
+  - '@azure-rest/agrifood-farming.FarmListResponseOutput'
   - '@azure-rest/agrifood-farming.FarmOperationDataIngestionJob'
+  - '@azure-rest/agrifood-farming.FarmOperationDataIngestionJobOutput'
+  - '@azure-rest/agrifood-farming.FarmOperationsCreateDataIngestionJob'
   - '@azure-rest/agrifood-farming.FarmOperationsCreateDataIngestionJob202Response'
   - '@azure-rest/agrifood-farming.FarmOperationsCreateDataIngestionJobBodyParam'
   - >-
+    @azure-rest/agrifood-farming.FarmOperationsCreateDataIngestionJobMediaTypesParam
+  - >-
     @azure-rest/agrifood-farming.FarmOperationsCreateDataIngestionJobdefaultResponse
-  - '@azure-rest/agrifood-farming.FarmOperationsGetDataIngestionJobDetails'
   - >-
     @azure-rest/agrifood-farming.FarmOperationsGetDataIngestionJobDetails200Response
   - >-
     @azure-rest/agrifood-farming.FarmOperationsGetDataIngestionJobDetailsdefaultResponse
+  - '@azure-rest/agrifood-farming.FarmOutput'
   - '@azure-rest/agrifood-farming.Farmer'
-  - '@azure-rest/agrifood-farming.FarmerListResponse'
-  - '@azure-rest/agrifood-farming.FarmersCreateCascadeDeleteJob'
+  - '@azure-rest/agrifood-farming.FarmerListResponseOutput'
+  - '@azure-rest/agrifood-farming.FarmerOutput'
   - '@azure-rest/agrifood-farming.FarmersCreateCascadeDeleteJob202Response'
   - '@azure-rest/agrifood-farming.FarmersCreateCascadeDeleteJobQueryParam'
   - >-
@@ -151,11 +167,13 @@ interfaces:
   - '@azure-rest/agrifood-farming.FarmersCreateOrUpdate200Response'
   - '@azure-rest/agrifood-farming.FarmersCreateOrUpdate201Response'
   - '@azure-rest/agrifood-farming.FarmersCreateOrUpdateBodyParam'
+  - '@azure-rest/agrifood-farming.FarmersCreateOrUpdateMediaTypesParam'
   - '@azure-rest/agrifood-farming.FarmersCreateOrUpdatedefaultResponse'
-  - '@azure-rest/agrifood-farming.FarmersDelete'
   - '@azure-rest/agrifood-farming.FarmersDelete204Response'
   - '@azure-rest/agrifood-farming.FarmersDeletedefaultResponse'
+  - '@azure-rest/agrifood-farming.FarmersGet'
   - '@azure-rest/agrifood-farming.FarmersGet200Response'
+  - '@azure-rest/agrifood-farming.FarmersGetCascadeDeleteJobDetails'
   - '@azure-rest/agrifood-farming.FarmersGetCascadeDeleteJobDetails200Response'
   - >-
     @azure-rest/agrifood-farming.FarmersGetCascadeDeleteJobDetailsdefaultResponse
@@ -165,7 +183,6 @@ interfaces:
   - '@azure-rest/agrifood-farming.FarmersListQueryParam'
   - '@azure-rest/agrifood-farming.FarmersListQueryParamProperties'
   - '@azure-rest/agrifood-farming.FarmersListdefaultResponse'
-  - '@azure-rest/agrifood-farming.FarmsCreateCascadeDeleteJob'
   - '@azure-rest/agrifood-farming.FarmsCreateCascadeDeleteJob202Response'
   - '@azure-rest/agrifood-farming.FarmsCreateCascadeDeleteJobQueryParam'
   - '@azure-rest/agrifood-farming.FarmsCreateCascadeDeleteJobQueryParamProperties'
@@ -173,11 +190,13 @@ interfaces:
   - '@azure-rest/agrifood-farming.FarmsCreateOrUpdate200Response'
   - '@azure-rest/agrifood-farming.FarmsCreateOrUpdate201Response'
   - '@azure-rest/agrifood-farming.FarmsCreateOrUpdateBodyParam'
+  - '@azure-rest/agrifood-farming.FarmsCreateOrUpdateMediaTypesParam'
   - '@azure-rest/agrifood-farming.FarmsCreateOrUpdatedefaultResponse'
-  - '@azure-rest/agrifood-farming.FarmsDelete'
   - '@azure-rest/agrifood-farming.FarmsDelete204Response'
   - '@azure-rest/agrifood-farming.FarmsDeletedefaultResponse'
+  - '@azure-rest/agrifood-farming.FarmsGet'
   - '@azure-rest/agrifood-farming.FarmsGet200Response'
+  - '@azure-rest/agrifood-farming.FarmsGetCascadeDeleteJobDetails'
   - '@azure-rest/agrifood-farming.FarmsGetCascadeDeleteJobDetails200Response'
   - '@azure-rest/agrifood-farming.FarmsGetCascadeDeleteJobDetailsdefaultResponse'
   - '@azure-rest/agrifood-farming.FarmsGetdefaultResponse'
@@ -192,8 +211,8 @@ interfaces:
   - '@azure-rest/agrifood-farming.FarmsListQueryParamProperties'
   - '@azure-rest/agrifood-farming.FarmsListdefaultResponse'
   - '@azure-rest/agrifood-farming.Field'
-  - '@azure-rest/agrifood-farming.FieldListResponse'
-  - '@azure-rest/agrifood-farming.FieldsCreateCascadeDeleteJob'
+  - '@azure-rest/agrifood-farming.FieldListResponseOutput'
+  - '@azure-rest/agrifood-farming.FieldOutput'
   - '@azure-rest/agrifood-farming.FieldsCreateCascadeDeleteJob202Response'
   - '@azure-rest/agrifood-farming.FieldsCreateCascadeDeleteJobQueryParam'
   - >-
@@ -202,11 +221,13 @@ interfaces:
   - '@azure-rest/agrifood-farming.FieldsCreateOrUpdate200Response'
   - '@azure-rest/agrifood-farming.FieldsCreateOrUpdate201Response'
   - '@azure-rest/agrifood-farming.FieldsCreateOrUpdateBodyParam'
+  - '@azure-rest/agrifood-farming.FieldsCreateOrUpdateMediaTypesParam'
   - '@azure-rest/agrifood-farming.FieldsCreateOrUpdatedefaultResponse'
-  - '@azure-rest/agrifood-farming.FieldsDelete'
   - '@azure-rest/agrifood-farming.FieldsDelete204Response'
   - '@azure-rest/agrifood-farming.FieldsDeletedefaultResponse'
+  - '@azure-rest/agrifood-farming.FieldsGet'
   - '@azure-rest/agrifood-farming.FieldsGet200Response'
+  - '@azure-rest/agrifood-farming.FieldsGetCascadeDeleteJobDetails'
   - '@azure-rest/agrifood-farming.FieldsGetCascadeDeleteJobDetails200Response'
   - '@azure-rest/agrifood-farming.FieldsGetCascadeDeleteJobDetailsdefaultResponse'
   - '@azure-rest/agrifood-farming.FieldsGetdefaultResponse'
@@ -220,14 +241,17 @@ interfaces:
   - '@azure-rest/agrifood-farming.FieldsListQueryParam'
   - '@azure-rest/agrifood-farming.FieldsListQueryParamProperties'
   - '@azure-rest/agrifood-farming.FieldsListdefaultResponse'
+  - '@azure-rest/agrifood-farming.GeoJsonObjectBase'
+  - '@azure-rest/agrifood-farming.GeoJsonObjectOutputBase'
   - '@azure-rest/agrifood-farming.HarvestData'
   - '@azure-rest/agrifood-farming.HarvestDataCreateOrUpdate200Response'
   - '@azure-rest/agrifood-farming.HarvestDataCreateOrUpdate201Response'
   - '@azure-rest/agrifood-farming.HarvestDataCreateOrUpdateBodyParam'
+  - '@azure-rest/agrifood-farming.HarvestDataCreateOrUpdateMediaTypesParam'
   - '@azure-rest/agrifood-farming.HarvestDataCreateOrUpdatedefaultResponse'
-  - '@azure-rest/agrifood-farming.HarvestDataDelete'
   - '@azure-rest/agrifood-farming.HarvestDataDelete204Response'
   - '@azure-rest/agrifood-farming.HarvestDataDeletedefaultResponse'
+  - '@azure-rest/agrifood-farming.HarvestDataGet'
   - '@azure-rest/agrifood-farming.HarvestDataGet200Response'
   - '@azure-rest/agrifood-farming.HarvestDataGetdefaultResponse'
   - '@azure-rest/agrifood-farming.HarvestDataList'
@@ -239,32 +263,42 @@ interfaces:
   - '@azure-rest/agrifood-farming.HarvestDataListByFarmerIddefaultResponse'
   - '@azure-rest/agrifood-farming.HarvestDataListQueryParam'
   - '@azure-rest/agrifood-farming.HarvestDataListQueryParamProperties'
-  - '@azure-rest/agrifood-farming.HarvestDataListResponse'
+  - '@azure-rest/agrifood-farming.HarvestDataListResponseOutput'
   - '@azure-rest/agrifood-farming.HarvestDataListdefaultResponse'
+  - '@azure-rest/agrifood-farming.HarvestDataOutput'
   - '@azure-rest/agrifood-farming.HarvestProductDetail'
-  - '@azure-rest/agrifood-farming.ImageFile'
+  - '@azure-rest/agrifood-farming.HarvestProductDetailOutput'
+  - '@azure-rest/agrifood-farming.ImageFileOutput'
+  - '@azure-rest/agrifood-farming.ImageProcessingCreateRasterizeJob'
   - '@azure-rest/agrifood-farming.ImageProcessingCreateRasterizeJob202Response'
   - '@azure-rest/agrifood-farming.ImageProcessingCreateRasterizeJobBodyParam'
   - >-
+    @azure-rest/agrifood-farming.ImageProcessingCreateRasterizeJobMediaTypesParam
+  - >-
     @azure-rest/agrifood-farming.ImageProcessingCreateRasterizeJobdefaultResponse
-  - '@azure-rest/agrifood-farming.ImageProcessingGetRasterizeJob'
   - '@azure-rest/agrifood-farming.ImageProcessingGetRasterizeJob200Response'
   - '@azure-rest/agrifood-farming.ImageProcessingRasterizeJob'
-  - '@azure-rest/agrifood-farming.InnerErrorBase'
-  - '@azure-rest/agrifood-farming.Location'
+  - '@azure-rest/agrifood-farming.ImageProcessingRasterizeJobOutput'
+  - '@azure-rest/agrifood-farming.InnerErrorOutput'
+  - '@azure-rest/agrifood-farming.LocationOutput'
   - '@azure-rest/agrifood-farming.Measure'
-  - '@azure-rest/agrifood-farming.MultiPolygonBase'
+  - '@azure-rest/agrifood-farming.MeasureOutput'
+  - '@azure-rest/agrifood-farming.MultiPolygon'
   - '@azure-rest/agrifood-farming.MultiPolygonCoordinates'
+  - '@azure-rest/agrifood-farming.MultiPolygonCoordinatesOutput'
+  - '@azure-rest/agrifood-farming.MultiPolygonOutput'
   - '@azure-rest/agrifood-farming.OAuthConnectRequest'
   - '@azure-rest/agrifood-farming.OAuthProvider'
-  - '@azure-rest/agrifood-farming.OAuthProviderListResponse'
+  - '@azure-rest/agrifood-farming.OAuthProviderListResponseOutput'
+  - '@azure-rest/agrifood-farming.OAuthProviderOutput'
   - '@azure-rest/agrifood-farming.OAuthProvidersCreateOrUpdate200Response'
   - '@azure-rest/agrifood-farming.OAuthProvidersCreateOrUpdate201Response'
   - '@azure-rest/agrifood-farming.OAuthProvidersCreateOrUpdateBodyParam'
+  - '@azure-rest/agrifood-farming.OAuthProvidersCreateOrUpdateMediaTypesParam'
   - '@azure-rest/agrifood-farming.OAuthProvidersCreateOrUpdatedefaultResponse'
-  - '@azure-rest/agrifood-farming.OAuthProvidersDelete'
   - '@azure-rest/agrifood-farming.OAuthProvidersDelete204Response'
   - '@azure-rest/agrifood-farming.OAuthProvidersDeletedefaultResponse'
+  - '@azure-rest/agrifood-farming.OAuthProvidersGet'
   - '@azure-rest/agrifood-farming.OAuthProvidersGet200Response'
   - '@azure-rest/agrifood-farming.OAuthProvidersGetdefaultResponse'
   - '@azure-rest/agrifood-farming.OAuthProvidersList'
@@ -272,15 +306,15 @@ interfaces:
   - '@azure-rest/agrifood-farming.OAuthProvidersListQueryParam'
   - '@azure-rest/agrifood-farming.OAuthProvidersListQueryParamProperties'
   - '@azure-rest/agrifood-farming.OAuthProvidersListdefaultResponse'
-  - '@azure-rest/agrifood-farming.OAuthToken'
-  - '@azure-rest/agrifood-farming.OAuthTokenListResponse'
-  - '@azure-rest/agrifood-farming.OAuthTokensCreateCascadeDeleteJob'
+  - '@azure-rest/agrifood-farming.OAuthTokenListResponseOutput'
+  - '@azure-rest/agrifood-farming.OAuthTokenOutput'
   - '@azure-rest/agrifood-farming.OAuthTokensCreateCascadeDeleteJob202Response'
   - '@azure-rest/agrifood-farming.OAuthTokensCreateCascadeDeleteJobQueryParam'
   - >-
     @azure-rest/agrifood-farming.OAuthTokensCreateCascadeDeleteJobQueryParamProperties
   - >-
     @azure-rest/agrifood-farming.OAuthTokensCreateCascadeDeleteJobdefaultResponse
+  - '@azure-rest/agrifood-farming.OAuthTokensGetCascadeDeleteJobDetails'
   - >-
     @azure-rest/agrifood-farming.OAuthTokensGetCascadeDeleteJobDetails200Response
   - >-
@@ -289,22 +323,24 @@ interfaces:
   - '@azure-rest/agrifood-farming.OAuthTokensGetOAuthConnectionLink200Response'
   - '@azure-rest/agrifood-farming.OAuthTokensGetOAuthConnectionLinkBodyParam'
   - >-
+    @azure-rest/agrifood-farming.OAuthTokensGetOAuthConnectionLinkMediaTypesParam
+  - >-
     @azure-rest/agrifood-farming.OAuthTokensGetOAuthConnectionLinkdefaultResponse
   - '@azure-rest/agrifood-farming.OAuthTokensList'
   - '@azure-rest/agrifood-farming.OAuthTokensList200Response'
   - '@azure-rest/agrifood-farming.OAuthTokensListQueryParam'
   - '@azure-rest/agrifood-farming.OAuthTokensListQueryParamProperties'
   - '@azure-rest/agrifood-farming.OAuthTokensListdefaultResponse'
-  - >-
-    @azure-rest/agrifood-farming.Paths1LxjoxzFarmersFarmeridAttachmentsAttachmentidPatchRequestbodyContentMultipartFormDataSchema
+  - '@azure-rest/agrifood-farming.PagingOptions'
   - '@azure-rest/agrifood-farming.PlantingData'
   - '@azure-rest/agrifood-farming.PlantingDataCreateOrUpdate200Response'
   - '@azure-rest/agrifood-farming.PlantingDataCreateOrUpdate201Response'
   - '@azure-rest/agrifood-farming.PlantingDataCreateOrUpdateBodyParam'
+  - '@azure-rest/agrifood-farming.PlantingDataCreateOrUpdateMediaTypesParam'
   - '@azure-rest/agrifood-farming.PlantingDataCreateOrUpdatedefaultResponse'
-  - '@azure-rest/agrifood-farming.PlantingDataDelete'
   - '@azure-rest/agrifood-farming.PlantingDataDelete204Response'
   - '@azure-rest/agrifood-farming.PlantingDataDeletedefaultResponse'
+  - '@azure-rest/agrifood-farming.PlantingDataGet'
   - '@azure-rest/agrifood-farming.PlantingDataGet200Response'
   - '@azure-rest/agrifood-farming.PlantingDataGetdefaultResponse'
   - '@azure-rest/agrifood-farming.PlantingDataList'
@@ -316,21 +352,32 @@ interfaces:
   - '@azure-rest/agrifood-farming.PlantingDataListByFarmerIddefaultResponse'
   - '@azure-rest/agrifood-farming.PlantingDataListQueryParam'
   - '@azure-rest/agrifood-farming.PlantingDataListQueryParamProperties'
-  - '@azure-rest/agrifood-farming.PlantingDataListResponse'
+  - '@azure-rest/agrifood-farming.PlantingDataListResponseOutput'
   - '@azure-rest/agrifood-farming.PlantingDataListdefaultResponse'
+  - '@azure-rest/agrifood-farming.PlantingDataOutput'
   - '@azure-rest/agrifood-farming.PlantingProductDetail'
-  - '@azure-rest/agrifood-farming.PointBase'
+  - '@azure-rest/agrifood-farming.PlantingProductDetailOutput'
+  - '@azure-rest/agrifood-farming.Point'
   - '@azure-rest/agrifood-farming.PointCoordinates'
-  - '@azure-rest/agrifood-farming.PolygonBase'
+  - '@azure-rest/agrifood-farming.PointCoordinatesOutput'
+  - '@azure-rest/agrifood-farming.PointOutput'
+  - '@azure-rest/agrifood-farming.Polygon'
   - '@azure-rest/agrifood-farming.PolygonCoordinates'
+  - '@azure-rest/agrifood-farming.PolygonCoordinatesOutput'
+  - '@azure-rest/agrifood-farming.PolygonOutput'
   - '@azure-rest/agrifood-farming.Routes'
   - '@azure-rest/agrifood-farming.SatelliteData'
   - '@azure-rest/agrifood-farming.SatelliteDataIngestionJob'
-  - '@azure-rest/agrifood-farming.Scene'
-  - '@azure-rest/agrifood-farming.SceneListResponse'
+  - '@azure-rest/agrifood-farming.SatelliteDataIngestionJobOutput'
+  - '@azure-rest/agrifood-farming.SatelliteDataOutput'
+  - '@azure-rest/agrifood-farming.SceneListResponseOutput'
+  - '@azure-rest/agrifood-farming.SceneOutput'
+  - '@azure-rest/agrifood-farming.ScenesCreateSatelliteDataIngestionJob'
   - >-
     @azure-rest/agrifood-farming.ScenesCreateSatelliteDataIngestionJob202Response
   - '@azure-rest/agrifood-farming.ScenesCreateSatelliteDataIngestionJobBodyParam'
+  - >-
+    @azure-rest/agrifood-farming.ScenesCreateSatelliteDataIngestionJobMediaTypesParam
   - >-
     @azure-rest/agrifood-farming.ScenesCreateSatelliteDataIngestionJobdefaultResponse
   - '@azure-rest/agrifood-farming.ScenesDownload'
@@ -338,7 +385,6 @@ interfaces:
   - '@azure-rest/agrifood-farming.ScenesDownloadQueryParam'
   - '@azure-rest/agrifood-farming.ScenesDownloadQueryParamProperties'
   - '@azure-rest/agrifood-farming.ScenesDownloaddefaultResponse'
-  - '@azure-rest/agrifood-farming.ScenesGetSatelliteDataIngestionJobDetails'
   - >-
     @azure-rest/agrifood-farming.ScenesGetSatelliteDataIngestionJobDetails200Response
   - >-
@@ -350,10 +396,11 @@ interfaces:
   - '@azure-rest/agrifood-farming.ScenesListdefaultResponse'
   - '@azure-rest/agrifood-farming.SearchBoundaryQuery'
   - '@azure-rest/agrifood-farming.Season'
-  - '@azure-rest/agrifood-farming.SeasonListResponse'
+  - '@azure-rest/agrifood-farming.SeasonListResponseOutput'
+  - '@azure-rest/agrifood-farming.SeasonOutput'
   - '@azure-rest/agrifood-farming.SeasonalField'
-  - '@azure-rest/agrifood-farming.SeasonalFieldListResponse'
-  - '@azure-rest/agrifood-farming.SeasonalFieldsCreateCascadeDeleteJob'
+  - '@azure-rest/agrifood-farming.SeasonalFieldListResponseOutput'
+  - '@azure-rest/agrifood-farming.SeasonalFieldOutput'
   - '@azure-rest/agrifood-farming.SeasonalFieldsCreateCascadeDeleteJob202Response'
   - '@azure-rest/agrifood-farming.SeasonalFieldsCreateCascadeDeleteJobQueryParam'
   - >-
@@ -363,11 +410,13 @@ interfaces:
   - '@azure-rest/agrifood-farming.SeasonalFieldsCreateOrUpdate200Response'
   - '@azure-rest/agrifood-farming.SeasonalFieldsCreateOrUpdate201Response'
   - '@azure-rest/agrifood-farming.SeasonalFieldsCreateOrUpdateBodyParam'
+  - '@azure-rest/agrifood-farming.SeasonalFieldsCreateOrUpdateMediaTypesParam'
   - '@azure-rest/agrifood-farming.SeasonalFieldsCreateOrUpdatedefaultResponse'
-  - '@azure-rest/agrifood-farming.SeasonalFieldsDelete'
   - '@azure-rest/agrifood-farming.SeasonalFieldsDelete204Response'
   - '@azure-rest/agrifood-farming.SeasonalFieldsDeletedefaultResponse'
+  - '@azure-rest/agrifood-farming.SeasonalFieldsGet'
   - '@azure-rest/agrifood-farming.SeasonalFieldsGet200Response'
+  - '@azure-rest/agrifood-farming.SeasonalFieldsGetCascadeDeleteJobDetails'
   - >-
     @azure-rest/agrifood-farming.SeasonalFieldsGetCascadeDeleteJobDetails200Response
   - >-
@@ -387,10 +436,11 @@ interfaces:
   - '@azure-rest/agrifood-farming.SeasonsCreateOrUpdate200Response'
   - '@azure-rest/agrifood-farming.SeasonsCreateOrUpdate201Response'
   - '@azure-rest/agrifood-farming.SeasonsCreateOrUpdateBodyParam'
+  - '@azure-rest/agrifood-farming.SeasonsCreateOrUpdateMediaTypesParam'
   - '@azure-rest/agrifood-farming.SeasonsCreateOrUpdatedefaultResponse'
-  - '@azure-rest/agrifood-farming.SeasonsDelete'
   - '@azure-rest/agrifood-farming.SeasonsDelete204Response'
   - '@azure-rest/agrifood-farming.SeasonsDeletedefaultResponse'
+  - '@azure-rest/agrifood-farming.SeasonsGet'
   - '@azure-rest/agrifood-farming.SeasonsGet200Response'
   - '@azure-rest/agrifood-farming.SeasonsGetdefaultResponse'
   - '@azure-rest/agrifood-farming.SeasonsList'
@@ -402,10 +452,11 @@ interfaces:
   - '@azure-rest/agrifood-farming.TillageDataCreateOrUpdate200Response'
   - '@azure-rest/agrifood-farming.TillageDataCreateOrUpdate201Response'
   - '@azure-rest/agrifood-farming.TillageDataCreateOrUpdateBodyParam'
+  - '@azure-rest/agrifood-farming.TillageDataCreateOrUpdateMediaTypesParam'
   - '@azure-rest/agrifood-farming.TillageDataCreateOrUpdatedefaultResponse'
-  - '@azure-rest/agrifood-farming.TillageDataDelete'
   - '@azure-rest/agrifood-farming.TillageDataDelete204Response'
   - '@azure-rest/agrifood-farming.TillageDataDeletedefaultResponse'
+  - '@azure-rest/agrifood-farming.TillageDataGet'
   - '@azure-rest/agrifood-farming.TillageDataGet200Response'
   - '@azure-rest/agrifood-farming.TillageDataGetdefaultResponse'
   - '@azure-rest/agrifood-farming.TillageDataList'
@@ -417,22 +468,27 @@ interfaces:
   - '@azure-rest/agrifood-farming.TillageDataListByFarmerIddefaultResponse'
   - '@azure-rest/agrifood-farming.TillageDataListQueryParam'
   - '@azure-rest/agrifood-farming.TillageDataListQueryParamProperties'
-  - '@azure-rest/agrifood-farming.TillageDataListResponse'
+  - '@azure-rest/agrifood-farming.TillageDataListResponseOutput'
   - '@azure-rest/agrifood-farming.TillageDataListdefaultResponse'
-  - '@azure-rest/agrifood-farming.WeatherCreateDataDeleteJob'
+  - '@azure-rest/agrifood-farming.TillageDataOutput'
   - '@azure-rest/agrifood-farming.WeatherCreateDataDeleteJob202Response'
   - '@azure-rest/agrifood-farming.WeatherCreateDataDeleteJobBodyParam'
+  - '@azure-rest/agrifood-farming.WeatherCreateDataDeleteJobMediaTypesParam'
   - '@azure-rest/agrifood-farming.WeatherCreateDataDeleteJobdefaultResponse'
-  - '@azure-rest/agrifood-farming.WeatherCreateDataIngestionJob'
   - '@azure-rest/agrifood-farming.WeatherCreateDataIngestionJob202Response'
   - '@azure-rest/agrifood-farming.WeatherCreateDataIngestionJobBodyParam'
+  - '@azure-rest/agrifood-farming.WeatherCreateDataIngestionJobMediaTypesParam'
   - '@azure-rest/agrifood-farming.WeatherCreateDataIngestionJobdefaultResponse'
-  - '@azure-rest/agrifood-farming.WeatherData'
   - '@azure-rest/agrifood-farming.WeatherDataDeleteJob'
+  - '@azure-rest/agrifood-farming.WeatherDataDeleteJobOutput'
   - '@azure-rest/agrifood-farming.WeatherDataIngestionJob'
-  - '@azure-rest/agrifood-farming.WeatherDataListResponse'
+  - '@azure-rest/agrifood-farming.WeatherDataIngestionJobOutput'
+  - '@azure-rest/agrifood-farming.WeatherDataListResponseOutput'
+  - '@azure-rest/agrifood-farming.WeatherDataOutput'
+  - '@azure-rest/agrifood-farming.WeatherGetDataDeleteJobDetails'
   - '@azure-rest/agrifood-farming.WeatherGetDataDeleteJobDetails200Response'
   - '@azure-rest/agrifood-farming.WeatherGetDataDeleteJobDetailsdefaultResponse'
+  - '@azure-rest/agrifood-farming.WeatherGetDataIngestionJobDetails'
   - '@azure-rest/agrifood-farming.WeatherGetDataIngestionJobDetails200Response'
   - >-
     @azure-rest/agrifood-farming.WeatherGetDataIngestionJobDetailsdefaultResponse
@@ -447,7 +503,6 @@ typeAliases:
   - '@azure-rest/agrifood-farming.ApplicationDataGetParameters'
   - '@azure-rest/agrifood-farming.ApplicationDataListByFarmerIdParameters'
   - '@azure-rest/agrifood-farming.ApplicationDataListParameters'
-  - '@azure-rest/agrifood-farming.ApplicationDataPropertiesDictionary'
   - '@azure-rest/agrifood-farming.AttachmentsCreateOrUpdateParameters'
   - '@azure-rest/agrifood-farming.AttachmentsDeleteParameters'
   - '@azure-rest/agrifood-farming.AttachmentsDownloadParameters'
@@ -463,28 +518,19 @@ typeAliases:
   - '@azure-rest/agrifood-farming.BoundariesListParameters'
   - '@azure-rest/agrifood-farming.BoundariesSearchByFarmerIdParameters'
   - '@azure-rest/agrifood-farming.BoundariesSearchParameters'
-  - '@azure-rest/agrifood-farming.BoundaryPropertiesDictionary'
-  - '@azure-rest/agrifood-farming.CascadeDeleteJobPropertiesDictionary'
-  - '@azure-rest/agrifood-farming.CropPropertiesDictionary'
   - '@azure-rest/agrifood-farming.CropVarietiesCreateOrUpdateParameters'
   - '@azure-rest/agrifood-farming.CropVarietiesDeleteParameters'
   - '@azure-rest/agrifood-farming.CropVarietiesGetParameters'
   - '@azure-rest/agrifood-farming.CropVarietiesListByCropIdParameters'
   - '@azure-rest/agrifood-farming.CropVarietiesListParameters'
-  - '@azure-rest/agrifood-farming.CropVarietyPropertiesDictionary'
   - '@azure-rest/agrifood-farming.CropsCreateOrUpdateParameters'
   - '@azure-rest/agrifood-farming.CropsDeleteParameters'
   - '@azure-rest/agrifood-farming.CropsGetParameters'
   - '@azure-rest/agrifood-farming.CropsListParameters'
-  - '@azure-rest/agrifood-farming.DataProvider'
   - '@azure-rest/agrifood-farming.FarmBeatsRestClient'
-  - >-
-    @azure-rest/agrifood-farming.FarmOperationDataIngestionJobPropertiesDictionary
   - '@azure-rest/agrifood-farming.FarmOperationsCreateDataIngestionJobParameters'
   - >-
     @azure-rest/agrifood-farming.FarmOperationsGetDataIngestionJobDetailsParameters
-  - '@azure-rest/agrifood-farming.FarmPropertiesDictionary'
-  - '@azure-rest/agrifood-farming.FarmerPropertiesDictionary'
   - '@azure-rest/agrifood-farming.FarmersCreateCascadeDeleteJobParameters'
   - '@azure-rest/agrifood-farming.FarmersCreateOrUpdateParameters'
   - '@azure-rest/agrifood-farming.FarmersDeleteParameters'
@@ -498,7 +544,6 @@ typeAliases:
   - '@azure-rest/agrifood-farming.FarmsGetParameters'
   - '@azure-rest/agrifood-farming.FarmsListByFarmerIdParameters'
   - '@azure-rest/agrifood-farming.FarmsListParameters'
-  - '@azure-rest/agrifood-farming.FieldPropertiesDictionary'
   - '@azure-rest/agrifood-farming.FieldsCreateCascadeDeleteJobParameters'
   - '@azure-rest/agrifood-farming.FieldsCreateOrUpdateParameters'
   - '@azure-rest/agrifood-farming.FieldsDeleteParameters'
@@ -507,21 +552,16 @@ typeAliases:
   - '@azure-rest/agrifood-farming.FieldsListByFarmerIdParameters'
   - '@azure-rest/agrifood-farming.FieldsListParameters'
   - '@azure-rest/agrifood-farming.GeoJsonObject'
-  - '@azure-rest/agrifood-farming.GeoJsonObjectType'
+  - '@azure-rest/agrifood-farming.GeoJsonObjectOutput'
+  - '@azure-rest/agrifood-farming.GetArrayType'
+  - '@azure-rest/agrifood-farming.GetPage'
   - '@azure-rest/agrifood-farming.HarvestDataCreateOrUpdateParameters'
   - '@azure-rest/agrifood-farming.HarvestDataDeleteParameters'
   - '@azure-rest/agrifood-farming.HarvestDataGetParameters'
   - '@azure-rest/agrifood-farming.HarvestDataListByFarmerIdParameters'
   - '@azure-rest/agrifood-farming.HarvestDataListParameters'
-  - '@azure-rest/agrifood-farming.HarvestDataPropertiesDictionary'
-  - '@azure-rest/agrifood-farming.ImageFormat'
   - '@azure-rest/agrifood-farming.ImageProcessingCreateRasterizeJobParameters'
   - '@azure-rest/agrifood-farming.ImageProcessingGetRasterizeJobParameters'
-  - '@azure-rest/agrifood-farming.ImageProcessingRasterizeJobPropertiesDictionary'
-  - '@azure-rest/agrifood-farming.InnerError'
-  - '@azure-rest/agrifood-farming.InnerErrorDictionary'
-  - '@azure-rest/agrifood-farming.MultiPolygon'
-  - '@azure-rest/agrifood-farming.OAuthProviderPropertiesDictionary'
   - '@azure-rest/agrifood-farming.OAuthProvidersCreateOrUpdateParameters'
   - '@azure-rest/agrifood-farming.OAuthProvidersDeleteParameters'
   - '@azure-rest/agrifood-farming.OAuthProvidersGetParameters'
@@ -530,22 +570,17 @@ typeAliases:
   - '@azure-rest/agrifood-farming.OAuthTokensGetCascadeDeleteJobDetailsParameters'
   - '@azure-rest/agrifood-farming.OAuthTokensGetOAuthConnectionLinkParameters'
   - '@azure-rest/agrifood-farming.OAuthTokensListParameters'
+  - '@azure-rest/agrifood-farming.PaginateReturn'
   - '@azure-rest/agrifood-farming.PlantingDataCreateOrUpdateParameters'
   - '@azure-rest/agrifood-farming.PlantingDataDeleteParameters'
   - '@azure-rest/agrifood-farming.PlantingDataGetParameters'
   - '@azure-rest/agrifood-farming.PlantingDataListByFarmerIdParameters'
   - '@azure-rest/agrifood-farming.PlantingDataListParameters'
-  - '@azure-rest/agrifood-farming.PlantingDataPropertiesDictionary'
-  - '@azure-rest/agrifood-farming.Point'
-  - '@azure-rest/agrifood-farming.Polygon'
-  - '@azure-rest/agrifood-farming.SatelliteDataIngestionJobPropertiesDictionary'
   - '@azure-rest/agrifood-farming.ScenesCreateSatelliteDataIngestionJobParameters'
   - '@azure-rest/agrifood-farming.ScenesDownloadParameters'
   - >-
     @azure-rest/agrifood-farming.ScenesGetSatelliteDataIngestionJobDetailsParameters
   - '@azure-rest/agrifood-farming.ScenesListParameters'
-  - '@azure-rest/agrifood-farming.SeasonPropertiesDictionary'
-  - '@azure-rest/agrifood-farming.SeasonalFieldPropertiesDictionary'
   - '@azure-rest/agrifood-farming.SeasonalFieldsCreateCascadeDeleteJobParameters'
   - '@azure-rest/agrifood-farming.SeasonalFieldsCreateOrUpdateParameters'
   - '@azure-rest/agrifood-farming.SeasonalFieldsDeleteParameters'
@@ -558,20 +593,13 @@ typeAliases:
   - '@azure-rest/agrifood-farming.SeasonsDeleteParameters'
   - '@azure-rest/agrifood-farming.SeasonsGetParameters'
   - '@azure-rest/agrifood-farming.SeasonsListParameters'
-  - '@azure-rest/agrifood-farming.Source'
   - '@azure-rest/agrifood-farming.TillageDataCreateOrUpdateParameters'
   - '@azure-rest/agrifood-farming.TillageDataDeleteParameters'
   - '@azure-rest/agrifood-farming.TillageDataGetParameters'
   - '@azure-rest/agrifood-farming.TillageDataListByFarmerIdParameters'
   - '@azure-rest/agrifood-farming.TillageDataListParameters'
-  - '@azure-rest/agrifood-farming.TillageDataPropertiesDictionary'
   - '@azure-rest/agrifood-farming.WeatherCreateDataDeleteJobParameters'
   - '@azure-rest/agrifood-farming.WeatherCreateDataIngestionJobParameters'
-  - '@azure-rest/agrifood-farming.WeatherDataDeleteJobPropertiesDictionary'
-  - >-
-    @azure-rest/agrifood-farming.WeatherDataIngestionJobExtensionApiInputDictionary
-  - '@azure-rest/agrifood-farming.WeatherDataIngestionJobPropertiesDictionary'
-  - '@azure-rest/agrifood-farming.WeatherDataPropertiesDictionary'
   - '@azure-rest/agrifood-farming.WeatherGetDataDeleteJobDetailsParameters'
   - '@azure-rest/agrifood-farming.WeatherGetDataIngestionJobDetailsParameters'
   - '@azure-rest/agrifood-farming.WeatherListParameters'
@@ -600,3 +628,69 @@ functions:
       return:
         description: ''
         type: <xref uid="@azure-rest/agrifood-farming.FarmBeatsRestClient" />
+  - name: >-
+      getLongRunningPoller<TResult>(Client, TResult, LroEngineOptions<TResult,
+      PollOperationState<TResult>>)
+    uid: '@azure-rest/agrifood-farming.getLongRunningPoller'
+    package: '@azure-rest/agrifood-farming'
+    summary: >-
+      Helper function that builds a Poller object to help polling a long running
+      operation.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getLongRunningPoller<TResult>(client: Client, initialResponse:
+        TResult, options?: LroEngineOptions<TResult,
+        PollOperationState<TResult>>): PollerLike<PollOperationState<TResult>,
+        TResult>
+      parameters:
+        - id: client
+          type: Client
+          description: Client to use for sending the request to get additional pages.
+        - id: initialResponse
+          type: TResult
+          description: The initial response.
+        - id: options
+          type: 'LroEngineOptions&lt;TResult, PollOperationState&lt;TResult&gt;&gt;'
+          description: Options to set a resume state or custom polling interval.
+      return:
+        description: >-
+          - A poller object to poll for operation state updates and eventually
+          get the final response.
+        type: 'PollerLike&lt;PollOperationState&lt;TResult&gt;, TResult&gt;'
+  - name: 'paginate<TResponse>(Client, TResponse, PagingOptions<TResponse>)'
+    uid: '@azure-rest/agrifood-farming.paginate'
+    package: '@azure-rest/agrifood-farming'
+    summary: >-
+      Helper to paginate results from an initial response that follows the
+      specification of Autorest `x-ms-pageable` extension
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function paginate<TResponse>(client: Client, initialResponse: TResponse,
+        options?: PagingOptions<TResponse>):
+        PagedAsyncIterableIterator<PaginateReturn<TResponse>>
+      parameters:
+        - id: client
+          type: Client
+          description: Client to use for sending the next page requests
+        - id: initialResponse
+          type: TResponse
+          description: >-
+            Initial response containing the nextLink and current page of
+            elements
+        - id: options
+          type: >-
+            <xref uid="@azure-rest/agrifood-farming.PagingOptions"
+            />&lt;TResponse&gt;
+          description: ''
+      return:
+        description: '- PagedAsyncIterableIterator to iterate the elements'
+        type: >-
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure-rest/agrifood-farming.PaginateReturn"
+          />&lt;TResponse&gt;&gt;

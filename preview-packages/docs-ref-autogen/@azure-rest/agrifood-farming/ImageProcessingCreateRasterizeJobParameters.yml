@@ -8,5 +8,6 @@ remarks: ''
 isPreview: false
 isDeprecated: false
 syntax: >-
-  type ImageProcessingCreateRasterizeJobParameters = RequestParameters &
-  ImageProcessingCreateRasterizeJobBodyParam
+  type ImageProcessingCreateRasterizeJobParameters =
+  ImageProcessingCreateRasterizeJobMediaTypesParam &
+  ImageProcessingCreateRasterizeJobBodyParam & RequestParameters

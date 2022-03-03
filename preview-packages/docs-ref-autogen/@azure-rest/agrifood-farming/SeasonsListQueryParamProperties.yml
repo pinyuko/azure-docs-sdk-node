@@ -46,10 +46,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'ids?: string[]'
+      content: 'ids?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: maxCreatedDateTime
     uid: >-
       @azure-rest/agrifood-farming.SeasonsListQueryParamProperties.maxCreatedDateTime
@@ -60,10 +60,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'maxCreatedDateTime?: Date'
+      content: 'maxCreatedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: maxEndDateTime
     uid: >-
       @azure-rest/agrifood-farming.SeasonsListQueryParamProperties.maxEndDateTime
@@ -74,10 +74,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'maxEndDateTime?: Date'
+      content: 'maxEndDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: maxLastModifiedDateTime
     uid: >-
       @azure-rest/agrifood-farming.SeasonsListQueryParamProperties.maxLastModifiedDateTime
@@ -88,10 +88,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'maxLastModifiedDateTime?: Date'
+      content: 'maxLastModifiedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: maxStartDateTime
     uid: >-
       @azure-rest/agrifood-farming.SeasonsListQueryParamProperties.maxStartDateTime
@@ -102,10 +102,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'maxStartDateTime?: Date'
+      content: 'maxStartDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: minCreatedDateTime
     uid: >-
       @azure-rest/agrifood-farming.SeasonsListQueryParamProperties.minCreatedDateTime
@@ -116,10 +116,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'minCreatedDateTime?: Date'
+      content: 'minCreatedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: minEndDateTime
     uid: >-
       @azure-rest/agrifood-farming.SeasonsListQueryParamProperties.minEndDateTime
@@ -130,10 +130,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'minEndDateTime?: Date'
+      content: 'minEndDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: minLastModifiedDateTime
     uid: >-
       @azure-rest/agrifood-farming.SeasonsListQueryParamProperties.minLastModifiedDateTime
@@ -144,10 +144,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'minLastModifiedDateTime?: Date'
+      content: 'minLastModifiedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: minStartDateTime
     uid: >-
       @azure-rest/agrifood-farming.SeasonsListQueryParamProperties.minStartDateTime
@@ -158,10 +158,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'minStartDateTime?: Date'
+      content: 'minStartDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: names
     uid: '@azure-rest/agrifood-farming.SeasonsListQueryParamProperties.names'
     package: '@azure-rest/agrifood-farming'
@@ -171,26 +171,26 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'names?: string[]'
+      content: 'names?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: propertyFilters
     uid: >-
       @azure-rest/agrifood-farming.SeasonsListQueryParamProperties.propertyFilters
     package: '@azure-rest/agrifood-farming'
     summary: |-
       Filters on key-value pairs within the Properties object.
-      eg. "\{testKey\} eq \{testValue\}".
+      eg. "{testKey} eq {testValue}".
     fullName: propertyFilters
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'propertyFilters?: string[]'
+      content: 'propertyFilters?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: statuses
     uid: '@azure-rest/agrifood-farming.SeasonsListQueryParamProperties.statuses'
     package: '@azure-rest/agrifood-farming'
@@ -200,10 +200,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'statuses?: string[]'
+      content: 'statuses?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: years
     uid: '@azure-rest/agrifood-farming.SeasonsListQueryParamProperties.years'
     package: '@azure-rest/agrifood-farming'
@@ -213,7 +213,7 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'years?: number[]'
+      content: 'years?: Array<number>'
       return:
         description: ''
-        type: 'number[]'
+        type: Array&lt;number&gt;

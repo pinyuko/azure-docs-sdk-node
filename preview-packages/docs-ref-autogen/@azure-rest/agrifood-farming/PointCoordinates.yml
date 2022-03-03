@@ -20,7 +20,7 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'coordinates: number[]'
+      content: 'coordinates: Array<number>'
       return:
         description: ''
-        type: 'number[]'
+        type: Array&lt;number&gt;

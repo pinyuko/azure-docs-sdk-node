@@ -1,0 +1,60 @@
+### YamlMime:TSType
+name: BoundariesList
+uid: '@azure-rest/agrifood-farming.BoundariesList'
+package: '@azure-rest/agrifood-farming'
+summary: ''
+fullName: BoundariesList
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+methods:
+  - name: get(BoundariesListParameters)
+    uid: '@azure-rest/agrifood-farming.BoundariesList.get'
+    package: '@azure-rest/agrifood-farming'
+    summary: Returns a paginated list of boundary resources across all farmers.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function get(options?: BoundariesListParameters):
+        Promise<BoundariesList200Response | BoundariesListdefaultResponse>
+      parameters:
+        - id: options
+          type: <xref uid="@azure-rest/agrifood-farming.BoundariesListParameters" />
+          description: ''
+      return:
+        description: ''
+        type: >-
+          Promise&lt;<xref
+          uid="@azure-rest/agrifood-farming.BoundariesList200Response" /> |
+          <xref uid="@azure-rest/agrifood-farming.BoundariesListdefaultResponse"
+          />&gt;
+  - name: post(BoundariesSearchParameters)
+    uid: '@azure-rest/agrifood-farming.BoundariesList.post'
+    package: '@azure-rest/agrifood-farming'
+    summary: >-
+      Search for boundaries across all farmers by fields and intersecting
+      geometry.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function post(options?: BoundariesSearchParameters):
+        Promise<BoundariesSearch200Response | BoundariesSearchdefaultResponse>
+      parameters:
+        - id: options
+          type: >-
+            <xref uid="@azure-rest/agrifood-farming.BoundariesSearchParameters"
+            />
+          description: ''
+      return:
+        description: ''
+        type: >-
+          Promise&lt;<xref
+          uid="@azure-rest/agrifood-farming.BoundariesSearch200Response" /> |
+          <xref
+          uid="@azure-rest/agrifood-farming.BoundariesSearchdefaultResponse"
+          />&gt;

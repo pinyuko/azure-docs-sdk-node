@@ -8,5 +8,5 @@ remarks: ''
 isPreview: false
 isDeprecated: false
 syntax: >-
-  type HarvestDataListByFarmerIdParameters = RequestParameters &
-  HarvestDataListByFarmerIdQueryParam
+  type HarvestDataListByFarmerIdParameters = HarvestDataListByFarmerIdQueryParam
+  & RequestParameters

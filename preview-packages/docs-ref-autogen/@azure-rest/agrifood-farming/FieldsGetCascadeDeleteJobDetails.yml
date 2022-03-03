@@ -1,0 +1,65 @@
+### YamlMime:TSType
+name: FieldsGetCascadeDeleteJobDetails
+uid: '@azure-rest/agrifood-farming.FieldsGetCascadeDeleteJobDetails'
+package: '@azure-rest/agrifood-farming'
+summary: ''
+fullName: FieldsGetCascadeDeleteJobDetails
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+methods:
+  - name: get(FieldsGetCascadeDeleteJobDetailsParameters)
+    uid: '@azure-rest/agrifood-farming.FieldsGetCascadeDeleteJobDetails.get'
+    package: '@azure-rest/agrifood-farming'
+    summary: Get a cascade delete job for specified field.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function get(options?: FieldsGetCascadeDeleteJobDetailsParameters):
+        Promise<FieldsGetCascadeDeleteJobDetails200Response |
+        FieldsGetCascadeDeleteJobDetailsdefaultResponse>
+      parameters:
+        - id: options
+          type: >-
+            <xref
+            uid="@azure-rest/agrifood-farming.FieldsGetCascadeDeleteJobDetailsParameters"
+            />
+          description: ''
+      return:
+        description: ''
+        type: >-
+          Promise&lt;<xref
+          uid="@azure-rest/agrifood-farming.FieldsGetCascadeDeleteJobDetails200Response"
+          /> | <xref
+          uid="@azure-rest/agrifood-farming.FieldsGetCascadeDeleteJobDetailsdefaultResponse"
+          />&gt;
+  - name: put(FieldsCreateCascadeDeleteJobParameters)
+    uid: '@azure-rest/agrifood-farming.FieldsGetCascadeDeleteJobDetails.put'
+    package: '@azure-rest/agrifood-farming'
+    summary: Create a cascade delete job for specified field.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function put(options: FieldsCreateCascadeDeleteJobParameters):
+        Promise<FieldsCreateCascadeDeleteJob202Response |
+        FieldsCreateCascadeDeleteJobdefaultResponse>
+      parameters:
+        - id: options
+          type: >-
+            <xref
+            uid="@azure-rest/agrifood-farming.FieldsCreateCascadeDeleteJobParameters"
+            />
+          description: ''
+      return:
+        description: ''
+        type: >-
+          Promise&lt;<xref
+          uid="@azure-rest/agrifood-farming.FieldsCreateCascadeDeleteJob202Response"
+          /> | <xref
+          uid="@azure-rest/agrifood-farming.FieldsCreateCascadeDeleteJobdefaultResponse"
+          />&gt;

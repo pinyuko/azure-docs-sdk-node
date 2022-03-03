@@ -12,16 +12,16 @@ properties:
   - name: body
     uid: '@azure-rest/agrifood-farming.TillageDataDelete204Response.body'
     package: '@azure-rest/agrifood-farming'
-    summary: Parsed body
+    summary: ''
     fullName: body
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'body: unknown'
+      content: 'body: Record<string, unknown>'
       return:
         description: ''
-        type: unknown
+        type: 'Record&lt;string, unknown&gt;'
   - name: headers
     uid: '@azure-rest/agrifood-farming.TillageDataDelete204Response.headers'
     package: '@azure-rest/agrifood-farming'

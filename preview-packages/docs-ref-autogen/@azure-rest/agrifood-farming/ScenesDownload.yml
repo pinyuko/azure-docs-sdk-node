@@ -20,7 +20,7 @@ methods:
     isDeprecated: false
     syntax:
       content: >-
-        function get(options?: ScenesDownloadParameters):
+        function get(options: ScenesDownloadParameters):
         Promise<ScenesDownload200Response | ScenesDownloaddefaultResponse>
       parameters:
         - id: options

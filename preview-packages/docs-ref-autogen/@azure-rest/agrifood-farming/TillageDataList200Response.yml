@@ -18,10 +18,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'body: TillageDataListResponse'
+      content: 'body: TillageDataListResponseOutput'
       return:
         description: ''
-        type: <xref uid="@azure-rest/agrifood-farming.TillageDataListResponse" />
+        type: >-
+          <xref uid="@azure-rest/agrifood-farming.TillageDataListResponseOutput"
+          />
   - name: headers
     uid: '@azure-rest/agrifood-farming.TillageDataList200Response.headers'
     package: '@azure-rest/agrifood-farming'

@@ -12,7 +12,7 @@ properties:
   - name: body
     uid: '@azure-rest/agrifood-farming.FarmersCreateOrUpdateBodyParam.body'
     package: '@azure-rest/agrifood-farming'
-    summary: ''
+    summary: Farmer resource payload to create or update.
     fullName: body
     remarks: ''
     isPreview: false

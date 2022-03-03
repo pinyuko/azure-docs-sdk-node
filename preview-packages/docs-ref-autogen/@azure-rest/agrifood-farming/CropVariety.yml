@@ -31,10 +31,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'createdDateTime?: Date'
+      content: 'createdDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: cropId
     uid: '@azure-rest/agrifood-farming.CropVariety.cropId'
     package: '@azure-rest/agrifood-farming'
@@ -98,10 +98,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'modifiedDateTime?: Date'
+      content: 'modifiedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: name
     uid: '@azure-rest/agrifood-farming.CropVariety.name'
     package: '@azure-rest/agrifood-farming'
@@ -145,12 +145,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'properties?: CropVarietyPropertiesDictionary'
+      content: 'properties?: Record<string, any>'
       return:
         description: ''
-        type: >-
-          <xref
-          uid="@azure-rest/agrifood-farming.CropVarietyPropertiesDictionary" />
+        type: 'Record&lt;string, any&gt;'
   - name: status
     uid: '@azure-rest/agrifood-farming.CropVariety.status'
     package: '@azure-rest/agrifood-farming'

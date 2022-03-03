@@ -18,11 +18,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'body: ApplicationDataListResponse'
+      content: 'body: ApplicationDataListResponseOutput'
       return:
         description: ''
         type: >-
-          <xref uid="@azure-rest/agrifood-farming.ApplicationDataListResponse"
+          <xref
+          uid="@azure-rest/agrifood-farming.ApplicationDataListResponseOutput"
           />
   - name: headers
     uid: '@azure-rest/agrifood-farming.ApplicationDataList200Response.headers'

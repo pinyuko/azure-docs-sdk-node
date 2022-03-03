@@ -59,10 +59,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'endDateTime?: Date'
+      content: 'endDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: farmerId
     uid: '@azure-rest/agrifood-farming.ScenesListQueryParamProperties.farmerId'
     package: '@azure-rest/agrifood-farming'
@@ -85,10 +85,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'imageFormats?: string[]'
+      content: 'imageFormats?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: imageNames
     uid: '@azure-rest/agrifood-farming.ScenesListQueryParamProperties.imageNames'
     package: '@azure-rest/agrifood-farming'
@@ -98,10 +98,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'imageNames?: string[]'
+      content: 'imageNames?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: imageResolutions
     uid: >-
       @azure-rest/agrifood-farming.ScenesListQueryParamProperties.imageResolutions
@@ -112,10 +112,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'imageResolutions?: number[]'
+      content: 'imageResolutions?: Array<number>'
       return:
         description: ''
-        type: 'number[]'
+        type: Array&lt;number&gt;
   - name: maxCloudCoveragePercentage
     uid: >-
       @azure-rest/agrifood-farming.ScenesListQueryParamProperties.maxCloudCoveragePercentage
@@ -183,7 +183,7 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'startDateTime?: Date'
+      content: 'startDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string

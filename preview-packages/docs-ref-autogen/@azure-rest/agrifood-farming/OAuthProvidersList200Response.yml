@@ -18,10 +18,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'body: OAuthProviderListResponse'
+      content: 'body: OAuthProviderListResponseOutput'
       return:
         description: ''
-        type: <xref uid="@azure-rest/agrifood-farming.OAuthProviderListResponse" />
+        type: >-
+          <xref
+          uid="@azure-rest/agrifood-farming.OAuthProviderListResponseOutput" />
   - name: headers
     uid: '@azure-rest/agrifood-farming.OAuthProvidersList200Response.headers'
     package: '@azure-rest/agrifood-farming'

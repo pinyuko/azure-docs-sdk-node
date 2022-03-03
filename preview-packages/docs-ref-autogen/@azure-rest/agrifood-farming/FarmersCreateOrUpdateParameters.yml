@@ -8,5 +8,5 @@ remarks: ''
 isPreview: false
 isDeprecated: false
 syntax: >-
-  type FarmersCreateOrUpdateParameters = RequestParameters &
-  FarmersCreateOrUpdateBodyParam
+  type FarmersCreateOrUpdateParameters = FarmersCreateOrUpdateMediaTypesParam &
+  FarmersCreateOrUpdateBodyParam & RequestParameters

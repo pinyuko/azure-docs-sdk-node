@@ -18,10 +18,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'createdDateTime?: Date'
+      content: 'createdDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: description
     uid: '@azure-rest/agrifood-farming.Season.description'
     package: '@azure-rest/agrifood-farming'
@@ -44,10 +44,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'endDateTime?: Date'
+      content: 'endDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: eTag
     uid: '@azure-rest/agrifood-farming.Season.eTag'
     package: '@azure-rest/agrifood-farming'
@@ -85,10 +85,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'modifiedDateTime?: Date'
+      content: 'modifiedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: name
     uid: '@azure-rest/agrifood-farming.Season.name'
     package: '@azure-rest/agrifood-farming'
@@ -119,10 +119,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'properties?: SeasonPropertiesDictionary'
+      content: 'properties?: Record<string, any>'
       return:
         description: ''
-        type: <xref uid="@azure-rest/agrifood-farming.SeasonPropertiesDictionary" />
+        type: 'Record&lt;string, any&gt;'
   - name: startDateTime
     uid: '@azure-rest/agrifood-farming.Season.startDateTime'
     package: '@azure-rest/agrifood-farming'
@@ -132,10 +132,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'startDateTime?: Date'
+      content: 'startDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: status
     uid: '@azure-rest/agrifood-farming.Season.status'
     package: '@azure-rest/agrifood-farming'

@@ -18,10 +18,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'body: BoundaryOverlapResponse'
+      content: 'body: BoundaryOverlapResponseOutput'
       return:
         description: ''
-        type: <xref uid="@azure-rest/agrifood-farming.BoundaryOverlapResponse" />
+        type: >-
+          <xref uid="@azure-rest/agrifood-farming.BoundaryOverlapResponseOutput"
+          />
   - name: headers
     uid: '@azure-rest/agrifood-farming.BoundariesGetOverlap200Response.headers'
     package: '@azure-rest/agrifood-farming'

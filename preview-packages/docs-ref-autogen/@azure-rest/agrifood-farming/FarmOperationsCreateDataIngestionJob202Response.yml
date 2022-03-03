@@ -19,11 +19,12 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'body: FarmOperationDataIngestionJob'
+      content: 'body: FarmOperationDataIngestionJobOutput'
       return:
         description: ''
         type: >-
-          <xref uid="@azure-rest/agrifood-farming.FarmOperationDataIngestionJob"
+          <xref
+          uid="@azure-rest/agrifood-farming.FarmOperationDataIngestionJobOutput"
           />
   - name: headers
     uid: >-

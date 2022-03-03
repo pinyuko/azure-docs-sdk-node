@@ -77,10 +77,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'cropIds?: string[]'
+      content: 'cropIds?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: cropVarietyIds
     uid: >-
       @azure-rest/agrifood-farming.SeasonalFieldsListQueryParamProperties.cropVarietyIds
@@ -91,10 +91,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'cropVarietyIds?: string[]'
+      content: 'cropVarietyIds?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: farmIds
     uid: >-
       @azure-rest/agrifood-farming.SeasonalFieldsListQueryParamProperties.farmIds
@@ -105,10 +105,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'farmIds?: string[]'
+      content: 'farmIds?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: fieldIds
     uid: >-
       @azure-rest/agrifood-farming.SeasonalFieldsListQueryParamProperties.fieldIds
@@ -119,10 +119,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'fieldIds?: string[]'
+      content: 'fieldIds?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: ids
     uid: '@azure-rest/agrifood-farming.SeasonalFieldsListQueryParamProperties.ids'
     package: '@azure-rest/agrifood-farming'
@@ -132,10 +132,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'ids?: string[]'
+      content: 'ids?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: maxAvgSeedPopulationValue
     uid: >-
       @azure-rest/agrifood-farming.SeasonalFieldsListQueryParamProperties.maxAvgSeedPopulationValue
@@ -174,10 +174,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'maxCreatedDateTime?: Date'
+      content: 'maxCreatedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: maxLastModifiedDateTime
     uid: >-
       @azure-rest/agrifood-farming.SeasonalFieldsListQueryParamProperties.maxLastModifiedDateTime
@@ -188,10 +188,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'maxLastModifiedDateTime?: Date'
+      content: 'maxLastModifiedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: maxPlantingDateTime
     uid: >-
       @azure-rest/agrifood-farming.SeasonalFieldsListQueryParamProperties.maxPlantingDateTime
@@ -202,10 +202,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'maxPlantingDateTime?: Date'
+      content: 'maxPlantingDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: minAvgSeedPopulationValue
     uid: >-
       @azure-rest/agrifood-farming.SeasonalFieldsListQueryParamProperties.minAvgSeedPopulationValue
@@ -244,10 +244,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'minCreatedDateTime?: Date'
+      content: 'minCreatedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: minLastModifiedDateTime
     uid: >-
       @azure-rest/agrifood-farming.SeasonalFieldsListQueryParamProperties.minLastModifiedDateTime
@@ -258,10 +258,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'minLastModifiedDateTime?: Date'
+      content: 'minLastModifiedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: minPlantingDateTime
     uid: >-
       @azure-rest/agrifood-farming.SeasonalFieldsListQueryParamProperties.minPlantingDateTime
@@ -272,10 +272,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'minPlantingDateTime?: Date'
+      content: 'minPlantingDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: names
     uid: '@azure-rest/agrifood-farming.SeasonalFieldsListQueryParamProperties.names'
     package: '@azure-rest/agrifood-farming'
@@ -285,26 +285,26 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'names?: string[]'
+      content: 'names?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: propertyFilters
     uid: >-
       @azure-rest/agrifood-farming.SeasonalFieldsListQueryParamProperties.propertyFilters
     package: '@azure-rest/agrifood-farming'
     summary: |-
       Filters on key-value pairs within the Properties object.
-      eg. "\{testKey\} eq \{testValue\}".
+      eg. "{testKey} eq {testValue}".
     fullName: propertyFilters
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'propertyFilters?: string[]'
+      content: 'propertyFilters?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: seasonIds
     uid: >-
       @azure-rest/agrifood-farming.SeasonalFieldsListQueryParamProperties.seasonIds
@@ -315,10 +315,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'seasonIds?: string[]'
+      content: 'seasonIds?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: statuses
     uid: >-
       @azure-rest/agrifood-farming.SeasonalFieldsListQueryParamProperties.statuses
@@ -329,7 +329,7 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'statuses?: string[]'
+      content: 'statuses?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;

@@ -57,10 +57,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'createdDateTime?: Date'
+      content: 'createdDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: description
     uid: '@azure-rest/agrifood-farming.TillageData.description'
     package: '@azure-rest/agrifood-farming'
@@ -124,10 +124,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'modifiedDateTime?: Date'
+      content: 'modifiedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: name
     uid: '@azure-rest/agrifood-farming.TillageData.name'
     package: '@azure-rest/agrifood-farming'
@@ -165,10 +165,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'operationEndDateTime?: Date'
+      content: 'operationEndDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: operationModifiedDateTime
     uid: '@azure-rest/agrifood-farming.TillageData.operationModifiedDateTime'
     package: '@azure-rest/agrifood-farming'
@@ -182,10 +182,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'operationModifiedDateTime?: Date'
+      content: 'operationModifiedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: operationStartDateTime
     uid: '@azure-rest/agrifood-farming.TillageData.operationStartDateTime'
     package: '@azure-rest/agrifood-farming'
@@ -197,10 +197,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'operationStartDateTime?: Date'
+      content: 'operationStartDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: properties
     uid: '@azure-rest/agrifood-farming.TillageData.properties'
     package: '@azure-rest/agrifood-farming'
@@ -218,12 +218,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'properties?: TillageDataPropertiesDictionary'
+      content: 'properties?: Record<string, any>'
       return:
         description: ''
-        type: >-
-          <xref
-          uid="@azure-rest/agrifood-farming.TillageDataPropertiesDictionary" />
+        type: 'Record&lt;string, any&gt;'
   - name: source
     uid: '@azure-rest/agrifood-farming.TillageData.source'
     package: '@azure-rest/agrifood-farming'

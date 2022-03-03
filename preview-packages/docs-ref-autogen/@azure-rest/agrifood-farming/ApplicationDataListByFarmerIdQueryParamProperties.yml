@@ -49,10 +49,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'associatedBoundaryIds?: string[]'
+      content: 'associatedBoundaryIds?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: ids
     uid: >-
       @azure-rest/agrifood-farming.ApplicationDataListByFarmerIdQueryParamProperties.ids
@@ -63,10 +63,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'ids?: string[]'
+      content: 'ids?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: maxArea
     uid: >-
       @azure-rest/agrifood-farming.ApplicationDataListByFarmerIdQueryParamProperties.maxArea
@@ -107,10 +107,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'maxCreatedDateTime?: Date'
+      content: 'maxCreatedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: maxLastModifiedDateTime
     uid: >-
       @azure-rest/agrifood-farming.ApplicationDataListByFarmerIdQueryParamProperties.maxLastModifiedDateTime
@@ -121,10 +121,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'maxLastModifiedDateTime?: Date'
+      content: 'maxLastModifiedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: maxOperationEndDateTime
     uid: >-
       @azure-rest/agrifood-farming.ApplicationDataListByFarmerIdQueryParamProperties.maxOperationEndDateTime
@@ -137,10 +137,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'maxOperationEndDateTime?: Date'
+      content: 'maxOperationEndDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: maxOperationModifiedDateTime
     uid: >-
       @azure-rest/agrifood-farming.ApplicationDataListByFarmerIdQueryParamProperties.maxOperationModifiedDateTime
@@ -153,10 +153,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'maxOperationModifiedDateTime?: Date'
+      content: 'maxOperationModifiedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: maxOperationStartDateTime
     uid: >-
       @azure-rest/agrifood-farming.ApplicationDataListByFarmerIdQueryParamProperties.maxOperationStartDateTime
@@ -169,10 +169,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'maxOperationStartDateTime?: Date'
+      content: 'maxOperationStartDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: maxTotalMaterial
     uid: >-
       @azure-rest/agrifood-farming.ApplicationDataListByFarmerIdQueryParamProperties.maxTotalMaterial
@@ -229,10 +229,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'minCreatedDateTime?: Date'
+      content: 'minCreatedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: minLastModifiedDateTime
     uid: >-
       @azure-rest/agrifood-farming.ApplicationDataListByFarmerIdQueryParamProperties.minLastModifiedDateTime
@@ -243,10 +243,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'minLastModifiedDateTime?: Date'
+      content: 'minLastModifiedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: minOperationEndDateTime
     uid: >-
       @azure-rest/agrifood-farming.ApplicationDataListByFarmerIdQueryParamProperties.minOperationEndDateTime
@@ -259,10 +259,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'minOperationEndDateTime?: Date'
+      content: 'minOperationEndDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: minOperationModifiedDateTime
     uid: >-
       @azure-rest/agrifood-farming.ApplicationDataListByFarmerIdQueryParamProperties.minOperationModifiedDateTime
@@ -275,10 +275,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'minOperationModifiedDateTime?: Date'
+      content: 'minOperationModifiedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: minOperationStartDateTime
     uid: >-
       @azure-rest/agrifood-farming.ApplicationDataListByFarmerIdQueryParamProperties.minOperationStartDateTime
@@ -291,10 +291,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'minOperationStartDateTime?: Date'
+      content: 'minOperationStartDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: minTotalMaterial
     uid: >-
       @azure-rest/agrifood-farming.ApplicationDataListByFarmerIdQueryParamProperties.minTotalMaterial
@@ -321,10 +321,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'names?: string[]'
+      content: 'names?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: operationBoundaryIds
     uid: >-
       @azure-rest/agrifood-farming.ApplicationDataListByFarmerIdQueryParamProperties.operationBoundaryIds
@@ -335,26 +335,26 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'operationBoundaryIds?: string[]'
+      content: 'operationBoundaryIds?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: propertyFilters
     uid: >-
       @azure-rest/agrifood-farming.ApplicationDataListByFarmerIdQueryParamProperties.propertyFilters
     package: '@azure-rest/agrifood-farming'
     summary: |-
       Filters on key-value pairs within the Properties object.
-      eg. "\{testKey\} eq \{testValue\}".
+      eg. "{testKey} eq {testValue}".
     fullName: propertyFilters
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'propertyFilters?: string[]'
+      content: 'propertyFilters?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: sources
     uid: >-
       @azure-rest/agrifood-farming.ApplicationDataListByFarmerIdQueryParamProperties.sources
@@ -365,10 +365,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'sources?: string[]'
+      content: 'sources?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: statuses
     uid: >-
       @azure-rest/agrifood-farming.ApplicationDataListByFarmerIdQueryParamProperties.statuses
@@ -379,7 +379,7 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'statuses?: string[]'
+      content: 'statuses?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;

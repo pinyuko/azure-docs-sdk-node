@@ -8,5 +8,6 @@ remarks: ''
 isPreview: false
 isDeprecated: false
 syntax: >-
-  type TillageDataCreateOrUpdateParameters = RequestParameters &
-  TillageDataCreateOrUpdateBodyParam
+  type TillageDataCreateOrUpdateParameters =
+  TillageDataCreateOrUpdateMediaTypesParam & TillageDataCreateOrUpdateBodyParam
+  & RequestParameters

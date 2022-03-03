@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: GeoJsonObjectOutput
+uid: '@azure-rest/agrifood-farming.GeoJsonObjectOutput'
+package: '@azure-rest/agrifood-farming'
+summary: ''
+fullName: GeoJsonObjectOutput
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type GeoJsonObjectOutput = MultiPolygonOutput | PointOutput | PolygonOutput

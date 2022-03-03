@@ -18,10 +18,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'body: SceneListResponse'
+      content: 'body: SceneListResponseOutput'
       return:
         description: ''
-        type: <xref uid="@azure-rest/agrifood-farming.SceneListResponse" />
+        type: <xref uid="@azure-rest/agrifood-farming.SceneListResponseOutput" />
   - name: headers
     uid: '@azure-rest/agrifood-farming.ScenesList200Response.headers'
     package: '@azure-rest/agrifood-farming'

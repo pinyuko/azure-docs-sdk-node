@@ -18,10 +18,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'body: BoundaryListResponse'
+      content: 'body: BoundaryListResponseOutput'
       return:
         description: ''
-        type: <xref uid="@azure-rest/agrifood-farming.BoundaryListResponse" />
+        type: <xref uid="@azure-rest/agrifood-farming.BoundaryListResponseOutput" />
   - name: headers
     uid: '@azure-rest/agrifood-farming.BoundariesSearch200Response.headers'
     package: '@azure-rest/agrifood-farming'

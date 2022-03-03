@@ -8,5 +8,5 @@ remarks: ''
 isPreview: false
 isDeprecated: false
 syntax: >-
-  type BoundariesCreateCascadeDeleteJobParameters = RequestParameters &
-  BoundariesCreateCascadeDeleteJobQueryParam
+  type BoundariesCreateCascadeDeleteJobParameters =
+  BoundariesCreateCascadeDeleteJobQueryParam & RequestParameters

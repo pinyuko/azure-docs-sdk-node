@@ -8,5 +8,6 @@ remarks: ''
 isPreview: false
 isDeprecated: false
 syntax: >-
-  type ApplicationDataCreateOrUpdateParameters = RequestParameters &
-  ApplicationDataCreateOrUpdateBodyParam
+  type ApplicationDataCreateOrUpdateParameters =
+  ApplicationDataCreateOrUpdateMediaTypesParam &
+  ApplicationDataCreateOrUpdateBodyParam & RequestParameters

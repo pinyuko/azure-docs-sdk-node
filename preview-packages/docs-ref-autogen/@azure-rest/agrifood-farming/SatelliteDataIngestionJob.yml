@@ -31,10 +31,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'createdDateTime?: Date'
+      content: 'createdDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: data
     uid: '@azure-rest/agrifood-farming.SatelliteDataIngestionJob.data'
     package: '@azure-rest/agrifood-farming'
@@ -83,10 +83,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'endDateTime: Date'
+      content: 'endDateTime: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: endTime
     uid: '@azure-rest/agrifood-farming.SatelliteDataIngestionJob.endTime'
     package: '@azure-rest/agrifood-farming'
@@ -96,10 +96,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'endTime?: Date'
+      content: 'endTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: farmerId
     uid: '@azure-rest/agrifood-farming.SatelliteDataIngestionJob.farmerId'
     package: '@azure-rest/agrifood-farming'
@@ -135,10 +135,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'lastActionDateTime?: Date'
+      content: 'lastActionDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: message
     uid: '@azure-rest/agrifood-farming.SatelliteDataIngestionJob.message'
     package: '@azure-rest/agrifood-farming'
@@ -182,13 +182,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'properties?: SatelliteDataIngestionJobPropertiesDictionary'
+      content: 'properties?: Record<string, any>'
       return:
         description: ''
-        type: >-
-          <xref
-          uid="@azure-rest/agrifood-farming.SatelliteDataIngestionJobPropertiesDictionary"
-          />
+        type: 'Record&lt;string, any&gt;'
   - name: provider
     uid: '@azure-rest/agrifood-farming.SatelliteDataIngestionJob.provider'
     package: '@azure-rest/agrifood-farming'
@@ -198,10 +195,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'provider?: DataProvider'
+      content: 'provider?: "Microsoft"'
       return:
         description: ''
-        type: <xref uid="@azure-rest/agrifood-farming.DataProvider" />
+        type: '"Microsoft"'
   - name: source
     uid: '@azure-rest/agrifood-farming.SatelliteDataIngestionJob.source'
     package: '@azure-rest/agrifood-farming'
@@ -211,10 +208,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'source?: Source'
+      content: 'source?: "Sentinel_2_L2A"'
       return:
         description: ''
-        type: <xref uid="@azure-rest/agrifood-farming.Source" />
+        type: '"Sentinel_2_L2A"'
   - name: startDateTime
     uid: '@azure-rest/agrifood-farming.SatelliteDataIngestionJob.startDateTime'
     package: '@azure-rest/agrifood-farming'
@@ -224,10 +221,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'startDateTime: Date'
+      content: 'startDateTime: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: startTime
     uid: '@azure-rest/agrifood-farming.SatelliteDataIngestionJob.startTime'
     package: '@azure-rest/agrifood-farming'
@@ -237,10 +234,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'startTime?: Date'
+      content: 'startTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: status
     uid: '@azure-rest/agrifood-farming.SatelliteDataIngestionJob.status'
     package: '@azure-rest/agrifood-farming'

@@ -18,10 +18,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'createdDateTime?: Date'
+      content: 'createdDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: description
     uid: '@azure-rest/agrifood-farming.ImageProcessingRasterizeJob.description'
     package: '@azure-rest/agrifood-farming'
@@ -57,10 +57,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'endTime?: Date'
+      content: 'endTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: farmerId
     uid: '@azure-rest/agrifood-farming.ImageProcessingRasterizeJob.farmerId'
     package: '@azure-rest/agrifood-farming'
@@ -97,10 +97,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'lastActionDateTime?: Date'
+      content: 'lastActionDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: message
     uid: '@azure-rest/agrifood-farming.ImageProcessingRasterizeJob.message'
     package: '@azure-rest/agrifood-farming'
@@ -144,13 +144,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'properties?: ImageProcessingRasterizeJobPropertiesDictionary'
+      content: 'properties?: Record<string, any>'
       return:
         description: ''
-        type: >-
-          <xref
-          uid="@azure-rest/agrifood-farming.ImageProcessingRasterizeJobPropertiesDictionary"
-          />
+        type: 'Record&lt;string, any&gt;'
   - name: shapefileAttachmentId
     uid: >-
       @azure-rest/agrifood-farming.ImageProcessingRasterizeJob.shapefileAttachmentId
@@ -175,10 +172,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'shapefileColumnNames: string[]'
+      content: 'shapefileColumnNames: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: startTime
     uid: '@azure-rest/agrifood-farming.ImageProcessingRasterizeJob.startTime'
     package: '@azure-rest/agrifood-farming'
@@ -188,10 +185,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'startTime?: Date'
+      content: 'startTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: status
     uid: '@azure-rest/agrifood-farming.ImageProcessingRasterizeJob.status'
     package: '@azure-rest/agrifood-farming'

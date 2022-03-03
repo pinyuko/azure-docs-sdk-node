@@ -13,7 +13,7 @@ properties:
     uid: >-
       @azure-rest/agrifood-farming.FarmOperationsCreateDataIngestionJobBodyParam.body
     package: '@azure-rest/agrifood-farming'
-    summary: ''
+    summary: Job parameters supplied by user.
     fullName: body
     remarks: ''
     isPreview: false

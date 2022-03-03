@@ -9,6 +9,34 @@ isPreview: false
 isDeprecated: false
 type: interface
 properties:
+  - name: $maxPageSize
+    uid: '@azure-rest/agrifood-farming.SearchBoundaryQuery.$maxPageSize'
+    package: '@azure-rest/agrifood-farming'
+    summary: |-
+      Maximum number of items needed (inclusive).
+      Minimum = 10, Maximum = 1000, Default value = 50.
+    fullName: $maxPageSize
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: '$maxPageSize?: number'
+      return:
+        description: ''
+        type: number
+  - name: $skipToken
+    uid: '@azure-rest/agrifood-farming.SearchBoundaryQuery.$skipToken'
+    package: '@azure-rest/agrifood-farming'
+    summary: Skip token for getting next set of results.
+    fullName: $skipToken
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: '$skipToken?: string'
+      return:
+        description: ''
+        type: string
   - name: ids
     uid: '@azure-rest/agrifood-farming.SearchBoundaryQuery.ids'
     package: '@azure-rest/agrifood-farming'
@@ -18,10 +46,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'ids?: string[]'
+      content: 'ids?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: intersectsWithGeometry
     uid: '@azure-rest/agrifood-farming.SearchBoundaryQuery.intersectsWithGeometry'
     package: '@azure-rest/agrifood-farming'
@@ -70,10 +98,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'maxCreatedDateTime?: Date'
+      content: 'maxCreatedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: maxLastModifiedDateTime
     uid: '@azure-rest/agrifood-farming.SearchBoundaryQuery.maxLastModifiedDateTime'
     package: '@azure-rest/agrifood-farming'
@@ -83,25 +111,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'maxLastModifiedDateTime?: Date'
+      content: 'maxLastModifiedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
-  - name: maxPageSize
-    uid: '@azure-rest/agrifood-farming.SearchBoundaryQuery.maxPageSize'
-    package: '@azure-rest/agrifood-farming'
-    summary: |-
-      Maximum number of items needed (inclusive).
-      Minimum = 10, Maximum = 1000, Default value = 50.
-    fullName: maxPageSize
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'maxPageSize?: number'
-      return:
-        description: ''
-        type: number
+        type: Date | string
   - name: minAcreage
     uid: '@azure-rest/agrifood-farming.SearchBoundaryQuery.minAcreage'
     package: '@azure-rest/agrifood-farming'
@@ -124,10 +137,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'minCreatedDateTime?: Date'
+      content: 'minCreatedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: minLastModifiedDateTime
     uid: '@azure-rest/agrifood-farming.SearchBoundaryQuery.minLastModifiedDateTime'
     package: '@azure-rest/agrifood-farming'
@@ -137,10 +150,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'minLastModifiedDateTime?: Date'
+      content: 'minLastModifiedDateTime?: Date | string'
       return:
         description: ''
-        type: Date
+        type: Date | string
   - name: names
     uid: '@azure-rest/agrifood-farming.SearchBoundaryQuery.names'
     package: '@azure-rest/agrifood-farming'
@@ -150,10 +163,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'names?: string[]'
+      content: 'names?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: parentIds
     uid: '@azure-rest/agrifood-farming.SearchBoundaryQuery.parentIds'
     package: '@azure-rest/agrifood-farming'
@@ -163,10 +176,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'parentIds?: string[]'
+      content: 'parentIds?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;
   - name: parentType
     uid: '@azure-rest/agrifood-farming.SearchBoundaryQuery.parentType'
     package: '@azure-rest/agrifood-farming'
@@ -191,23 +204,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'propertyFilters?: string[]'
+      content: 'propertyFilters?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
-  - name: skipToken
-    uid: '@azure-rest/agrifood-farming.SearchBoundaryQuery.skipToken'
-    package: '@azure-rest/agrifood-farming'
-    summary: Skip token for getting next set of results.
-    fullName: skipToken
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'skipToken?: string'
-      return:
-        description: ''
-        type: string
+        type: Array&lt;string&gt;
   - name: statuses
     uid: '@azure-rest/agrifood-farming.SearchBoundaryQuery.statuses'
     package: '@azure-rest/agrifood-farming'
@@ -217,7 +217,7 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'statuses?: string[]'
+      content: 'statuses?: Array<string>'
       return:
         description: ''
-        type: 'string[]'
+        type: Array&lt;string&gt;

@@ -12,7 +12,9 @@ properties:
   - name: body
     uid: '@azure-rest/agrifood-farming.AttachmentsCreateOrUpdateBodyParam.body'
     package: '@azure-rest/agrifood-farming'
-    summary: ''
+    summary: |
+      File to be uploaded.
+      Value may contain any sequence of octets
     fullName: body
     remarks: ''
     isPreview: false

@@ -18,10 +18,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'body: Boundary'
+      content: 'body: BoundaryOutput'
       return:
         description: ''
-        type: <xref uid="@azure-rest/agrifood-farming.Boundary" />
+        type: <xref uid="@azure-rest/agrifood-farming.BoundaryOutput" />
   - name: headers
     uid: '@azure-rest/agrifood-farming.BoundariesCreateOrUpdate201Response.headers'
     package: '@azure-rest/agrifood-farming'
