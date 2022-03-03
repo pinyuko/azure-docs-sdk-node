@@ -1,7 +1,7 @@
 {
   "Name": "@azure/arm-analysisservices",
-  "Version": "4.0.1-alpha.20220301.1",
-  "DevVersion": "4.0.1-alpha.20220301.1",
+  "Version": "4.0.1-alpha.20220302.1",
+  "DevVersion": "4.0.1-alpha.20220302.1",
   "DirectoryPath": "sdk/analysisservices/arm-analysisservices",
   "ServiceDirectory": "analysisservices",
   "ReadMePath": "sdk/analysisservices/arm-analysisservices/README.md",
