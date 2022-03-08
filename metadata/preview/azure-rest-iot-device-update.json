@@ -1,7 +1,7 @@
 {
   "Name": "@azure-rest/iot-device-update",
-  "Version": "1.0.0-alpha.20220307.1",
-  "DevVersion": "1.0.0-alpha.20220307.1",
+  "Version": "1.0.0-alpha.20220308.1",
+  "DevVersion": "1.0.0-alpha.20220308.1",
   "DirectoryPath": "sdk/deviceupdate/iot-device-update-rest",
   "ServiceDirectory": "deviceupdate",
   "ReadMePath": "sdk/deviceupdate/iot-device-update-rest/README.md",
