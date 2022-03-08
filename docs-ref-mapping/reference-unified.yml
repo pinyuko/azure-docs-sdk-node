@@ -27,14 +27,6 @@
     - name: Management
       children:
       - '@azure/arm-analysisservices'
-  - name: Anomaly Detector
-    href: ~/docs-ref-services/{moniker}/anomaly-detector.md
-    landingPageType: Service
-    items:
-    - name: Anomaly Detector
-      href: ~/docs-ref-services/{moniker}/ai-anomaly-detector-readme.md
-      children:
-      - '@azure/ai-anomaly-detector'
   - name: API for FHIR
     href: ~/docs-ref-services/{moniker}/api-for-fhir.md
     landingPageType: Service
@@ -106,14 +98,6 @@
     - name: Management
       children:
       - '@azure/arm-automation'
-  - name: Azure Confidential Ledger
-    href: ~/docs-ref-services/{moniker}/azure-confidential-ledger.md
-    landingPageType: Service
-    items:
-    - name: Azure Confidential Ledger
-      href: ~/docs-ref-services/{moniker}/confidential-ledger-rest-readme.md
-      children:
-      - '@azure-rest/confidential-ledger'
   - name: Azure Stack
     href: ~/docs-ref-services/{moniker}/azure-stack.md
     landingPageType: Service
@@ -287,10 +271,6 @@
       href: ~/docs-ref-services/{moniker}/communication-identity-readme.md
       children:
       - '@azure/communication-identity'
-    - name: Communication Network Traversal
-      href: ~/docs-ref-services/{moniker}/communication-network-traversal-readme.md
-      children:
-      - '@azure/communication-network-traversal'
     - name: Communication Phone Numbers
       href: ~/docs-ref-services/{moniker}/communication-phone-numbers-readme.md
       children:
@@ -538,13 +518,6 @@
       children:
       - '@azure/arm-eventhub'
       - azure-arm-eventhub
-  - name: Extended Location
-    href: ~/docs-ref-services/{moniker}/extended-location.md
-    landingPageType: Service
-    items:
-    - name: Management
-      children:
-      - '@azure/arm-extendedlocation'
   - name: farmbeats
     href: ~/docs-ref-services/{moniker}/farmbeats.md
     landingPageType: Service
@@ -641,14 +614,6 @@
       children:
       - '@azure/arm-iotcentral'
       - '@azure/arm-iotspaces'
-  - name: IoT Device Update
-    href: ~/docs-ref-services/{moniker}/iot-device-update.md
-    landingPageType: Service
-    items:
-    - name: IoT Device Update
-      href: ~/docs-ref-services/{moniker}/iot-device-update-readme.md
-      children:
-      - '@azure/iot-device-update'
   - name: IoT Hub
     href: ~/docs-ref-services/{moniker}/iot-hub.md
     landingPageType: Service
@@ -867,10 +832,6 @@
       href: ~/docs-ref-services/{moniker}/mixed-reality-authentication-readme.md
       children:
       - '@azure/mixed-reality-authentication'
-    - name: Azure Remote Rendering
-      href: ~/docs-ref-services/{moniker}/mixed-reality-remote-rendering-readme.md
-      children:
-      - '@azure/mixed-reality-remote-rendering'
     - name: Management
       children:
       - '@azure/arm-mixedreality'
@@ -942,13 +903,6 @@
     - name: Management
       children:
       - '@azure/arm-operationalinsights'
-  - name: Orbital
-    href: ~/docs-ref-services/{moniker}/orbital.md
-    landingPageType: Service
-    items:
-    - name: Management
-      children:
-      - '@azure/arm-orbital'
   - name: Peering Service
     href: ~/docs-ref-services/{moniker}/peering-service.md
     landingPageType: Service
