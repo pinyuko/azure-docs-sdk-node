@@ -31,7 +31,6 @@ enums:
   - '@azure/arm-eventgrid.KnownTopicTypeProvisioningState'
 classes:
   - '@azure/arm-eventgrid.EventGridManagementClient'
-  - '@azure/arm-eventgrid.EventGridManagementClientContext'
 interfaces:
   - '@azure/arm-eventgrid.AdvancedFilter'
   - '@azure/arm-eventgrid.ConnectionState'

@@ -67,10 +67,11 @@ properties:
         "AzureDataExplorerCommand" | "Lookup" | "WebActivity" | "GetMetadata" |
         "IfCondition" | "Switch" | "ForEach" | "AzureMLBatchExecution" |
         "AzureMLUpdateResource" | "AzureMLExecutePipeline" |
-        "DataLakeAnalyticsU-SQL" | "Wait" | "Until" | "Validation" | "Filter" |
-        "DatabricksNotebook" | "DatabricksSparkJar" | "DatabricksSparkPython" |
-        "SetVariable" | "AppendVariable" | "AzureFunctionActivity" | "WebHook" |
-        "ExecuteDataFlow" | "ExecuteWranglingDataflow"
+        "DataLakeAnalyticsU-SQL" | "Wait" | "Fail" | "Until" | "Validation" |
+        "Filter" | "DatabricksNotebook" | "DatabricksSparkJar" |
+        "DatabricksSparkPython" | "SetVariable" | "AppendVariable" |
+        "AzureFunctionActivity" | "WebHook" | "ExecuteDataFlow" |
+        "ExecuteWranglingDataflow" | "Script"
       return:
         description: ''
         type: >-
@@ -80,11 +81,11 @@ properties:
           "ExecutePipeline" | "Delete" | "AzureDataExplorerCommand" | "Lookup" |
           "WebActivity" | "GetMetadata" | "IfCondition" | "Switch" | "ForEach" |
           "AzureMLBatchExecution" | "AzureMLUpdateResource" |
-          "AzureMLExecutePipeline" | "DataLakeAnalyticsU-SQL" | "Wait" | "Until"
-          | "Validation" | "Filter" | "DatabricksNotebook" |
+          "AzureMLExecutePipeline" | "DataLakeAnalyticsU-SQL" | "Wait" | "Fail"
+          | "Until" | "Validation" | "Filter" | "DatabricksNotebook" |
           "DatabricksSparkJar" | "DatabricksSparkPython" | "SetVariable" |
           "AppendVariable" | "AzureFunctionActivity" | "WebHook" |
-          "ExecuteDataFlow" | "ExecuteWranglingDataflow"
+          "ExecuteDataFlow" | "ExecuteWranglingDataflow" | "Script"
   - name: userProperties
     uid: '@azure/arm-datafactory.Activity.userProperties'
     package: '@azure/arm-datafactory'
