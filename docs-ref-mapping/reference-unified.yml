@@ -440,13 +440,6 @@
     - name: Management
       children:
       - '@azure/arm-deploymentmanager'
-  - name: Desktop Virtualization
-    href: ~/docs-ref-services/{moniker}/desktop-virtualization.md
-    landingPageType: Service
-    items:
-    - name: Management
-      children:
-      - '@azure/arm-desktopvirtualization'
   - name: Dev Spaces
     href: ~/docs-ref-services/{moniker}/dev-spaces.md
     landingPageType: Service
@@ -473,10 +466,6 @@
       href: ~/docs-ref-services/{moniker}/digital-twins-core-readme.md
       children:
       - '@azure/digital-twins-core'
-    - name: Digital Twins Definition Language Parser
-      href: ~/docs-ref-services/{moniker}/dtdl-parser-readme.md
-      children:
-      - '@azure/dtdl-parser'
     - name: Digital Twins Service
       href: ~/docs-ref-services/{moniker}/iot-digitaltwins-service-readme.md
       children:
@@ -491,21 +480,6 @@
     - name: Management
       children:
       - '@azure/arm-dns'
-  - name: Dnsresolver
-    href: ~/docs-ref-services/{moniker}/dnsresolver.md
-    landingPageType: Service
-    items:
-    - name: Management
-      children:
-      - '@azure/arm-dnsresolver'
-  - name: Document Translation
-    href: ~/docs-ref-services/{moniker}/document-translation.md
-    landingPageType: Service
-    items:
-    - name: Document Translation
-      href: ~/docs-ref-services/{moniker}/ai-document-translator-rest-readme.md
-      children:
-      - '@azure-rest/ai-document-translator'
   - name: Durable Functions
     href: ~/docs-ref-services/{moniker}/durable-functions.md
     landingPageType: Service
@@ -545,13 +519,6 @@
       children:
       - '@azure/arm-eventhub'
       - azure-arm-eventhub
-  - name: Extended Location
-    href: ~/docs-ref-services/{moniker}/extended-location.md
-    landingPageType: Service
-    items:
-    - name: Management
-      children:
-      - '@azure/arm-extendedlocation'
   - name: farmbeats
     href: ~/docs-ref-services/{moniker}/farmbeats.md
     landingPageType: Service
@@ -877,14 +844,6 @@
     href: ~/docs-ref-services/{moniker}/mixed-reality.md
     landingPageType: Service
     items:
-    - name: Azure Mixed Reality Authentication
-      href: ~/docs-ref-services/{moniker}/mixed-reality-authentication-readme.md
-      children:
-      - '@azure/mixed-reality-authentication'
-    - name: Azure Remote Rendering
-      href: ~/docs-ref-services/{moniker}/mixed-reality-remote-rendering-readme.md
-      children:
-      - '@azure/mixed-reality-remote-rendering'
     - name: Management
       children:
       - '@azure/arm-mixedreality'
@@ -963,13 +922,6 @@
     - name: Management
       children:
       - '@azure/arm-operationalinsights'
-  - name: Orbital
-    href: ~/docs-ref-services/{moniker}/orbital.md
-    landingPageType: Service
-    items:
-    - name: Management
-      children:
-      - '@azure/arm-orbital'
   - name: Peering Service
     href: ~/docs-ref-services/{moniker}/peering-service.md
     landingPageType: Service
@@ -993,14 +945,7 @@
       children:
       - '@azure/arm-policy'
       - '@azure/arm-policyinsights'
-  - name: Portal
-    href: ~/docs-ref-services/{moniker}/portal.md
-    landingPageType: Service
-    items:
-    - name: Management
-      children:
-      - '@azure/arm-portal'
-  - name: PostgreSQL
+  - name: Postgresql
     href: ~/docs-ref-services/{moniker}/postgresql.md
     landingPageType: Service
     items:
@@ -1031,28 +976,9 @@
       href: ~/docs-ref-services/{moniker}/purview-account-rest-readme.md
       children:
       - '@azure-rest/purview-account'
-    - name: Purview Administration
-      href: ~/docs-ref-services/{moniker}/purview-administration-rest-readme.md
-      children:
-      - '@azure-rest/purview-administration'
-    - name: Purview Catalog
-      href: ~/docs-ref-services/{moniker}/purview-catalog-rest-readme.md
-      children:
-      - '@azure-rest/purview-catalog'
-    - name: Purview Scanning
-      href: ~/docs-ref-services/{moniker}/purview-scanning-rest-readme.md
-      children:
-      - '@azure-rest/purview-scanning'
     - name: Management
       children:
       - '@azure/arm-purview'
-  - name: Quota
-    href: ~/docs-ref-services/{moniker}/quota.md
-    landingPageType: Service
-    items:
-    - name: Management
-      children:
-      - '@azure/arm-quota'
   - name: Recovery Services
     href: ~/docs-ref-services/{moniker}/recovery-services.md
     landingPageType: Service
@@ -1156,13 +1082,6 @@
     - name: Management
       children:
       - '@azure/arm-security'
-  - name: Securityinsight
-    href: ~/docs-ref-services/{moniker}/securityinsight.md
-    landingPageType: Service
-    items:
-    - name: Management
-      children:
-      - '@azure/arm-securityinsight'
   - name: Serial Console
     href: ~/docs-ref-services/{moniker}/serial-console.md
     landingPageType: Service
@@ -1236,10 +1155,6 @@
       href: ~/docs-ref-services/{moniker}/storage-blob-readme.md
       children:
       - '@azure/storage-blob'
-    - name: Blobs ChangeFeed
-      href: ~/docs-ref-services/{moniker}/storage-blob-changefeed-readme.md
-      children:
-      - '@azure/storage-blob-changefeed'
     - name: Files Shares
       href: ~/docs-ref-services/{moniker}/storage-file-readme.md
       children:
@@ -1362,17 +1277,6 @@
     - name: Management
       children:
       - '@azure/arm-trafficmanager'
-  - name: Video Analyzer
-    href: ~/docs-ref-services/{moniker}/video-analyzer.md
-    landingPageType: Service
-    items:
-    - name: Azure Video Analyzer Edge
-      href: ~/docs-ref-services/{moniker}/video-analyzer-edge-readme.md
-      children:
-      - '@azure/video-analyzer-edge'
-    - name: Management
-      children:
-      - '@azure/arm-videoanalyzer'
   - name: Visual Studio Team Services
     href: ~/docs-ref-services/{moniker}/visual-studio-team-services.md
     landingPageType: Service
@@ -1515,10 +1419,6 @@
         href: ~/docs-ref-services/{moniker}/ms-rest-nodeauth-readme.md
         children:
         - '@azure/ms-rest-nodeauth'
-    - name: OpenTelemetry Instrumentation
-      href: ~/docs-ref-services/{moniker}/opentelemetry-instrumentation-azure-sdk-readme.md
-      children:
-      - '@azure/opentelemetry-instrumentation-azure-sdk'
     - name: Uncategorized Packages
       landingPageType: Service
       children:
