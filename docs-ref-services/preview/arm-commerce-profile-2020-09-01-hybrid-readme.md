@@ -1,6 +1,6 @@
 ---
 title: Azure UsageManagement client library for JavaScript
-keywords: Azure, javascript, SDK, API, @azure/arm-commerce, commerce
+keywords: Azure, javascript, SDK, API, @azure/arm-commerce-profile-2020-09-01-hybrid, commerce
 author: qiaozha
 ms.author: qiaozha
 ms.date: 03/10/2022
@@ -10,16 +10,16 @@ ms.technology: azure
 ms.devlang: javascript
 ms.service: commerce
 ---
-# Azure UsageManagement client library for JavaScript - Version 4.0.0-alpha.20220310.2 
+# Azure UsageManagement client library for JavaScript - Version 2.0.0-alpha.20220310.2 
 
 
 This package contains an isomorphic SDK (runs both in Node.js and in browsers) for Azure UsageManagement client.
 
 
 
-[Source code](https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/commerce/arm-commerce) |
-[Package (NPM)](https://www.npmjs.com/package/@azure/arm-commerce) |
-[API reference documentation](https://docs.microsoft.com/javascript/api/@azure/arm-commerce?view=azure-node-preview) |
+[Source code](https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/commerce/arm-commerce-profile-2020-09-01-hybrid) |
+[Package (NPM)](https://www.npmjs.com/package/@azure/arm-commerce-profile-2020-09-01-hybrid) |
+[API reference documentation](https://docs.microsoft.com/javascript/api/@azure/arm-commerce-profile-2020-09-01-hybrid?view=azure-node-preview) |
 [Samples](https://github.com/Azure-Samples/azure-samples-js-management)
 
 ## Getting started
@@ -29,16 +29,18 @@ This package contains an isomorphic SDK (runs both in Node.js and in browsers) f
 - [LTS versions of Node.js](https://nodejs.org/about/releases/)
 - Latest versions of Safari, Chrome, Edge and Firefox.
 
+See our [support policy](https://github.com/Azure/azure-sdk-for-js/blob/main/SUPPORT.md) for more details.
+
 ### Prerequisites
 
 - An [Azure subscription][azure_sub].
 
-### Install the `@azure/arm-commerce` package
+### Install the `@azure/arm-commerce-profile-2020-09-01-hybrid` package
 
 Install the Azure UsageManagement client library for JavaScript with `npm`:
 
 ```bash
-npm install @azure/arm-commerce
+npm install @azure/arm-commerce-profile-2020-09-01-hybrid
 ```
 
 ### Create and authenticate a `UsageManagementClient`
@@ -60,10 +62,19 @@ Set the values of the client ID, tenant ID, and client secret of the AAD applica
 For more information about how to create an Azure AD Application check out [this guide](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal).
 
 ```javascript
-const { UsageManagementClient } = require("@azure/arm-commerce");
+const { UsageManagementClient } = require("@azure/arm-commerce-profile-2020-09-01-hybrid");
 const { DefaultAzureCredential } = require("@azure/identity");
+// For client-side applications running in the browser, use InteractiveBrowserCredential instead of DefaultAzureCredential. See https://aka.ms/azsdk/js/identity/examples for more details.
+
 const subscriptionId = "00000000-0000-0000-0000-000000000000";
 const client = new UsageManagementClient(new DefaultAzureCredential(), subscriptionId);
+
+// For client-side applications running in the browser, use this code instead:
+// const credential = new InteractiveBrowserCredential({
+//   tenantId: "<YOUR_TENANT_ID>",
+//   clientId: "<YOUR_CLIENT_ID>"
+// });
+// const client = new UsageManagementClient(credential, subscriptionId);
 ```
 
 
@@ -101,7 +112,7 @@ If you'd like to contribute to this library, please read the [contributing guide
 
 - [Microsoft Azure SDK for JavaScript](https://github.com/Azure/azure-sdk-for-js)
 
-![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-js%2Fsdk%2Fcommerce%2Farm-commerce%2FREADME.png)
+![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-js%2Fsdk%2Fcommerce%2Farm-commerce-profile-2020-09-01-hybrid%2FREADME.png)
 
 [azure_cli]: https://docs.microsoft.com/cli/azure
 [azure_sub]: https://azure.microsoft.com/free/
