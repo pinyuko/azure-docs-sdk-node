@@ -750,6 +750,18 @@
     },
     {
       "name": "@azure/arm-compute-profile-2020-09-01-hybrid@2.0.0"
+    },
+    {
+      "name": "@azure/arm-databoxedge-profile-2020-09-01-hybrid@2.0.0"
+    },
+    {
+      "name": "@azure/arm-dns-profile-2020-09-01-hybrid@2.0.0"
+    },
+    {
+      "name": "@azure/arm-keyvault-profile-2020-09-01-hybrid@2.0.0"
+    },
+    {
+      "name": "@azure/arm-monitor-profile-2020-09-01-hybrid@2.0.0"
     }
   ],
   "source_repos": []
