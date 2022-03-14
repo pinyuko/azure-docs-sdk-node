@@ -1,6 +1,6 @@
 ---
 title: Azure RedisManagement client library for JavaScript
-keywords: Azure, javascript, SDK, API, @azure/arm-rediscache, rediscache
+keywords: Azure, javascript, SDK, API, @azure/arm-rediscache, cache
 author: qiaozha
 ms.author: qiaozha
 ms.date: 03/14/2022
@@ -8,9 +8,9 @@ ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: javascript
-ms.service: rediscache
+ms.service: cache
 ---
-# Azure RedisManagement client library for JavaScript - Version 6.0.1-alpha.20220217.1 
+# Azure RedisManagement client library for JavaScript - Version 6.0.1-alpha.20220314.1 
 
 
 This package contains an isomorphic SDK (runs both in Node.js and in browsers) for Azure RedisManagement client.
