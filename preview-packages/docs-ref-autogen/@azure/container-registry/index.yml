@@ -33,5 +33,5 @@ interfaces:
   - '@azure/container-registry.UpdateRepositoryPropertiesOptions'
   - '@azure/container-registry.UpdateTagPropertiesOptions'
 typeAliases:
-  - '@azure/container-registry.ManifestOrderBy'
-  - '@azure/container-registry.TagOrderBy'
+  - '@azure/container-registry.ArtifactManifestOrder'
+  - '@azure/container-registry.ArtifactTagOrder'

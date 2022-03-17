@@ -257,7 +257,7 @@ inheritedMethods:
 methods:
   - name: >-
       getOperationResult(string, string, string,
-      RecoveryServicesClientGetOperationResultOptionalParams)
+      GetOperationResultOptionalParams)
     uid: '@azure/arm-recoveryservices.RecoveryServicesClient.getOperationResult'
     package: '@azure/arm-recoveryservices'
     summary: Gets the operation result for a resource.
@@ -268,8 +268,7 @@ methods:
       content: >-
         function getOperationResult(resourceGroupName: string, vaultName:
         string, operationId: string, options?:
-        RecoveryServicesClientGetOperationResultOptionalParams):
-        Promise<RecoveryServicesClientGetOperationResultResponse>
+        GetOperationResultOptionalParams): Promise<GetOperationResultResponse>
       parameters:
         - id: resourceGroupName
           type: string
@@ -285,7 +284,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-recoveryservices.RecoveryServicesClientGetOperationResultOptionalParams"
+            uid="@azure/arm-recoveryservices.GetOperationResultOptionalParams"
             />
           description: |
             The options parameters.
@@ -293,11 +292,10 @@ methods:
         description: ''
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-recoveryservices.RecoveryServicesClientGetOperationResultResponse"
-          />&gt;
+          uid="@azure/arm-recoveryservices.GetOperationResultResponse" />&gt;
   - name: >-
       getOperationStatus(string, string, string,
-      RecoveryServicesClientGetOperationStatusOptionalParams)
+      GetOperationStatusOptionalParams)
     uid: '@azure/arm-recoveryservices.RecoveryServicesClient.getOperationStatus'
     package: '@azure/arm-recoveryservices'
     summary: Gets the operation status for a resource.
@@ -308,8 +306,7 @@ methods:
       content: >-
         function getOperationStatus(resourceGroupName: string, vaultName:
         string, operationId: string, options?:
-        RecoveryServicesClientGetOperationStatusOptionalParams):
-        Promise<RecoveryServicesClientGetOperationStatusResponse>
+        GetOperationStatusOptionalParams): Promise<GetOperationStatusResponse>
       parameters:
         - id: resourceGroupName
           type: string
@@ -325,7 +322,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-recoveryservices.RecoveryServicesClientGetOperationStatusOptionalParams"
+            uid="@azure/arm-recoveryservices.GetOperationStatusOptionalParams"
             />
           description: |
             The options parameters.
@@ -333,6 +330,5 @@ methods:
         description: ''
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-recoveryservices.RecoveryServicesClientGetOperationStatusResponse"
-          />&gt;
-extends: <xref uid="@azure/arm-recoveryservices.RecoveryServicesClientContext" />
+          uid="@azure/arm-recoveryservices.GetOperationStatusResponse" />&gt;
+extends: ServiceClient
