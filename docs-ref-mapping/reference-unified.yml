@@ -27,14 +27,6 @@
     - name: Management
       children:
       - '@azure/arm-analysisservices'
-  - name: Anomaly Detector
-    href: ~/docs-ref-services/{moniker}/anomaly-detector.md
-    landingPageType: Service
-    items:
-    - name: Anomaly Detector
-      href: ~/docs-ref-services/{moniker}/ai-anomaly-detector-readme.md
-      children:
-      - '@azure/ai-anomaly-detector'
   - name: API for FHIR
     href: ~/docs-ref-services/{moniker}/api-for-fhir.md
     landingPageType: Service
@@ -114,14 +106,6 @@
     - name: Management
       children:
       - '@azure/arm-automation'
-  - name: Azure Confidential Ledger
-    href: ~/docs-ref-services/{moniker}/azure-confidential-ledger.md
-    landingPageType: Service
-    items:
-    - name: Azure Confidential Ledger
-      href: ~/docs-ref-services/{moniker}/confidential-ledger-rest-readme.md
-      children:
-      - '@azure-rest/confidential-ledger'
   - name: Azure Stack
     href: ~/docs-ref-services/{moniker}/azure-stack.md
     landingPageType: Service
@@ -341,13 +325,6 @@
     - name: Management
       children:
       - '@azure/arm-deploymentmanager'
-  - name: Desktop Virtualization
-    href: ~/docs-ref-services/{moniker}/desktop-virtualization.md
-    landingPageType: Service
-    items:
-    - name: Management
-      children:
-      - '@azure/arm-desktopvirtualization'
   - name: Dev Spaces
     href: ~/docs-ref-services/{moniker}/dev-spaces.md
     landingPageType: Service
@@ -381,21 +358,6 @@
       children:
       - '@azure/arm-dns'
       - '@azure/arm-dns-profile-2020-09-01-hybrid'
-  - name: Dnsresolver
-    href: ~/docs-ref-services/{moniker}/dnsresolver.md
-    landingPageType: Service
-    items:
-    - name: Management
-      children:
-      - '@azure/arm-dnsresolver'
-  - name: Document Translation
-    href: ~/docs-ref-services/{moniker}/document-translation.md
-    landingPageType: Service
-    items:
-    - name: Document Translation
-      href: ~/docs-ref-services/{moniker}/ai-document-translator-rest-readme.md
-      children:
-      - '@azure-rest/ai-document-translator'
   - name: Durable Functions
     href: ~/docs-ref-services/{moniker}/durable-functions.md
     landingPageType: Service
@@ -434,13 +396,6 @@
     - name: Management
       children:
       - '@azure/arm-eventhub-profile-2020-09-01-hybrid'
-  - name: Extended Location
-    href: ~/docs-ref-services/{moniker}/extended-location.md
-    landingPageType: Service
-    items:
-    - name: Management
-      children:
-      - '@azure/arm-extendedlocation'
   - name: farmbeats
     href: ~/docs-ref-services/{moniker}/farmbeats.md
     landingPageType: Service
@@ -614,13 +569,6 @@
     - name: Management
       children:
       - '@azure/arm-links'
-  - name: Loadtestservice
-    href: ~/docs-ref-services/{moniker}/loadtestservice.md
-    landingPageType: Service
-    items:
-    - name: Management
-      children:
-      - '@azure/arm-loadtestservice'
   - name: Locks
     href: ~/docs-ref-services/{moniker}/locks.md
     landingPageType: Service
@@ -737,20 +685,9 @@
     href: ~/docs-ref-services/{moniker}/mixed-reality.md
     landingPageType: Service
     items:
-    - name: Azure Mixed Reality Authentication
-      href: ~/docs-ref-services/{moniker}/mixed-reality-authentication-readme.md
-      children:
-      - '@azure/mixed-reality-authentication'
     - name: Management
       children:
       - '@azure/arm-mixedreality'
-  - name: Mobilenetwork
-    href: ~/docs-ref-services/{moniker}/mobilenetwork.md
-    landingPageType: Service
-    items:
-    - name: Management
-      children:
-      - '@azure/arm-mobilenetwork'
   - name: Monitor
     href: ~/docs-ref-services/{moniker}/monitor.md
     landingPageType: Service
@@ -799,13 +736,6 @@
     - name: Management
       children:
       - '@azure/arm-notificationhubs'
-  - name: Oep
-    href: ~/docs-ref-services/{moniker}/oep.md
-    landingPageType: Service
-    items:
-    - name: Management
-      children:
-      - '@azure/arm-oep'
   - name: Operational Insights
     href: ~/docs-ref-services/{moniker}/operational-insights.md
     landingPageType: Service
@@ -813,13 +743,6 @@
     - name: Management
       children:
       - '@azure/arm-operationalinsights'
-  - name: Orbital
-    href: ~/docs-ref-services/{moniker}/orbital.md
-    landingPageType: Service
-    items:
-    - name: Management
-      children:
-      - '@azure/arm-orbital'
   - name: Peering Service
     href: ~/docs-ref-services/{moniker}/peering-service.md
     landingPageType: Service
@@ -844,14 +767,7 @@
       - '@azure/arm-policy'
       - '@azure/arm-policy-profile-2020-09-01-hybrid'
       - '@azure/arm-policyinsights'
-  - name: Portal
-    href: ~/docs-ref-services/{moniker}/portal.md
-    landingPageType: Service
-    items:
-    - name: Management
-      children:
-      - '@azure/arm-portal'
-  - name: PostgreSQL
+  - name: Postgresql
     href: ~/docs-ref-services/{moniker}/postgresql.md
     landingPageType: Service
     items:
@@ -991,13 +907,6 @@
     - name: Management
       children:
       - '@azure/arm-security'
-  - name: Securityinsight
-    href: ~/docs-ref-services/{moniker}/securityinsight.md
-    landingPageType: Service
-    items:
-    - name: Management
-      children:
-      - '@azure/arm-securityinsight'
   - name: Serial Console
     href: ~/docs-ref-services/{moniker}/serial-console.md
     landingPageType: Service
@@ -1114,14 +1023,6 @@
     - name: Management
       children:
       - '@azure/arm-synapse'
-  - name: Synapse Analytics
-    href: ~/docs-ref-services/{moniker}/synapse-analytics.md
-    landingPageType: Service
-    items:
-    - name: AccessControl
-      href: ~/docs-ref-services/{moniker}/synapse-access-control-readme.md
-      children:
-      - '@azure/synapse-access-control'
   - name: Tables
     href: ~/docs-ref-services/{moniker}/tables.md
     landingPageType: Service
@@ -1159,17 +1060,6 @@
     - name: Management
       children:
       - '@azure/arm-trafficmanager'
-  - name: Video Analyzer
-    href: ~/docs-ref-services/{moniker}/video-analyzer.md
-    landingPageType: Service
-    items:
-    - name: Azure Video Analyzer Edge
-      href: ~/docs-ref-services/{moniker}/video-analyzer-edge-readme.md
-      children:
-      - '@azure/video-analyzer-edge'
-    - name: Management
-      children:
-      - '@azure/arm-videoanalyzer'
   - name: Visual Studio Team Services
     href: ~/docs-ref-services/{moniker}/visual-studio-team-services.md
     landingPageType: Service
@@ -1253,10 +1143,6 @@
           href: ~/docs-ref-services/{moniker}/core-rest-pipeline-readme.md
           children:
           - '@azure/core-rest-pipeline'
-        - name: Core Utils
-          href: ~/docs-ref-services/{moniker}/core-util-readme.md
-          children:
-          - '@azure/core-util'
         - name: HTTP
           href: ~/docs-ref-services/{moniker}/core-http-readme.md
           children:
@@ -1277,14 +1163,6 @@
           href: ~/docs-ref-services/{moniker}/core-paging-readme.md
           children:
           - '@azure/core-paging'
-        - name: Rest
-          href: ~/docs-ref-services/{moniker}/core-client-rest-readme.md
-          children:
-          - '@azure-rest/core-client'
-        - name: Tracing
-          href: ~/docs-ref-services/{moniker}/core-tracing-readme.md
-          children:
-          - '@azure/core-tracing'
         - name: XML
           href: ~/docs-ref-services/{moniker}/core-xml-readme.md
           children:
@@ -1308,10 +1186,6 @@
         href: ~/docs-ref-services/{moniker}/ms-rest-nodeauth-readme.md
         children:
         - '@azure/ms-rest-nodeauth'
-    - name: OpenTelemetry Instrumentation
-      href: ~/docs-ref-services/{moniker}/opentelemetry-instrumentation-azure-sdk-readme.md
-      children:
-      - '@azure/opentelemetry-instrumentation-azure-sdk'
     - name: Uncategorized Packages
       landingPageType: Service
       children:
