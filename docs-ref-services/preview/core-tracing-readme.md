@@ -3,7 +3,7 @@ title:
 keywords: Azure, javascript, SDK, API, @azure/core-tracing, core
 author: xirzec
 ms.author: jeffish
-ms.date: 02/03/2022
+ms.date: 03/18/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
@@ -63,6 +63,7 @@ Please see the [troubleshooting](#troubleshooting) section for additional inform
 
 ```ts
 const opentelemetry = require("@opentelemetry/api");
+const { NodeTracerProvider } = require("@opentelemetry/node");
 const { SimpleSpanProcessor, ConsoleSpanExporter } = require("@opentelemetry/tracing");
 
 const provider = new NodeTracerProvider();
@@ -80,14 +81,24 @@ const opentelemetry = require("@opentelemetry/api");
 const tracer = opentelemetry.trace.getTracer("my-tracer");
 const span = tracer.startSpan("main");
 const ctx = opentelemetry.trace.setSpan(opentelemetry.context.active(), span);
+const { BlobClient } = require("@azure/storage-blob");
 
 // Assuming we have an existing BlobClient, let's see if the blob exists.
 // The context is passed to the client library as a tracingContext option and will be propagated downstream to any child spans.
-const result = await blobClient.exists({
-  tracingOptions: {
-    tracingContext: ctx
-  }
-});
+async function main() {
+  const blobClient = new BlobClient(
+    "<account connection string>",
+    "<container name>",
+    "<blob name>"
+  );
+  const result = await blobClient.exists({
+    tracingOptions: {
+      tracingContext: ctx,
+    },
+  });
+}
+
+main();
 ```
 
 ## Next steps
@@ -113,7 +124,7 @@ You may then upgrade client libraries as needed to ensure compatibility. Things 
 
 ## Contributing
 
-If you'd like to contribute to this library, please read the [contributing guide](https://github.com/Azure/azure-sdk-for-js/blob/@azure/core-tracing_1.0.0-preview.14/CONTRIBUTING.md) to learn more about how to build and test the code.
+If you'd like to contribute to this library, please read the [contributing guide](https://github.com/Azure/azure-sdk-for-js/blob/main/CONTRIBUTING.md) to learn more about how to build and test the code.
 
 ![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-js%2Fsdk%2Fcore%2Fcore-tracing%2FREADME.png)
 
