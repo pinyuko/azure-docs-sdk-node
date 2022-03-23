@@ -809,3 +809,811 @@ Removed @azure/iot-modelsrepository@1.0.0-alpha.20220322.1 because of docs packa
 	System.Management.Automation.RemoteException
 	npm ERR! A complete log of this run can be found in:
 	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_27_59_297Z-debug-0.log
+Removed @azure/app-configuration@1.3.2-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/app-configuration@1.3.2-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_42_392Z-debug-0.log
+Removed @azure/attestation@1.0.1-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/attestation@1.0.1-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_42_616Z-debug-0.log
+Removed @azure-rest/confidential-ledger@1.0.0-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure-rest/confidential-ledger@1.0.0-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_42_983Z-debug-0.log
+Removed @azure/mixed-reality-authentication@1.0.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/mixed-reality-authentication@1.0.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_43_215Z-debug-0.log
+Removed @azure/video-analyzer-edge@1.0.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/video-analyzer-edge@1.0.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_43_787Z-debug-0.log
+Removed @azure/storage-blob@12.9.1-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/storage-blob@12.9.1-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_43_867Z-debug-0.log
+Removed @azure/storage-blob-changefeed@12.0.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/storage-blob-changefeed@12.0.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_44_088Z-debug-0.log
+Removed @azure/search-documents@11.3.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/search-documents@11.3.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_44_072Z-debug-0.log
+Removed @azure/communication-chat@1.2.0-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/communication-chat@1.2.0-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_44_656Z-debug-0.log
+Removed @azure/communication-common@2.0.0-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/communication-common@2.0.0-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_44_791Z-debug-0.log
+Removed @azure/communication-identity@1.1.0-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/communication-identity@1.1.0-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_44_992Z-debug-0.log
+Removed @azure/communication-network-traversal@1.1.0-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/communication-network-traversal@1.1.0-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_45_457Z-debug-0.log
+Removed @azure/communication-phone-numbers@1.2.0-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/communication-phone-numbers@1.2.0-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_45_598Z-debug-0.log
+Removed @azure/communication-sms@1.1.0-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/communication-sms@1.1.0-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_45_646Z-debug-0.log
+Removed @azure/container-registry@1.0.1-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/container-registry@1.0.1-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_45_789Z-debug-0.log
+Removed @azure-rest/ai-document-translator@1.0.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure-rest/ai-document-translator@1.0.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_46_234Z-debug-0.log
+Removed @azure/storage-file-datalake@12.8.1-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/storage-file-datalake@12.8.1-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_46_583Z-debug-0.log
+Removed @azure/storage-file-share@12.9.1-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/storage-file-share@12.9.1-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_46_927Z-debug-0.log
+Removed @azure/ai-form-recognizer@4.0.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/ai-form-recognizer@4.0.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_47_183Z-debug-0.log
+Removed @azure/monitor-opentelemetry-exporter@1.0.0-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/monitor-opentelemetry-exporter@1.0.0-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_47_353Z-debug-0.log
+Removed @azure/monitor-query@1.0.2-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/monitor-query@1.0.2-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_47_596Z-debug-0.log
+Removed @azure/storage-queue@12.8.1-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/storage-queue@12.8.1-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_47_999Z-debug-0.log
+Removed @azure/service-bus@7.6.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/service-bus@7.6.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_47_879Z-debug-0.log
+Removed @azure/web-pubsub@1.0.1-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/web-pubsub@1.0.1-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_48_429Z-debug-0.log
+Removed @azure/web-pubsub-express@1.0.3-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/web-pubsub-express@1.0.3-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_48_745Z-debug-0.log
+Removed @azure/arm-changeanalysis@2.0.1-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-changeanalysis@2.0.1-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_49_193Z-debug-0.log
+Removed @azure/arm-confluent@3.0.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-confluent@3.0.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_49_273Z-debug-0.log
+Removed @azure/arm-datadog@3.0.1-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-datadog@3.0.1-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_49_471Z-debug-0.log
+Removed @azure/arm-datalake-analytics@2.0.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-datalake-analytics@2.0.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_49_415Z-debug-0.log
+Removed @azure/arm-eventhub-profile-2020-09-01-hybrid@2.0.1-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-eventhub-profile-2020-09-01-hybrid@2.0.1-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_49_829Z-debug-0.log
+Removed @azure/arm-hybridkubernetes@2.0.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-hybridkubernetes@2.0.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_50_373Z-debug-0.log
+Removed @azure/arm-locks-profile-2020-09-01-hybrid@2.0.1-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-locks-profile-2020-09-01-hybrid@2.0.1-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_50_543Z-debug-0.log
+Removed @azure/arm-monitor-profile-2020-09-01-hybrid@2.0.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-monitor-profile-2020-09-01-hybrid@2.0.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_50_563Z-debug-0.log
+Removed @azure/arm-mysql-flexible@2.0.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-mysql-flexible@2.0.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_50_539Z-debug-0.log
+Removed @azure/arm-policy-profile-2020-09-01-hybrid@2.0.1-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-policy-profile-2020-09-01-hybrid@2.0.1-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_51_147Z-debug-0.log
+Removed @azure/arm-servicefabric@2.0.1-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-servicefabric@2.0.1-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_51_763Z-debug-0.log
+Removed @azure/arm-redisenterprisecache@2.0.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-redisenterprisecache@2.0.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_52_145Z-debug-0.log
+Removed @azure/arm-resources-subscriptions@2.0.1-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-resources-subscriptions@2.0.1-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_52_185Z-debug-0.log
+Removed @azure/arm-advisor@3.0.1-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-advisor@3.0.1-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_52_282Z-debug-0.log
+Removed @azure/arm-apimanagement@8.0.1-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-apimanagement@8.0.1-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_52_581Z-debug-0.log
+Removed @azure/arm-appconfiguration@3.0.0-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-appconfiguration@3.0.0-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_52_897Z-debug-0.log
+Removed @azure/arm-appplatform@2.0.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-appplatform@2.0.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_53_162Z-debug-0.log
+Removed @azure/arm-appinsights@5.0.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-appinsights@5.0.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_53_343Z-debug-0.log
+Removed @azure/arm-azurestack@3.0.0-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-azurestack@3.0.0-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_53_765Z-debug-0.log
+Removed @azure/arm-azurestackhci@2.1.1-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-azurestackhci@2.1.1-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_53_861Z-debug-0.log
+Removed @azure/arm-billing@4.0.1-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-billing@4.0.1-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_54_005Z-debug-0.log
+Removed @azure/arm-botservice@4.0.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-botservice@4.0.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_54_137Z-debug-0.log
+Removed @azure/arm-cognitiveservices@7.0.1-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-cognitiveservices@7.0.1-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_54_557Z-debug-0.log
+Removed @azure/arm-commitmentplans@2.0.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-commitmentplans@2.0.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_54_736Z-debug-0.log
+Removed @azure/arm-communication@3.0.1-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-communication@3.0.1-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_55_020Z-debug-0.log
+Removed @azure/arm-containerinstance@8.0.1-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-containerinstance@8.0.1-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_55_313Z-debug-0.log
+Removed @azure/arm-customerinsights@4.0.1-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-customerinsights@4.0.1-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_55_674Z-debug-0.log
+Removed @azure/arm-databox@5.0.0-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-databox@5.0.0-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_55_813Z-debug-0.log
+Removed @azure/arm-datacatalog@3.0.0-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-datacatalog@3.0.0-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_55_741Z-debug-0.log
+Removed @azure/arm-datafactory@10.2.1-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-datafactory@10.2.1-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_56_157Z-debug-0.log
+Removed @azure/arm-deploymentmanager@4.0.0-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-deploymentmanager@4.0.0-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_56_659Z-debug-0.log
+Removed @azure/arm-deviceprovisioningservices@4.1.1-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-deviceprovisioningservices@4.1.1-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_56_899Z-debug-0.log
+Removed @azure/arm-digitaltwins@3.1.0-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-digitaltwins@3.1.0-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_57_408Z-debug-0.log
+Removed @azure/arm-domainservices@4.0.1-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-domainservices@4.0.1-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_57_418Z-debug-0.log
+Removed @azure/arm-eventhub@5.0.1-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-eventhub@5.0.1-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_57_529Z-debug-0.log
+Removed @azure/arm-frontdoor@5.0.1-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-frontdoor@5.0.1-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_57_607Z-debug-0.log
+Removed @azure/arm-hdinsight@1.1.1-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-hdinsight@1.1.1-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_58_279Z-debug-0.log
+Removed @azure/arm-healthcareapis@2.0.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-healthcareapis@2.0.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_58_480Z-debug-0.log
+Removed @azure/arm-iotcentral@6.0.0-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-iotcentral@6.0.0-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_58_940Z-debug-0.log
+Removed @azure/arm-labservices@3.0.0-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-labservices@3.0.0-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_59_059Z-debug-0.log
+Removed @azure/arm-locks@2.0.1-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-locks@2.0.1-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_59_087Z-debug-0.log
+Removed @azure/arm-machinelearningcompute@3.0.0-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-machinelearningcompute@3.0.0-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_59_549Z-debug-0.log
+Removed @azure/arm-managedapplications@2.0.1-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-managedapplications@2.0.1-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_59_793Z-debug-0.log
+Removed @azure/arm-maps@3.0.0-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-maps@3.0.0-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_45_59_856Z-debug-0.log
+Removed @azure/arm-marketplaceordering@3.0.0-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-marketplaceordering@3.0.0-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_00_247Z-debug-0.log
+Removed @azure/arm-migrate@2.0.0-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-migrate@2.0.0-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_00_467Z-debug-0.log
+Removed @azure/arm-mobilenetwork@1.0.0-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-mobilenetwork@1.0.0-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_00_705Z-debug-0.log
+Removed @azure/arm-monitor@7.0.1-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-monitor@7.0.1-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_01_033Z-debug-0.log
+Removed @azure/arm-mysql@5.0.1-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-mysql@5.0.1-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_01_317Z-debug-0.log
+Removed @azure/arm-notificationhubs@2.0.1-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-notificationhubs@2.0.1-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_01_501Z-debug-0.log
+Removed @azure/arm-oep@1.0.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-oep@1.0.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_01_741Z-debug-0.log
+Removed @azure/arm-operations@4.0.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-operations@4.0.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_01_983Z-debug-0.log
+Removed @azure/arm-peering@2.0.0-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-peering@2.0.0-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_02_234Z-debug-0.log
+Removed @azure/arm-policy@5.0.1-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-policy@5.0.1-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_02_633Z-debug-0.log
+Removed @azure/arm-postgresql@6.0.1-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-postgresql@6.0.1-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_02_696Z-debug-0.log
+Removed @azure/arm-postgresql-flexible@5.0.0-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-postgresql-flexible@5.0.0-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_03_089Z-debug-0.log
+Removed @azure/arm-privatedns@3.0.1-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-privatedns@3.0.1-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_03_243Z-debug-0.log
+Removed @azure/arm-recoveryservices@5.0.1-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-recoveryservices@5.0.1-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_03_518Z-debug-0.log
+Removed @azure/arm-recoveryservicesbackup@8.1.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-recoveryservicesbackup@8.1.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_03_586Z-debug-0.log
+Removed @azure/arm-recoveryservices-siterecovery@4.0.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-recoveryservices-siterecovery@4.0.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_04_005Z-debug-0.log
+Removed @azure/arm-rediscache@6.1.1-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-rediscache@6.1.1-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_04_192Z-debug-0.log
+Removed @azure/arm-securityinsight@1.0.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-securityinsight@1.0.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_04_405Z-debug-0.log
+Removed @azure/arm-serialconsole@2.0.0-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-serialconsole@2.0.0-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_04_846Z-debug-0.log
+Removed @azure/arm-servicemap@3.0.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-servicemap@3.0.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_04_874Z-debug-0.log
+Removed @azure/arm-sql@9.0.1-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-sql@9.0.1-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_05_270Z-debug-0.log
+Removed @azure/arm-storageimportexport@2.0.1-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-storageimportexport@2.0.1-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_05_503Z-debug-0.log
+Removed @azure/arm-storagesync@9.0.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-storagesync@9.0.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_05_783Z-debug-0.log
+Removed @azure/arm-storsimple8000series@2.0.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-storsimple8000series@2.0.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_06_145Z-debug-0.log
+Removed @azure/arm-support@2.0.0-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-support@2.0.0-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_06_284Z-debug-0.log
+Removed @azure/arm-videoanalyzer@1.0.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-videoanalyzer@1.0.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_06_509Z-debug-0.log
+Removed @azure/arm-vmwarecloudsimple@2.0.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-vmwarecloudsimple@2.0.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_06_621Z-debug-0.log
+Removed @azure/arm-webpubsub@1.0.1-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-webpubsub@1.0.1-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_07_034Z-debug-0.log
+Removed @azure/arm-workspaces@1.0.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/arm-workspaces@1.0.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_07_193Z-debug-0.log
+Removed @azure/iot-modelsrepository@1.0.0-alpha.20220322.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure/iot-modelsrepository@1.0.0-alpha.20220322.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_07_635Z-debug-0.log
+Removed @azure-tools/communication-short-codes@1.0.0-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure-tools/communication-short-codes@1.0.0-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_07_682Z-debug-0.log
+Removed @azure-rest/iot-device-update@1.0.0-alpha.20220323.1 because of docs package validation failure on 2022-03-23 16:46 +00:00
+	npm ERR! code ETARGET
+	npm ERR! notarget No matching version found for @azure-rest/iot-device-update@1.0.0-alpha.20220323.1.
+	npm ERR! notarget In most cases you or one of your dependencies are requesting
+	npm ERR! notarget a package version that doesn't exist.
+	System.Management.Automation.RemoteException
+	npm ERR! A complete log of this run can be found in:
+	npm ERR!     /home/vsts/.npm/_logs/2022-03-23T16_46_08_059Z-debug-0.log
