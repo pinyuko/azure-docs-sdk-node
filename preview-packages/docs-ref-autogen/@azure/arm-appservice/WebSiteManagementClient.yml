@@ -145,6 +145,32 @@ properties:
       return:
         description: ''
         type: <xref uid="@azure/arm-appservice.Certificates" />
+  - name: containerApps
+    uid: '@azure/arm-appservice.WebSiteManagementClient.containerApps'
+    package: '@azure/arm-appservice'
+    summary: ''
+    fullName: containerApps
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'containerApps: ContainerApps'
+      return:
+        description: ''
+        type: <xref uid="@azure/arm-appservice.ContainerApps" />
+  - name: containerAppsRevisions
+    uid: '@azure/arm-appservice.WebSiteManagementClient.containerAppsRevisions'
+    package: '@azure/arm-appservice'
+    summary: ''
+    fullName: containerAppsRevisions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'containerAppsRevisions: ContainerAppsRevisions'
+      return:
+        description: ''
+        type: <xref uid="@azure/arm-appservice.ContainerAppsRevisions" />
   - name: deletedWebApps
     uid: '@azure/arm-appservice.WebSiteManagementClient.deletedWebApps'
     package: '@azure/arm-appservice'
@@ -206,10 +232,10 @@ properties:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'global: Global'
+      content: 'global: Global_2'
       return:
         description: ''
-        type: <xref uid="@azure/arm-appservice.Global" />
+        type: <xref uid="@azure/arm-appservice.Global_2" />
   - name: kubeEnvironments
     uid: '@azure/arm-appservice.WebSiteManagementClient.kubeEnvironments'
     package: '@azure/arm-appservice'
@@ -374,7 +400,7 @@ inheritedMethods:
 methods:
   - name: >-
       checkNameAvailability(string, CheckNameResourceTypes,
-      WebSiteManagementClientCheckNameAvailabilityOptionalParams)
+      CheckNameAvailabilityOptionalParams)
     uid: '@azure/arm-appservice.WebSiteManagementClient.checkNameAvailability'
     package: '@azure/arm-appservice'
     summary: Description for Check if a resource name is available.
@@ -384,9 +410,8 @@ methods:
     syntax:
       content: >-
         function checkNameAvailability(name: string, typeParam:
-        CheckNameResourceTypes, options?:
-        WebSiteManagementClientCheckNameAvailabilityOptionalParams):
-        Promise<WebSiteManagementClientCheckNameAvailabilityResponse>
+        CheckNameResourceTypes, options?: CheckNameAvailabilityOptionalParams):
+        Promise<CheckNameAvailabilityResponse>
       parameters:
         - id: name
           type: string
@@ -397,53 +422,15 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-appservice.WebSiteManagementClientCheckNameAvailabilityOptionalParams"
-            />
+            uid="@azure/arm-appservice.CheckNameAvailabilityOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-appservice.WebSiteManagementClientCheckNameAvailabilityResponse"
-          />&gt;
-  - name: >-
-      generateGithubAccessTokenForAppserviceCLIAsync(string, string,
-      WebSiteManagementClientGenerateGithubAccessTokenForAppserviceCLIAsyncOptionalParams)
-    uid: >-
-      @azure/arm-appservice.WebSiteManagementClient.generateGithubAccessTokenForAppserviceCLIAsync
-    package: '@azure/arm-appservice'
-    summary: Description for Exchange code for GitHub access token for AppService CLI
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function generateGithubAccessTokenForAppserviceCLIAsync(code: string,
-        state: string, options?:
-        WebSiteManagementClientGenerateGithubAccessTokenForAppserviceCLIAsyncOptionalParams):
-        Promise<WebSiteManagementClientGenerateGithubAccessTokenForAppserviceCLIAsyncResponse>
-      parameters:
-        - id: code
-          type: string
-          description: Code string to exchange for Github Access token
-        - id: state
-          type: string
-          description: State string used for verification.
-        - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-appservice.WebSiteManagementClientGenerateGithubAccessTokenForAppserviceCLIAsyncOptionalParams"
-            />
-          description: |
-            The options parameters.
-      return:
-        description: ''
-        type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-appservice.WebSiteManagementClientGenerateGithubAccessTokenForAppserviceCLIAsyncResponse"
-          />&gt;
-  - name: getPublishingUser(WebSiteManagementClientGetPublishingUserOptionalParams)
+          uid="@azure/arm-appservice.CheckNameAvailabilityResponse" />&gt;
+  - name: getPublishingUser(GetPublishingUserOptionalParams)
     uid: '@azure/arm-appservice.WebSiteManagementClient.getPublishingUser'
     package: '@azure/arm-appservice'
     summary: Description for Gets publishing user
@@ -452,26 +439,19 @@ methods:
     isDeprecated: false
     syntax:
       content: >-
-        function getPublishingUser(options?:
-        WebSiteManagementClientGetPublishingUserOptionalParams):
-        Promise<WebSiteManagementClientGetPublishingUserResponse>
+        function getPublishingUser(options?: GetPublishingUserOptionalParams):
+        Promise<GetPublishingUserResponse>
       parameters:
         - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-appservice.WebSiteManagementClientGetPublishingUserOptionalParams"
-            />
+          type: <xref uid="@azure/arm-appservice.GetPublishingUserOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-appservice.WebSiteManagementClientGetPublishingUserResponse"
+          Promise&lt;<xref uid="@azure/arm-appservice.GetPublishingUserResponse"
           />&gt;
-  - name: >-
-      getSourceControl(string,
-      WebSiteManagementClientGetSourceControlOptionalParams)
+  - name: 'getSourceControl(string, GetSourceControlOptionalParams)'
     uid: '@azure/arm-appservice.WebSiteManagementClient.getSourceControl'
     package: '@azure/arm-appservice'
     summary: Description for Gets source control token
@@ -481,27 +461,22 @@ methods:
     syntax:
       content: >-
         function getSourceControl(sourceControlType: string, options?:
-        WebSiteManagementClientGetSourceControlOptionalParams):
-        Promise<WebSiteManagementClientGetSourceControlResponse>
+        GetSourceControlOptionalParams): Promise<GetSourceControlResponse>
       parameters:
         - id: sourceControlType
           type: string
           description: Type of source control
         - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-appservice.WebSiteManagementClientGetSourceControlOptionalParams"
-            />
+          type: <xref uid="@azure/arm-appservice.GetSourceControlOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-appservice.WebSiteManagementClientGetSourceControlResponse"
+          Promise&lt;<xref uid="@azure/arm-appservice.GetSourceControlResponse"
           />&gt;
   - name: >-
-      getSubscriptionDeploymentLocations(WebSiteManagementClientGetSubscriptionDeploymentLocationsOptionalParams)
+      getSubscriptionDeploymentLocations(GetSubscriptionDeploymentLocationsOptionalParams)
     uid: >-
       @azure/arm-appservice.WebSiteManagementClient.getSubscriptionDeploymentLocations
     package: '@azure/arm-appservice'
@@ -512,13 +487,13 @@ methods:
     syntax:
       content: >-
         function getSubscriptionDeploymentLocations(options?:
-        WebSiteManagementClientGetSubscriptionDeploymentLocationsOptionalParams):
-        Promise<WebSiteManagementClientGetSubscriptionDeploymentLocationsResponse>
+        GetSubscriptionDeploymentLocationsOptionalParams):
+        Promise<GetSubscriptionDeploymentLocationsResponse>
       parameters:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-appservice.WebSiteManagementClientGetSubscriptionDeploymentLocationsOptionalParams"
+            uid="@azure/arm-appservice.GetSubscriptionDeploymentLocationsOptionalParams"
             />
           description: |
             The options parameters.
@@ -526,9 +501,9 @@ methods:
         description: ''
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-appservice.WebSiteManagementClientGetSubscriptionDeploymentLocationsResponse"
+          uid="@azure/arm-appservice.GetSubscriptionDeploymentLocationsResponse"
           />&gt;
-  - name: listBillingMeters(WebSiteManagementClientListBillingMetersOptionalParams)
+  - name: listBillingMeters(ListBillingMetersOptionalParams)
     uid: '@azure/arm-appservice.WebSiteManagementClient.listBillingMeters'
     package: '@azure/arm-appservice'
     summary: Description for Gets a list of meters for a given location.
@@ -537,15 +512,11 @@ methods:
     isDeprecated: false
     syntax:
       content: >-
-        function listBillingMeters(options?:
-        WebSiteManagementClientListBillingMetersOptionalParams):
+        function listBillingMeters(options?: ListBillingMetersOptionalParams):
         PagedAsyncIterableIterator<BillingMeter>
       parameters:
         - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-appservice.WebSiteManagementClientListBillingMetersOptionalParams"
-            />
+          type: <xref uid="@azure/arm-appservice.ListBillingMetersOptionalParams" />
           description: |
             The options parameters.
       return:
@@ -553,7 +524,31 @@ methods:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
           uid="@azure/arm-appservice.BillingMeter" />&gt;
-  - name: listGeoRegions(WebSiteManagementClientListGeoRegionsOptionalParams)
+  - name: listCustomHostNameSites(ListCustomHostNameSitesOptionalParams)
+    uid: '@azure/arm-appservice.WebSiteManagementClient.listCustomHostNameSites'
+    package: '@azure/arm-appservice'
+    summary: Get custom hostnames under this subscription
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function listCustomHostNameSites(options?:
+        ListCustomHostNameSitesOptionalParams):
+        PagedAsyncIterableIterator<CustomHostnameSites>
+      parameters:
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-appservice.ListCustomHostNameSitesOptionalParams" />
+          description: |
+            The options parameters.
+      return:
+        description: ''
+        type: >-
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-appservice.CustomHostnameSites" />&gt;
+  - name: listGeoRegions(ListGeoRegionsOptionalParams)
     uid: '@azure/arm-appservice.WebSiteManagementClient.listGeoRegions'
     package: '@azure/arm-appservice'
     summary: Description for Get a list of available geographical regions.
@@ -562,15 +557,11 @@ methods:
     isDeprecated: false
     syntax:
       content: >-
-        function listGeoRegions(options?:
-        WebSiteManagementClientListGeoRegionsOptionalParams):
+        function listGeoRegions(options?: ListGeoRegionsOptionalParams):
         PagedAsyncIterableIterator<GeoRegion>
       parameters:
         - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-appservice.WebSiteManagementClientListGeoRegionsOptionalParams"
-            />
+          type: <xref uid="@azure/arm-appservice.ListGeoRegionsOptionalParams" />
           description: |
             The options parameters.
       return:
@@ -578,8 +569,7 @@ methods:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
           uid="@azure/arm-appservice.GeoRegion" />&gt;
-  - name: >-
-      listPremierAddOnOffers(WebSiteManagementClientListPremierAddOnOffersOptionalParams)
+  - name: listPremierAddOnOffers(ListPremierAddOnOffersOptionalParams)
     uid: '@azure/arm-appservice.WebSiteManagementClient.listPremierAddOnOffers'
     package: '@azure/arm-appservice'
     summary: Description for List all premier add-on offers.
@@ -589,14 +579,13 @@ methods:
     syntax:
       content: >-
         function listPremierAddOnOffers(options?:
-        WebSiteManagementClientListPremierAddOnOffersOptionalParams):
+        ListPremierAddOnOffersOptionalParams):
         PagedAsyncIterableIterator<PremierAddOnOffer>
       parameters:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-appservice.WebSiteManagementClientListPremierAddOnOffersOptionalParams"
-            />
+            uid="@azure/arm-appservice.ListPremierAddOnOffersOptionalParams" />
           description: |
             The options parameters.
       return:
@@ -606,7 +595,7 @@ methods:
           uid="@azure/arm-appservice.PremierAddOnOffer" />&gt;
   - name: >-
       listSiteIdentifiersAssignedToHostName(NameIdentifier,
-      WebSiteManagementClientListSiteIdentifiersAssignedToHostNameOptionalParams)
+      ListSiteIdentifiersAssignedToHostNameOptionalParams)
     uid: >-
       @azure/arm-appservice.WebSiteManagementClient.listSiteIdentifiersAssignedToHostName
     package: '@azure/arm-appservice'
@@ -618,7 +607,7 @@ methods:
       content: >-
         function listSiteIdentifiersAssignedToHostName(nameIdentifier:
         NameIdentifier, options?:
-        WebSiteManagementClientListSiteIdentifiersAssignedToHostNameOptionalParams):
+        ListSiteIdentifiersAssignedToHostNameOptionalParams):
         PagedAsyncIterableIterator<Identifier>
       parameters:
         - id: nameIdentifier
@@ -627,7 +616,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-appservice.WebSiteManagementClientListSiteIdentifiersAssignedToHostNameOptionalParams"
+            uid="@azure/arm-appservice.ListSiteIdentifiersAssignedToHostNameOptionalParams"
             />
           description: |
             The options parameters.
@@ -636,7 +625,7 @@ methods:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
           uid="@azure/arm-appservice.Identifier" />&gt;
-  - name: listSkus(WebSiteManagementClientListSkusOptionalParams)
+  - name: listSkus(ListSkusOptionalParams)
     uid: '@azure/arm-appservice.WebSiteManagementClient.listSkus'
     package: '@azure/arm-appservice'
     summary: Description for List all SKUs.
@@ -645,25 +634,17 @@ methods:
     isDeprecated: false
     syntax:
       content: >-
-        function listSkus(options?:
-        WebSiteManagementClientListSkusOptionalParams):
-        Promise<WebSiteManagementClientListSkusResponse>
+        function listSkus(options?: ListSkusOptionalParams):
+        Promise<ListSkusResponse>
       parameters:
         - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-appservice.WebSiteManagementClientListSkusOptionalParams"
-            />
+          type: <xref uid="@azure/arm-appservice.ListSkusOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
-        type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-appservice.WebSiteManagementClientListSkusResponse"
-          />&gt;
-  - name: >-
-      listSourceControls(WebSiteManagementClientListSourceControlsOptionalParams)
+        type: Promise&lt;<xref uid="@azure/arm-appservice.ListSkusResponse" />&gt;
+  - name: listSourceControls(ListSourceControlsOptionalParams)
     uid: '@azure/arm-appservice.WebSiteManagementClient.listSourceControls'
     package: '@azure/arm-appservice'
     summary: Description for Gets the source controls available for Azure websites.
@@ -672,14 +653,12 @@ methods:
     isDeprecated: false
     syntax:
       content: >-
-        function listSourceControls(options?:
-        WebSiteManagementClientListSourceControlsOptionalParams):
+        function listSourceControls(options?: ListSourceControlsOptionalParams):
         PagedAsyncIterableIterator<SourceControl>
       parameters:
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-appservice.WebSiteManagementClientListSourceControlsOptionalParams"
+            <xref uid="@azure/arm-appservice.ListSourceControlsOptionalParams"
             />
           description: |
             The options parameters.
@@ -688,9 +667,7 @@ methods:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
           uid="@azure/arm-appservice.SourceControl" />&gt;
-  - name: >-
-      move(string, CsmMoveResourceEnvelope,
-      WebSiteManagementClientMoveOptionalParams)
+  - name: 'move(string, CsmMoveResourceEnvelope, MoveOptionalParams)'
     uid: '@azure/arm-appservice.WebSiteManagementClient.move'
     package: '@azure/arm-appservice'
     summary: Description for Move resources between resource groups.
@@ -700,8 +677,7 @@ methods:
     syntax:
       content: >-
         function move(resourceGroupName: string, moveResourceEnvelope:
-        CsmMoveResourceEnvelope, options?:
-        WebSiteManagementClientMoveOptionalParams): Promise<void>
+        CsmMoveResourceEnvelope, options?: MoveOptionalParams): Promise<void>
       parameters:
         - id: resourceGroupName
           type: string
@@ -710,18 +686,13 @@ methods:
           type: <xref uid="@azure/arm-appservice.CsmMoveResourceEnvelope" />
           description: Object that represents the resource to move.
         - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-appservice.WebSiteManagementClientMoveOptionalParams"
-            />
+          type: <xref uid="@azure/arm-appservice.MoveOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: Promise&lt;void&gt;
-  - name: >-
-      updatePublishingUser(User,
-      WebSiteManagementClientUpdatePublishingUserOptionalParams)
+  - name: 'updatePublishingUser(User, UpdatePublishingUserOptionalParams)'
     uid: '@azure/arm-appservice.WebSiteManagementClient.updatePublishingUser'
     package: '@azure/arm-appservice'
     summary: Description for Updates publishing user
@@ -731,16 +702,15 @@ methods:
     syntax:
       content: >-
         function updatePublishingUser(userDetails: User, options?:
-        WebSiteManagementClientUpdatePublishingUserOptionalParams):
-        Promise<WebSiteManagementClientUpdatePublishingUserResponse>
+        UpdatePublishingUserOptionalParams):
+        Promise<UpdatePublishingUserResponse>
       parameters:
         - id: userDetails
           type: <xref uid="@azure/arm-appservice.User" />
           description: Details of publishing user
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-appservice.WebSiteManagementClientUpdatePublishingUserOptionalParams"
+            <xref uid="@azure/arm-appservice.UpdatePublishingUserOptionalParams"
             />
           description: |
             The options parameters.
@@ -748,11 +718,10 @@ methods:
         description: ''
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-appservice.WebSiteManagementClientUpdatePublishingUserResponse"
-          />&gt;
+          uid="@azure/arm-appservice.UpdatePublishingUserResponse" />&gt;
   - name: >-
       updateSourceControl(string, SourceControl,
-      WebSiteManagementClientUpdateSourceControlOptionalParams)
+      UpdateSourceControlOptionalParams)
     uid: '@azure/arm-appservice.WebSiteManagementClient.updateSourceControl'
     package: '@azure/arm-appservice'
     summary: Description for Updates source control token
@@ -762,9 +731,8 @@ methods:
     syntax:
       content: >-
         function updateSourceControl(sourceControlType: string, requestMessage:
-        SourceControl, options?:
-        WebSiteManagementClientUpdateSourceControlOptionalParams):
-        Promise<WebSiteManagementClientUpdateSourceControlResponse>
+        SourceControl, options?: UpdateSourceControlOptionalParams):
+        Promise<UpdateSourceControlResponse>
       parameters:
         - id: sourceControlType
           type: string
@@ -774,8 +742,7 @@ methods:
           description: Source control token information
         - id: options
           type: >-
-            <xref
-            uid="@azure/arm-appservice.WebSiteManagementClientUpdateSourceControlOptionalParams"
+            <xref uid="@azure/arm-appservice.UpdateSourceControlOptionalParams"
             />
           description: |
             The options parameters.
@@ -783,11 +750,8 @@ methods:
         description: ''
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-appservice.WebSiteManagementClientUpdateSourceControlResponse"
-          />&gt;
-  - name: >-
-      validate(string, ValidateRequest,
-      WebSiteManagementClientValidateOptionalParams)
+          uid="@azure/arm-appservice.UpdateSourceControlResponse" />&gt;
+  - name: 'validate(string, ValidateRequest, ValidateOptionalParams)'
     uid: '@azure/arm-appservice.WebSiteManagementClient.validate'
     package: '@azure/arm-appservice'
     summary: Description for Validate if a resource can be created.
@@ -797,9 +761,8 @@ methods:
     syntax:
       content: >-
         function validate(resourceGroupName: string, validateRequest:
-        ValidateRequest, options?:
-        WebSiteManagementClientValidateOptionalParams):
-        Promise<WebSiteManagementClientValidateResponse>
+        ValidateRequest, options?: ValidateOptionalParams):
+        Promise<ValidateOperationResponse>
       parameters:
         - id: resourceGroupName
           type: string
@@ -808,21 +771,15 @@ methods:
           type: <xref uid="@azure/arm-appservice.ValidateRequest" />
           description: Request with the resources to validate.
         - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-appservice.WebSiteManagementClientValidateOptionalParams"
-            />
+          type: <xref uid="@azure/arm-appservice.ValidateOptionalParams" />
           description: |
             The options parameters.
       return:
         description: ''
         type: >-
-          Promise&lt;<xref
-          uid="@azure/arm-appservice.WebSiteManagementClientValidateResponse"
+          Promise&lt;<xref uid="@azure/arm-appservice.ValidateOperationResponse"
           />&gt;
-  - name: >-
-      validateMove(string, CsmMoveResourceEnvelope,
-      WebSiteManagementClientValidateMoveOptionalParams)
+  - name: 'validateMove(string, CsmMoveResourceEnvelope, ValidateMoveOptionalParams)'
     uid: '@azure/arm-appservice.WebSiteManagementClient.validateMove'
     package: '@azure/arm-appservice'
     summary: Description for Validate whether a resource can be moved.
@@ -832,8 +789,8 @@ methods:
     syntax:
       content: >-
         function validateMove(resourceGroupName: string, moveResourceEnvelope:
-        CsmMoveResourceEnvelope, options?:
-        WebSiteManagementClientValidateMoveOptionalParams): Promise<void>
+        CsmMoveResourceEnvelope, options?: ValidateMoveOptionalParams):
+        Promise<void>
       parameters:
         - id: resourceGroupName
           type: string
@@ -842,10 +799,7 @@ methods:
           type: <xref uid="@azure/arm-appservice.CsmMoveResourceEnvelope" />
           description: Object that represents the resource to move.
         - id: options
-          type: >-
-            <xref
-            uid="@azure/arm-appservice.WebSiteManagementClientValidateMoveOptionalParams"
-            />
+          type: <xref uid="@azure/arm-appservice.ValidateMoveOptionalParams" />
           description: |
             The options parameters.
       return:
@@ -853,7 +807,7 @@ methods:
         type: Promise&lt;void&gt;
   - name: >-
       verifyHostingEnvironmentVnet(VnetParameters,
-      WebSiteManagementClientVerifyHostingEnvironmentVnetOptionalParams)
+      VerifyHostingEnvironmentVnetOptionalParams)
     uid: '@azure/arm-appservice.WebSiteManagementClient.verifyHostingEnvironmentVnet'
     package: '@azure/arm-appservice'
     summary: >-
@@ -867,9 +821,8 @@ methods:
     syntax:
       content: >-
         function verifyHostingEnvironmentVnet(parameters: VnetParameters,
-        options?:
-        WebSiteManagementClientVerifyHostingEnvironmentVnetOptionalParams):
-        Promise<WebSiteManagementClientVerifyHostingEnvironmentVnetResponse>
+        options?: VerifyHostingEnvironmentVnetOptionalParams):
+        Promise<VerifyHostingEnvironmentVnetResponse>
       parameters:
         - id: parameters
           type: <xref uid="@azure/arm-appservice.VnetParameters" />
@@ -877,7 +830,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-appservice.WebSiteManagementClientVerifyHostingEnvironmentVnetOptionalParams"
+            uid="@azure/arm-appservice.VerifyHostingEnvironmentVnetOptionalParams"
             />
           description: |
             The options parameters.
@@ -885,6 +838,6 @@ methods:
         description: ''
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-appservice.WebSiteManagementClientVerifyHostingEnvironmentVnetResponse"
+          uid="@azure/arm-appservice.VerifyHostingEnvironmentVnetResponse"
           />&gt;
-extends: <xref uid="@azure/arm-appservice.WebSiteManagementClientContext" />
+extends: ServiceClient

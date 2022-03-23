@@ -108,18 +108,3 @@ properties:
       return:
         description: ''
         type: <xref uid="@azure/arm-keyvault.JsonWebKeyType" />
-  - name: rotationPolicy
-    uid: '@azure/arm-keyvault.KeyProperties.rotationPolicy'
-    package: '@azure/arm-keyvault'
-    summary: >-
-      Key rotation policy in response. It will be used for both output and
-      input. Omitted if empty
-    fullName: rotationPolicy
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'rotationPolicy?: RotationPolicy'
-      return:
-        description: ''
-        type: <xref uid="@azure/arm-keyvault.RotationPolicy" />
