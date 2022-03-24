@@ -1,6 +1,6 @@
 ---
 title: Azure KeyVaultManagement client library for JavaScript
-keywords: Azure, javascript, SDK, API, @azure/arm-keyvault, keyvault
+keywords: Azure, javascript, SDK, API, @azure/arm-keyvault-profile-2020-09-01-hybrid, keyvault
 author: qiaozha
 ms.author: qiaozha
 ms.date: 03/24/2022
@@ -10,16 +10,16 @@ ms.technology: azure
 ms.devlang: javascript
 ms.service: keyvault
 ---
-# Azure KeyVaultManagement client library for JavaScript - Version 2.0.1-alpha.20220323.1 
+# Azure KeyVaultManagement client library for JavaScript - Version 2.0.0-alpha.20220323.1 
 
 
 This package contains an isomorphic SDK (runs both in Node.js and in browsers) for Azure KeyVaultManagement client.
 
 The Azure management API provides a RESTful set of web services that interact with Azure Key Vault.
 
-[Source code](https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/keyvault/arm-keyvault) |
-[Package (NPM)](https://www.npmjs.com/package/@azure/arm-keyvault) |
-[API reference documentation](https://docs.microsoft.com/javascript/api/@azure/arm-keyvault) |
+[Source code](https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/keyvault/arm-keyvault-profile-2020-09-01-hybrid) |
+[Package (NPM)](https://www.npmjs.com/package/@azure/arm-keyvault-profile-2020-09-01-hybrid) |
+[API reference documentation](https://docs.microsoft.com/javascript/api/@azure/arm-keyvault-profile-2020-09-01-hybrid) |
 [Samples](https://github.com/Azure-Samples/azure-samples-js-management)
 
 ## Getting started
@@ -29,16 +29,18 @@ The Azure management API provides a RESTful set of web services that interact wi
 - [LTS versions of Node.js](https://nodejs.org/about/releases/)
 - Latest versions of Safari, Chrome, Edge and Firefox.
 
+See our [support policy](https://github.com/Azure/azure-sdk-for-js/blob/main/SUPPORT.md) for more details.
+
 ### Prerequisites
 
 - An [Azure subscription][azure_sub].
 
-### Install the `@azure/arm-keyvault` package
+### Install the `@azure/arm-keyvault-profile-2020-09-01-hybrid` package
 
 Install the Azure KeyVaultManagement client library for JavaScript with `npm`:
 
 ```bash
-npm install @azure/arm-keyvault
+npm install @azure/arm-keyvault-profile-2020-09-01-hybrid
 ```
 
 ### Create and authenticate a `KeyVaultManagementClient`
@@ -60,10 +62,19 @@ Set the values of the client ID, tenant ID, and client secret of the AAD applica
 For more information about how to create an Azure AD Application check out [this guide](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal).
 
 ```javascript
-const { KeyVaultManagementClient } = require("@azure/arm-keyvault");
+const { KeyVaultManagementClient } = require("@azure/arm-keyvault-profile-2020-09-01-hybrid");
 const { DefaultAzureCredential } = require("@azure/identity");
+// For client-side applications running in the browser, use InteractiveBrowserCredential instead of DefaultAzureCredential. See https://aka.ms/azsdk/js/identity/examples for more details.
+
 const subscriptionId = "00000000-0000-0000-0000-000000000000";
 const client = new KeyVaultManagementClient(new DefaultAzureCredential(), subscriptionId);
+
+// For client-side applications running in the browser, use this code instead:
+// const credential = new InteractiveBrowserCredential({
+//   tenantId: "<YOUR_TENANT_ID>",
+//   clientId: "<YOUR_CLIENT_ID>"
+// });
+// const client = new KeyVaultManagementClient(credential, subscriptionId);
 ```
 
 
@@ -101,7 +112,7 @@ If you'd like to contribute to this library, please read the [contributing guide
 
 - [Microsoft Azure SDK for JavaScript](https://github.com/Azure/azure-sdk-for-js)
 
-![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-js%2Fsdk%2Fkeyvault%2Farm-keyvault%2FREADME.png)
+![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-js%2Fsdk%2Fkeyvault%2Farm-keyvault-profile-2020-09-01-hybrid%2FREADME.png)
 
 [azure_cli]: https://docs.microsoft.com/cli/azure
 [azure_sub]: https://azure.microsoft.com/free/
