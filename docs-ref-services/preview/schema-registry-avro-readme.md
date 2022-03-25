@@ -3,14 +3,14 @@ title: Azure Schema Registry Avro Serializer client library for JavaScript
 keywords: Azure, javascript, SDK, API, @azure/schema-registry-avro, schemaregistry
 author: deyaaeldeen
 ms.author: dealmaha
-ms.date: 03/11/2022
+ms.date: 03/25/2022
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: javascript
 ms.service: schemaregistry
 ---
-# Azure Schema Registry Avro Serializer client library for JavaScript - Version 1.0.0-beta.7 
+# Azure Schema Registry Avro Serializer client library for JavaScript - Version 1.0.0-alpha.20220325.2 
 
 
 Azure Schema Registry is a schema repository service hosted by Azure Event Hubs,
@@ -20,10 +20,10 @@ Avro-serialized data.
 
 Key links:
 
-- [Source code](https://github.com/Azure/azure-sdk-for-js/tree/@azure/schema-registry-avro_1.0.0-beta.7/sdk/schemaregistry/schema-registry-avro)
+- [Source code](https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/schemaregistry/schema-registry-avro)
 - [Package (npm)](https://www.npmjs.com/package/@azure/schema-registry-avro)
 - [API Reference Documentation](https://docs.microsoft.com/javascript/api/@azure/schema-registry-avro)
-- [Samples](https://github.com/Azure/azure-sdk-for-js/tree/@azure/schema-registry-avro_1.0.0-beta.7/sdk/schemaregistry/schema-registry-avro/samples)
+- [Samples](https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/schemaregistry/schema-registry-avro/samples)
 
 ## Getting started
 
@@ -120,6 +120,8 @@ const deserializedValue = await serializer.deserializeMessageData(message);
 
 ## Troubleshooting
 
+The Avro serializer communicates with the [Schema Registry][schema_registry] service as needed to register or query schemas and those service calls could throw a [RestError][resterror]. Furthermore, errors of type `AvroSerializationError` will be thrown when serialization or deserialization fails. The `innerError` property will contain the underlying error that was thrown from the Avro implementation library.
+
 ### Logging
 
 Enabling logging may help uncover useful information about failures. In order to
@@ -136,7 +138,7 @@ setLogLevel("info");
 ## Next steps
 
 Please take a look at the
-[samples](https://github.com/Azure/azure-sdk-for-js/tree/@azure/schema-registry-avro_1.0.0-beta.7/sdk/schemaregistry/schema-registry-avro/samples)
+[samples](https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/schemaregistry/schema-registry-avro/samples)
 directory for detailed examples on how to use this library.
 
 ## Contributing
@@ -159,7 +161,7 @@ FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact
 questions or comments.
 
 If you'd like to contribute to this library, please read the [contributing
-guide](https://github.com/Azure/azure-sdk-for-js/blob/@azure/schema-registry-avro_1.0.0-beta.7/CONTRIBUTING.md) to
+guide](https://github.com/Azure/azure-sdk-for-js/blob/main/CONTRIBUTING.md) to
 learn more about how to build and test the code.
 
 ## Related projects
@@ -171,6 +173,7 @@ learn more about how to build and test the code.
 [azure_cli]: https://docs.microsoft.com/cli/azure
 [azure_sub]: https://azure.microsoft.com/free/
 [azure_portal]: https://portal.azure.com
-[azure_identity]: https://github.com/Azure/azure-sdk-for-js/tree/@azure/schema-registry-avro_1.0.0-beta.7/sdk/identity/identity
-[defaultazurecredential]: https://github.com/Azure/azure-sdk-for-js/tree/@azure/schema-registry-avro_1.0.0-beta.7/sdk/identity/identity#defaultazurecredential
-
+[azure_identity]: https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/identity/identity
+[defaultazurecredential]: https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/identity/identity#defaultazurecredential
+[resterror]: https://docs.microsoft.com/javascript/api/@azure/core-rest-pipeline/resterror?view=azure-node-latest
+[schema_registry]: https://docs.microsoft.com/javascript/api/overview/azure/schema-registry-readme?view=azure-node-latest
