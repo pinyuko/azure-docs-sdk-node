@@ -1,0 +1,94 @@
+### YamlMime:TSType
+name: AvroSerializationError
+uid: '@azure/schema-registry-avro.AvroSerializationError'
+package: '@azure/schema-registry-avro'
+summary: A custom error type for failed Avro serialization/deserialization.
+fullName: AvroSerializationError
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: 'AvroSerializationError(string, unknown)'
+    uid: '@azure/schema-registry-avro.AvroSerializationError.constructor'
+    package: '@azure/schema-registry-avro'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'new AvroSerializationError(message: string, innerError?: unknown)'
+      parameters:
+        - id: message
+          type: string
+          description: ''
+        - id: innerError
+          type: unknown
+          description: ''
+properties:
+  - name: Error
+    uid: '@azure/schema-registry-avro.AvroSerializationError.Error'
+    package: '@azure/schema-registry-avro'
+    summary: ''
+    fullName: Error
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static Error: ErrorConstructor'
+      return:
+        description: ''
+        type: ErrorConstructor
+  - name: innerError
+    uid: '@azure/schema-registry-avro.AvroSerializationError.innerError'
+    package: '@azure/schema-registry-avro'
+    summary: The inner error that was thrown by the Avro implementation library.
+    fullName: innerError
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'innerError?: unknown'
+      return:
+        description: ''
+        type: unknown
+  - name: message
+    uid: '@azure/schema-registry-avro.AvroSerializationError.message'
+    package: '@azure/schema-registry-avro'
+    summary: ''
+    fullName: message
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'message: string'
+      return:
+        description: ''
+        type: string
+  - name: name
+    uid: '@azure/schema-registry-avro.AvroSerializationError.name'
+    package: '@azure/schema-registry-avro'
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        description: ''
+        type: string
+  - name: stack
+    uid: '@azure/schema-registry-avro.AvroSerializationError.stack'
+    package: '@azure/schema-registry-avro'
+    summary: ''
+    fullName: stack
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'stack?: string'
+      return:
+        description: ''
+        type: string
+extends: Error

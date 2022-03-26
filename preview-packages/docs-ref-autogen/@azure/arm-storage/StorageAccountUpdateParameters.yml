@@ -57,6 +57,21 @@ properties:
       return:
         description: ''
         type: undefined | false | true
+  - name: allowedCopyScope
+    uid: '@azure/arm-storage.StorageAccountUpdateParameters.allowedCopyScope'
+    package: '@azure/arm-storage'
+    summary: >-
+      Restrict copy to and from Storage Accounts within an AAD tenant or with
+      Private Links to the same VNet.
+    fullName: allowedCopyScope
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'allowedCopyScope?: AllowedCopyScope'
+      return:
+        description: ''
+        type: <xref uid="@azure/arm-storage.AllowedCopyScope" />
   - name: allowSharedKeyAccess
     uid: '@azure/arm-storage.StorageAccountUpdateParameters.allowSharedKeyAccess'
     package: '@azure/arm-storage'
@@ -110,6 +125,22 @@ properties:
       return:
         description: ''
         type: <xref uid="@azure/arm-storage.CustomDomain" />
+  - name: defaultToOAuthAuthentication
+    uid: >-
+      @azure/arm-storage.StorageAccountUpdateParameters.defaultToOAuthAuthentication
+    package: '@azure/arm-storage'
+    summary: >-
+      A boolean flag which indicates whether the default authentication is OAuth
+      or not. The default interpretation is false for this property.
+    fullName: defaultToOAuthAuthentication
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'defaultToOAuthAuthentication?: undefined | false | true'
+      return:
+        description: ''
+        type: undefined | false | true
   - name: enableHttpsTrafficOnly
     uid: '@azure/arm-storage.StorageAccountUpdateParameters.enableHttpsTrafficOnly'
     package: '@azure/arm-storage'
@@ -127,8 +158,8 @@ properties:
     uid: '@azure/arm-storage.StorageAccountUpdateParameters.encryption'
     package: '@azure/arm-storage'
     summary: >-
-      Provides the encryption settings on the account. The default setting is
-      unencrypted.
+      Not applicable. Azure Storage encryption at rest is enabled by default for
+      all storage accounts and cannot be disabled.
     fullName: encryption
     remarks: ''
     isPreview: false
@@ -151,6 +182,49 @@ properties:
       return:
         description: ''
         type: <xref uid="@azure/arm-storage.Identity" />
+  - name: immutableStorageWithVersioning
+    uid: >-
+      @azure/arm-storage.StorageAccountUpdateParameters.immutableStorageWithVersioning
+    package: '@azure/arm-storage'
+    summary: >-
+      The property is immutable and can only be set to true at the account
+      creation time. When set to true, it enables object level immutability for
+      all the containers in the account by default.
+    fullName: immutableStorageWithVersioning
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'immutableStorageWithVersioning?: ImmutableStorageAccount'
+      return:
+        description: ''
+        type: <xref uid="@azure/arm-storage.ImmutableStorageAccount" />
+  - name: isLocalUserEnabled
+    uid: '@azure/arm-storage.StorageAccountUpdateParameters.isLocalUserEnabled'
+    package: '@azure/arm-storage'
+    summary: 'Enables local users feature, if set to true'
+    fullName: isLocalUserEnabled
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isLocalUserEnabled?: undefined | false | true'
+      return:
+        description: ''
+        type: undefined | false | true
+  - name: isSftpEnabled
+    uid: '@azure/arm-storage.StorageAccountUpdateParameters.isSftpEnabled'
+    package: '@azure/arm-storage'
+    summary: 'Enables Secure File Transfer Protocol, if set to true'
+    fullName: isSftpEnabled
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isSftpEnabled?: undefined | false | true'
+      return:
+        description: ''
+        type: undefined | false | true
   - name: keyPolicy
     uid: '@azure/arm-storage.StorageAccountUpdateParameters.keyPolicy'
     package: '@azure/arm-storage'
@@ -222,6 +296,21 @@ properties:
       return:
         description: ''
         type: <xref uid="@azure/arm-storage.NetworkRuleSet" />
+  - name: publicNetworkAccess
+    uid: '@azure/arm-storage.StorageAccountUpdateParameters.publicNetworkAccess'
+    package: '@azure/arm-storage'
+    summary: >-
+      Allow or disallow public network access to Storage Account. Value is
+      optional but if passed in, must be 'Enabled' or 'Disabled'.
+    fullName: publicNetworkAccess
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'publicNetworkAccess?: PublicNetworkAccess'
+      return:
+        description: ''
+        type: <xref uid="@azure/arm-storage.PublicNetworkAccess" />
   - name: routingPreference
     uid: '@azure/arm-storage.StorageAccountUpdateParameters.routingPreference'
     package: '@azure/arm-storage'

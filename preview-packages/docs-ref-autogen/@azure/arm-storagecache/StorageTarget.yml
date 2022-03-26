@@ -1,0 +1,14 @@
+### YamlMime:TSTypeAlias
+name: StorageTarget
+uid: '@azure/arm-storagecache.StorageTarget'
+package: '@azure/arm-storagecache'
+summary: Type of the Storage Target.
+fullName: StorageTarget
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type StorageTarget = StorageTargetResource & { blobNfs?: BlobNfsTarget, clfs?:
+  ClfsTarget, junctions?: NamespaceJunction[], nfs3?: Nfs3Target,
+  provisioningState?: ProvisioningStateType, state?: OperationalStateType,
+  targetType?: StorageTargetType, unknown?: UnknownTarget }
