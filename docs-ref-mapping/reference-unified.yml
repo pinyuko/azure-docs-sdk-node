@@ -27,14 +27,6 @@
     - name: Management
       children:
       - '@azure/arm-analysisservices'
-  - name: Anomaly Detector
-    href: ~/docs-ref-services/{moniker}/anomaly-detector.md
-    landingPageType: Service
-    items:
-    - name: Anomaly Detector
-      href: ~/docs-ref-services/{moniker}/ai-anomaly-detector-readme.md
-      children:
-      - '@azure/ai-anomaly-detector'
   - name: API for FHIR
     href: ~/docs-ref-services/{moniker}/api-for-fhir.md
     landingPageType: Service
@@ -114,14 +106,6 @@
     - name: Management
       children:
       - '@azure/arm-automation'
-  - name: Azure Confidential Ledger
-    href: ~/docs-ref-services/{moniker}/azure-confidential-ledger.md
-    landingPageType: Service
-    items:
-    - name: Azure Confidential Ledger
-      href: ~/docs-ref-services/{moniker}/confidential-ledger-rest-readme.md
-      children:
-      - '@azure-rest/confidential-ledger'
   - name: Azure Stack
     href: ~/docs-ref-services/{moniker}/azure-stack.md
     landingPageType: Service
@@ -296,10 +280,6 @@
       href: ~/docs-ref-services/{moniker}/communication-identity-readme.md
       children:
       - '@azure/communication-identity'
-    - name: Communication Network Traversal
-      href: ~/docs-ref-services/{moniker}/communication-network-traversal-readme.md
-      children:
-      - '@azure/communication-network-traversal'
     - name: Communication Phone Numbers
       href: ~/docs-ref-services/{moniker}/communication-phone-numbers-readme.md
       children:
@@ -490,10 +470,6 @@
       href: ~/docs-ref-services/{moniker}/digital-twins-core-readme.md
       children:
       - '@azure/digital-twins-core'
-    - name: Digital Twins Definition Language Parser
-      href: ~/docs-ref-services/{moniker}/dtdl-parser-readme.md
-      children:
-      - '@azure/dtdl-parser'
     - name: Digital Twins Service
       href: ~/docs-ref-services/{moniker}/iot-digitaltwins-service-readme.md
       children:
@@ -509,21 +485,6 @@
       children:
       - '@azure/arm-dns'
       - '@azure/arm-dns-profile-2020-09-01-hybrid'
-  - name: Dnsresolver
-    href: ~/docs-ref-services/{moniker}/dnsresolver.md
-    landingPageType: Service
-    items:
-    - name: Management
-      children:
-      - '@azure/arm-dnsresolver'
-  - name: Document Translation
-    href: ~/docs-ref-services/{moniker}/document-translation.md
-    landingPageType: Service
-    items:
-    - name: Document Translation
-      href: ~/docs-ref-services/{moniker}/ai-document-translator-rest-readme.md
-      children:
-      - '@azure-rest/ai-document-translator'
   - name: Durable Functions
     href: ~/docs-ref-services/{moniker}/durable-functions.md
     landingPageType: Service
@@ -570,13 +531,6 @@
     - name: Management
       children:
       - '@azure/arm-eventhub-profile-2020-09-01-hybrid'
-  - name: Extended Location
-    href: ~/docs-ref-services/{moniker}/extended-location.md
-    landingPageType: Service
-    items:
-    - name: Management
-      children:
-      - '@azure/arm-extendedlocation'
   - name: farmbeats
     href: ~/docs-ref-services/{moniker}/farmbeats.md
     landingPageType: Service
@@ -901,10 +855,6 @@
     href: ~/docs-ref-services/{moniker}/mixed-reality.md
     landingPageType: Service
     items:
-    - name: Azure Mixed Reality Authentication
-      href: ~/docs-ref-services/{moniker}/mixed-reality-authentication-readme.md
-      children:
-      - '@azure/mixed-reality-authentication'
     - name: Azure Remote Rendering
       href: ~/docs-ref-services/{moniker}/mixed-reality-remote-rendering-readme.md
       children:
@@ -912,13 +862,6 @@
     - name: Management
       children:
       - '@azure/arm-mixedreality'
-  - name: Mobilenetwork
-    href: ~/docs-ref-services/{moniker}/mobilenetwork.md
-    landingPageType: Service
-    items:
-    - name: Management
-      children:
-      - '@azure/arm-mobilenetwork'
   - name: Monitor
     href: ~/docs-ref-services/{moniker}/monitor.md
     landingPageType: Service
@@ -927,10 +870,6 @@
       href: ~/docs-ref-services/{moniker}/applicationinsights-query-readme.md
       children:
       - '@azure/applicationinsights-query'
-    - name: Monitor OpenTelemetry Exporter
-      href: ~/docs-ref-services/{moniker}/monitor-opentelemetry-exporter-readme.md
-      children:
-      - '@azure/monitor-opentelemetry-exporter'
     - name: Monitor Query
       href: ~/docs-ref-services/{moniker}/monitor-query-readme.md
       children:
@@ -982,13 +921,6 @@
     - name: Management
       children:
       - '@azure/arm-notificationhubs'
-  - name: Oep
-    href: ~/docs-ref-services/{moniker}/oep.md
-    landingPageType: Service
-    items:
-    - name: Management
-      children:
-      - '@azure/arm-oep'
   - name: Operational Insights
     href: ~/docs-ref-services/{moniker}/operational-insights.md
     landingPageType: Service
@@ -996,13 +928,6 @@
     - name: Management
       children:
       - '@azure/arm-operationalinsights'
-  - name: Orbital
-    href: ~/docs-ref-services/{moniker}/orbital.md
-    landingPageType: Service
-    items:
-    - name: Management
-      children:
-      - '@azure/arm-orbital'
   - name: Peering Service
     href: ~/docs-ref-services/{moniker}/peering-service.md
     landingPageType: Service
@@ -1034,7 +959,7 @@
     - name: Management
       children:
       - '@azure/arm-portal'
-  - name: Postgresql
+  - name: PostgreSQL
     href: ~/docs-ref-services/{moniker}/postgresql.md
     landingPageType: Service
     items:
@@ -1065,18 +990,6 @@
       href: ~/docs-ref-services/{moniker}/purview-account-rest-readme.md
       children:
       - '@azure-rest/purview-account'
-    - name: Purview Administration
-      href: ~/docs-ref-services/{moniker}/purview-administration-rest-readme.md
-      children:
-      - '@azure-rest/purview-administration'
-    - name: Purview Catalog
-      href: ~/docs-ref-services/{moniker}/purview-catalog-rest-readme.md
-      children:
-      - '@azure-rest/purview-catalog'
-    - name: Purview Scanning
-      href: ~/docs-ref-services/{moniker}/purview-scanning-rest-readme.md
-      children:
-      - '@azure-rest/purview-scanning'
     - name: Management
       children:
       - '@azure/arm-purview'
@@ -1190,13 +1103,6 @@
     - name: Management
       children:
       - '@azure/arm-security'
-  - name: Securityinsight
-    href: ~/docs-ref-services/{moniker}/securityinsight.md
-    landingPageType: Service
-    items:
-    - name: Management
-      children:
-      - '@azure/arm-securityinsight'
   - name: Serial Console
     href: ~/docs-ref-services/{moniker}/serial-console.md
     landingPageType: Service
@@ -1270,10 +1176,6 @@
       href: ~/docs-ref-services/{moniker}/storage-blob-readme.md
       children:
       - '@azure/storage-blob'
-    - name: Blobs ChangeFeed
-      href: ~/docs-ref-services/{moniker}/storage-blob-changefeed-readme.md
-      children:
-      - '@azure/storage-blob-changefeed'
     - name: Files Shares
       href: ~/docs-ref-services/{moniker}/storage-file-readme.md
       children:
@@ -1337,30 +1239,6 @@
     - name: Management
       children:
       - '@azure/arm-synapse'
-  - name: Synapse Analytics
-    href: ~/docs-ref-services/{moniker}/synapse-analytics.md
-    landingPageType: Service
-    items:
-    - name: AccessControl
-      href: ~/docs-ref-services/{moniker}/synapse-access-control-readme.md
-      children:
-      - '@azure/synapse-access-control'
-    - name: Artifacts
-      href: ~/docs-ref-services/{moniker}/synapse-artifacts-readme.md
-      children:
-      - '@azure/synapse-artifacts'
-    - name: Managed Private Endpoints
-      href: ~/docs-ref-services/{moniker}/synapse-managed-private-endpoints-readme.md
-      children:
-      - '@azure/synapse-managed-private-endpoints'
-    - name: Monitoring
-      href: ~/docs-ref-services/{moniker}/synapse-monitoring-readme.md
-      children:
-      - '@azure/synapse-monitoring'
-    - name: Spark
-      href: ~/docs-ref-services/{moniker}/synapse-spark-readme.md
-      children:
-      - '@azure/synapse-spark'
   - name: Tables
     href: ~/docs-ref-services/{moniker}/tables.md
     landingPageType: Service
@@ -1398,17 +1276,6 @@
     - name: Management
       children:
       - '@azure/arm-trafficmanager'
-  - name: Video Analyzer
-    href: ~/docs-ref-services/{moniker}/video-analyzer.md
-    landingPageType: Service
-    items:
-    - name: Azure Video Analyzer Edge
-      href: ~/docs-ref-services/{moniker}/video-analyzer-edge-readme.md
-      children:
-      - '@azure/video-analyzer-edge'
-    - name: Management
-      children:
-      - '@azure/arm-videoanalyzer'
   - name: Visual Studio Team Services
     href: ~/docs-ref-services/{moniker}/visual-studio-team-services.md
     landingPageType: Service
