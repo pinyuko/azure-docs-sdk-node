@@ -16,7 +16,7 @@ methods:
       @azure/arm-subscriptions-profile-2020-09-01-hybrid.Subscriptions.checkZonePeers
     package: '@azure/arm-subscriptions-profile-2020-09-01-hybrid'
     summary: Compares a subscriptions logical zone mapping
-    remarks: ''
+    remarks: 'You would need to register the feature before calling the checkZonePeers API. Please run the following Azure CLI commands as below. To register: az feature register -n AvailabilityZonePeering --namespace Microsoft.Resources \n To view register status: az feature show -n AvailabilityZonePeering --namespace Microsoft.Resources'
     isPreview: false
     isDeprecated: false
     syntax:
